@@ -115,22 +115,8 @@ If you like this project, please give it a ⭐ on GitHub!
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <img width="1490" height="846" alt="Screenshot 2026-09-18 115556 - Copy" src="https://github.com/user-attachments/assets/0c0b84d5-8f6f-4825-9171-3d1585c039a8" />
 <img width="1161" height="861" alt="Screenshot 2026-09-18 115622" src="https://github.com/user-attachments/assets/a5af1f66-d6a0-4c40-88ce-2387c013e3c2" />
 <img width="1919" height="846" alt="Screenshot 2026-09-18 115546" src="https://github.com/user-attachments/assets/bb9a0818-9f4c-4f30-acec-197e371164d7" />
 
+© 2026 Bardhyl
