@@ -6,15 +6,7 @@ I'm interested in networking, cybersecurity, and automating everyday infrastruct
 
 ---
 
-## 🚀 Projects
-
-### 🔧 NET // CONFIG
-Network configuration generator for multi-vendor environments.
-- Supports **Cisco IOS/IOS-XE, MikroTik RouterOS, FortiGate, Juniper Junos** and **Aruba AOS-CX**
-- Modules: VLAN, DHCP, OSPF, BGP, RIP, Static Routes, NAT, ACL, Firewall, IPsec VPN, LACP, STP
-- Checks IP addresses, subnets, VLAN IDs, ASNs and ports before generating a config
-- Network calculator (IPv4, VLSM, CIDR, IPv6, MAC) and command reference
-- SVG topology preview, configuration history and dark/light mode
+## 🚀 Project
 
 ### 📰 TECHWIRE
 Technology newsroom prototype covering IT, cybersecurity, networking, infrastructure, cloud and AI.
