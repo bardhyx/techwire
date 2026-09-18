@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="loading">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>TECHWIRE - Technology. Security. Infrastructure.</title>
+  <meta name="description" content="TECHWIRE is a technology newsroom covering IT, cybersecurity, networking, infrastructure, cloud and AI. Prototype build with demo content.">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111317" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23111317'/%3E%3Cpath d='M7 11h12M13 11v12' stroke='%23fff' stroke-width='3.2'/%3E%3Cpath d='M19 22h7' stroke='%232f6bff' stroke-width='3.2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script>try{var t=JSON.parse(localStorage.getItem('techwire.theme'));if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <div class="progress" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" hidden><span id="progress"></span></div>
+
+  <!-- ============================ HEADER ============================ -->
+  <header class="site-header" id="top">
+    <div class="utility">
+      <div class="wrap util-in">
+        <span id="mh-date" class="mh-date"></span>
+        <span class="demo-flag" title="All content is fictional sample data">Demo edition · <span id="data-source">Demo data</span></span>
+        <nav class="util-links" aria-label="Utility"><a href="#/live"><span class="live-dot" aria-hidden="true"></span>Live</a><a href="#/outages">Outage Center</a><a href="#/newsroom">Newsroom</a><a href="#/team">Team</a></nav>
+      </div>
+    </div>
+    <div class="masthead">
+      <div class="wrap mh-in">
+        <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+        <a class="logo" href="#/" aria-label="TECHWIRE home">
+          <span class="logo-word"><span class="lw-tech">TECH</span><span class="lw-wire">WIRE</span></span>
+          <span class="logo-tag">Technology. Security. Infrastructure.</span>
+        </a>
+        <div class="mh-actions">
+          <button class="search-btn" id="search-btn" type="button" data-search-open aria-label="Search TECHWIRE (press /)"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg><span class="sb-label">Search</span><kbd>/</kbd></button>
+          <a class="icon-btn bm-link" href="#/bookmarks" aria-label="Saved stories"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg><span class="count-badge" data-bm-count hidden></span></a>
+          <button class="icon-btn" id="theme-btn" type="button" aria-label="Switch to dark mode"></button>
+          <a class="btn btn-primary subscribe" href="#/newsletter">Subscribe</a>
+        </div>
+      </div>
+    </div>
+    <nav class="nav" aria-label="Sections">
+      <div class="wrap nav-in">
+        <ul class="nav-list">
+          <li><a href="#/section/news" data-nav="news">News</a></li>
+          <li><a href="#/section/cyber" data-nav="cyber">Cyber</a></li>
+          <li><a href="#/section/networks" data-nav="networks">Networks</a></li>
+          <li><a href="#/section/infra" data-nav="infra">Infra</a></li>
+          <li><a href="#/section/cloud" data-nav="cloud">Cloud</a></li>
+          <li><a href="#/section/ai" data-nav="ai">AI</a></li>
+          <li><a href="#/section/hardware" data-nav="hardware">Hardware</a></li>
+          <li class="nav-extra"><a href="#/section/software" data-nav="software">Software</a></li>
+          <li class="nav-extra"><a href="#/section/dev" data-nav="dev">Dev</a></li>
+          <li class="more">
+            <button type="button" id="more-btn" aria-expanded="false" aria-controls="more-menu">More <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+            <div class="more-menu" id="more-menu" hidden>
+              <div><p>Sections</p><a href="#/section/software">Software</a><a href="#/section/dev">Dev</a><a href="#/explained">Tech Explained</a><a href="#/deep-dive">Deep Dive</a><a href="#/research">Security Research</a></div>
+              <div><p>Live &amp; data</p><a href="#/live">Live updates</a><a href="#/outages">IT Outage Center</a><a href="#/map">Infrastructure map</a><a href="#/latest">Latest news</a></div>
+              <div><p>TECHWIRE</p><a href="#/newsroom">Newsroom</a><a href="#/team">Team</a><a href="#/bookmarks">Saved stories</a><a href="#/editorial-policy">Editorial policy</a></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="breaking" id="breaking" role="region" aria-label="Breaking news">
+      <div class="wrap br-in">
+        <span class="br-label"><span class="live-dot" aria-hidden="true"></span>Breaking</span>
+        <div class="ticker"><div class="ticker-track" id="ticker-track"></div></div>
+        <button class="tk-btn" id="ticker-pause" type="button" aria-pressed="false" aria-label="Pause ticker">❚❚</button>
+        <a class="br-view" id="breaking-view" href="#/">View story <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================ DRAWER (mobile) ============================ -->
+  <div class="scrim" id="scrim"></div>
+  <nav class="drawer" id="drawer" aria-label="Menu">
+    <div class="drawer-head"><span class="logo-word sm"><span class="lw-tech">TECH</span><span class="lw-wire">WIRE</span></span><button class="icon-btn" id="drawer-close" type="button" aria-label="Close menu"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <p class="dr-t">Sections</p>
+    <a href="#/section/news">News</a><a href="#/section/cyber">Cybersecurity</a><a href="#/section/networks">Networking</a><a href="#/section/infra">Infrastructure</a><a href="#/section/cloud">Cloud</a><a href="#/section/ai">AI</a><a href="#/section/hardware">Hardware</a><a href="#/section/software">Software</a><a href="#/section/dev">Dev</a>
+    <p class="dr-t">Features</p>
+    <a href="#/explained">Tech Explained</a><a href="#/deep-dive">Deep Dive</a><a href="#/research">Security Research</a><a href="#/live">Live updates</a><a href="#/outages">IT Outage Center</a><a href="#/map">Infrastructure map</a>
+    <p class="dr-t">TECHWIRE</p>
+    <a href="#/newsroom">Newsroom</a><a href="#/team">Team</a><a href="#/newsletter">Newsletter</a><a href="#/about">About</a>
+  </nav>
+
+  <!-- ============================ MAIN ============================ -->
+  <main id="main" class="wrap main" tabindex="-1">
+    <div class="skeleton" aria-hidden="true"><div></div><div></div><div></div></div>
+    <p class="visually-hidden" role="status">Loading TECHWIRE…</p>
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="ft-top">
+        <div class="ft-brand"><span class="logo-word inv"><span class="lw-tech">TECH</span><span class="lw-wire">WIRE</span></span><p>Technology. Security. Infrastructure.</p><p class="ft-alt">The signal behind technology.</p></div>
+        <nav aria-labelledby="ft-news"><h2 id="ft-news">News</h2><a href="#/section/cyber">Cybersecurity</a><a href="#/section/networks">Networking</a><a href="#/section/infra">Infrastructure</a><a href="#/section/cloud">Cloud</a><a href="#/section/ai">AI</a><a href="#/section/hardware">Hardware</a><a href="#/section/software">Software</a></nav>
+        <nav aria-labelledby="ft-feat"><h2 id="ft-feat">Features</h2><a href="#/explained">Tech Explained</a><a href="#/deep-dive">Deep Dive</a><a href="#/research">Research</a><a href="#/live">Live</a><a href="#/outages">Outage Center</a><a href="#/newsletter">Newsletter</a></nav>
+        <nav aria-labelledby="ft-about"><h2 id="ft-about">About</h2><a href="#/about">About TECHWIRE</a><a href="#/editorial-policy">Editorial Policy</a><a href="#/team">Team</a><a href="#/contact">Contact</a><a href="#/privacy">Privacy</a><a href="#/terms">Terms</a></nav>
+        <nav aria-labelledby="ft-follow"><h2 id="ft-follow">Follow</h2><a href="https://www.linkedin.com/" rel="noopener" target="_blank">LinkedIn</a><a href="https://x.com/" rel="noopener" target="_blank">X</a><a href="https://github.com/" rel="noopener" target="_blank">GitHub</a><a href="https://www.youtube.com/" rel="noopener" target="_blank">YouTube</a></nav>
+      </div>
+      <div class="ft-bottom"><p>© 2026 TECHWIRE</p><p class="ft-demo">Prototype · All stories, authors, statistics and statuses are fictional demo data.</p></div>
+    </div>
+  </footer>
+
+  <!-- ============================ SEARCH OVERLAY ============================ -->
+  <div class="search" id="search" hidden role="dialog" aria-modal="true" aria-labelledby="search-title">
+    <div class="search-panel">
+      <form class="search-form" data-search-form role="search">
+        <h2 id="search-title" class="visually-hidden">Search TECHWIRE</h2>
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
+        <label class="visually-hidden" for="search-q">Search TECHWIRE</label>
+        <input id="search-q" name="q" type="search" placeholder="Search TECHWIRE" autocomplete="off" spellcheck="false" aria-controls="search-results">
+        <button type="button" class="search-close" data-search-close aria-label="Close search">Esc</button>
+      </form>
+      <p class="search-hint">Articles · Authors · Topics · Companies · CVEs · Technologies</p>
+      <div class="search-results" id="search-results"></div>
+    </div>
+  </div>
+
+  <!-- ============================ MOBILE BOTTOM NAV ============================ -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="#/" data-tab="home"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg><span>Home</span></a>
+    <a href="#/latest" data-tab="latest"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h0M3 12h0M3 18h0"/></svg><span>Latest</span></a>
+    <a href="#/live" data-tab="live"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2"/><path d="M16.2 7.8a6 6 0 0 1 0 8.4M7.8 16.2a6 6 0 0 1 0-8.4M19.1 4.9a10 10 0 0 1 0 14.2M4.9 19.1a10 10 0 0 1 0-14.2"/></svg><span>Live</span></a>
+    <a href="#/bookmarks" data-tab="bookmarks"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg><span>Saved</span></a>
+    <button type="button" data-search-open><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg><span>Search</span></button>
+  </nav>
+
+  <button class="to-top" id="to-top" type="button" aria-label="Back to top"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/services/data.js"></script>
+  <script src="js/services/adapters.js"></script>
+  <script src="js/ui/art.js"></script>
+  <script src="js/ui/components.js"></script>
+  <script src="js/pages.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

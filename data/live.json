@@ -1,0 +1,620 @@
+{
+ "meta": {
+  "isDemo": true,
+  "anchor": "2026-09-18T10:00:00+02:00",
+  "notice": "All TECHWIRE content in this prototype is fictional demo data. It must not be presented as real news."
+ },
+ "live": [
+  {
+   "minutesAgo": 2,
+   "text": "Security advisory published for enterprise VPN appliance",
+   "category": "Cybersecurity",
+   "articleId": 101,
+   "level": "critical",
+   "isDemo": true
+  },
+  {
+   "minutesAgo": 9,
+   "text": "Cloud storage service reports elevated error rates in one region (demo)",
+   "category": "Cloud",
+   "articleId": 409,
+   "level": "warning",
+   "isDemo": true
+  },
+  {
+   "minutesAgo": 14,
+   "text": "Route leak affecting multiple regions under investigation",
+   "category": "Networking",
+   "articleId": 201,
+   "level": "warning",
+   "isDemo": true
+  },
+  {
+   "minutesAgo": 22,
+   "text": "Network vendor publishes campus platform details",
+   "category": "Networking",
+   "articleId": 203,
+   "level": "info",
+   "isDemo": true
+  },
+  {
+   "minutesAgo": 26,
+   "text": "Monthly security updates released across enterprise platforms",
+   "category": "Cybersecurity",
+   "articleId": 102,
+   "level": "critical",
+   "isDemo": true
+  },
+  {
+   "minutesAgo": 37,
+   "text": "New region opens with core services",
+   "category": "Cloud",
+   "articleId": 401,
+   "level": "info",
+   "isDemo": true
+  },
+  {
+   "minutesAgo": 48,
+   "text": "Mitigation published for exploited file transfer flaw",
+   "category": "Cybersecurity",
+   "articleId": 105,
+   "level": "critical",
+   "isDemo": true
+  },
+  {
+   "minutesAgo": 55,
+   "text": "Open-weight language model released",
+   "category": "AI",
+   "articleId": 501,
+   "level": "info",
+   "isDemo": true
+  },
+  {
+   "minutesAgo": 62,
+   "text": "Regional ISP restores service after core routing fault",
+   "category": "Networking",
+   "articleId": 204,
+   "level": "warning",
+   "isDemo": true
+  },
+  {
+   "minutesAgo": 75,
+   "text": "Hotpatching expands to on-premises servers",
+   "category": "Infrastructure",
+   "articleId": 301,
+   "level": "info",
+   "isDemo": true
+  },
+  {
+   "minutesAgo": 100,
+   "text": "Liquid-cooled 2U server platforms announced",
+   "category": "Hardware",
+   "articleId": 601,
+   "level": "info",
+   "isDemo": true
+  },
+  {
+   "minutesAgo": 120,
+   "text": "Enterprise Wi-Fi firmware enables multi-link operation",
+   "category": "Networking",
+   "articleId": 202,
+   "level": "info",
+   "isDemo": true
+  }
+ ],
+ "status": [
+  {
+   "service": "Microsoft 365",
+   "status": "operational",
+   "isDemo": true,
+   "source": {
+    "type": "placeholder",
+    "url": null,
+    "note": "Connect to the provider's official status API"
+   }
+  },
+  {
+   "service": "AWS",
+   "status": "operational",
+   "isDemo": true,
+   "source": {
+    "type": "placeholder",
+    "url": null,
+    "note": "Connect to the provider's official status API"
+   }
+  },
+  {
+   "service": "Cloudflare",
+   "status": "degraded",
+   "note": "Demo scenario: partial issues",
+   "isDemo": true,
+   "source": {
+    "type": "placeholder",
+    "url": null,
+    "note": "Connect to the provider's official status API"
+   }
+  },
+  {
+   "service": "GitHub",
+   "status": "operational",
+   "isDemo": true,
+   "source": {
+    "type": "placeholder",
+    "url": null,
+    "note": "Connect to the provider's official status API"
+   }
+  },
+  {
+   "service": "Google Cloud",
+   "status": "operational",
+   "isDemo": true,
+   "source": {
+    "type": "placeholder",
+    "url": null,
+    "note": "Connect to the provider's official status API"
+   }
+  },
+  {
+   "service": "Microsoft Azure",
+   "status": "operational",
+   "isDemo": true,
+   "source": {
+    "type": "placeholder",
+    "url": null,
+    "note": "Connect to the provider's official status API"
+   }
+  },
+  {
+   "service": "Slack",
+   "status": "operational",
+   "isDemo": true,
+   "source": {
+    "type": "placeholder",
+    "url": null,
+    "note": "Connect to the provider's official status API"
+   }
+  },
+  {
+   "service": "Zoom",
+   "status": "maintenance",
+   "note": "Demo scenario: scheduled maintenance",
+   "isDemo": true,
+   "source": {
+    "type": "placeholder",
+    "url": null,
+    "note": "Connect to the provider's official status API"
+   }
+  }
+ ],
+ "timelineIds": [
+  101,
+  409,
+  203,
+  501,
+  601
+ ],
+ "networkIntel": [
+  {
+   "kind": "BGP incident",
+   "title": "Route leak from regional transit provider",
+   "region": "Europe / Middle East",
+   "minutesAgo": 14,
+   "severity": "major",
+   "articleId": 201,
+   "isDemo": true
+  },
+  {
+   "kind": "ISP incident",
+   "title": "Core routing fault at regional ISP resolved",
+   "region": "Southern Europe",
+   "minutesAgo": 62,
+   "severity": "major",
+   "articleId": 204,
+   "isDemo": true
+  },
+  {
+   "kind": "Undersea cable",
+   "title": "Cable segment repaired, capacity restored",
+   "region": "Mediterranean",
+   "minutesAgo": 620,
+   "severity": "minor",
+   "articleId": 210,
+   "isDemo": true
+  },
+  {
+   "kind": "DNS incident",
+   "title": "Resolver latency spike at public DNS service",
+   "region": "North America",
+   "minutesAgo": 185,
+   "severity": "minor",
+   "articleId": null,
+   "isDemo": true
+  },
+  {
+   "kind": "Datacenter",
+   "title": "Power event at colocation site, services on generator",
+   "region": "Western Europe",
+   "minutesAgo": 340,
+   "severity": "minor",
+   "articleId": null,
+   "isDemo": true
+  },
+  {
+   "kind": "Routing event",
+   "title": "Large IPv6 prefix de-aggregation observed",
+   "region": "Asia-Pacific",
+   "minutesAgo": 410,
+   "severity": "info",
+   "articleId": null,
+   "isDemo": true
+  }
+ ],
+ "cyberIntel": [
+  {
+   "kind": "CVE",
+   "count": 42,
+   "label": "New CVEs tracked today",
+   "trend": "+8",
+   "isDemo": true
+  },
+  {
+   "kind": "Ransomware",
+   "count": 6,
+   "label": "Leak-site posts monitored",
+   "trend": "-2",
+   "isDemo": true
+  },
+  {
+   "kind": "Malware",
+   "count": 11,
+   "label": "New families / variants",
+   "trend": "+3",
+   "isDemo": true
+  },
+  {
+   "kind": "APT",
+   "count": 3,
+   "label": "Active campaigns tracked",
+   "trend": "0",
+   "isDemo": true
+  },
+  {
+   "kind": "Data Breach",
+   "count": 4,
+   "label": "Disclosures this week",
+   "trend": "+1",
+   "isDemo": true
+  },
+  {
+   "kind": "Zero-Day",
+   "count": 1,
+   "label": "Exploited before patch",
+   "trend": "+1",
+   "isDemo": true
+  },
+  {
+   "kind": "Threat Actor",
+   "count": 17,
+   "label": "Profiles updated",
+   "trend": "+5",
+   "isDemo": true
+  }
+ ],
+ "map": {
+  "isDemo": true,
+  "note": "Approximate demo positions on an equirectangular projection (lon/lat). Not an infrastructure inventory.",
+  "nodes": [
+   {
+    "name": "Frankfurt",
+    "lon": 8.7,
+    "lat": 50.1,
+    "types": [
+     "ix",
+     "cloud",
+     "dc"
+    ]
+   },
+   {
+    "name": "Amsterdam",
+    "lon": 4.9,
+    "lat": 52.4,
+    "types": [
+     "ix",
+     "dc"
+    ]
+   },
+   {
+    "name": "London",
+    "lon": -0.1,
+    "lat": 51.5,
+    "types": [
+     "ix",
+     "cloud",
+     "dc"
+    ]
+   },
+   {
+    "name": "Paris",
+    "lon": 2.35,
+    "lat": 48.9,
+    "types": [
+     "cloud",
+     "dc"
+    ]
+   },
+   {
+    "name": "Stockholm",
+    "lon": 18.1,
+    "lat": 59.3,
+    "types": [
+     "cloud"
+    ]
+   },
+   {
+    "name": "Milan",
+    "lon": 9.2,
+    "lat": 45.5,
+    "types": [
+     "ix",
+     "cloud"
+    ]
+   },
+   {
+    "name": "Marseille",
+    "lon": 5.4,
+    "lat": 43.3,
+    "types": [
+     "cable",
+     "dc"
+    ]
+   },
+   {
+    "name": "Tirana",
+    "lon": 19.8,
+    "lat": 41.3,
+    "types": [
+     "ix"
+    ]
+   },
+   {
+    "name": "Ashburn",
+    "lon": -77.5,
+    "lat": 39.0,
+    "types": [
+     "ix",
+     "cloud",
+     "dc"
+    ]
+   },
+   {
+    "name": "New York",
+    "lon": -74.0,
+    "lat": 40.7,
+    "types": [
+     "ix",
+     "cable"
+    ]
+   },
+   {
+    "name": "Dallas",
+    "lon": -96.8,
+    "lat": 32.8,
+    "types": [
+     "ix",
+     "dc"
+    ]
+   },
+   {
+    "name": "Silicon Valley",
+    "lon": -122.0,
+    "lat": 37.4,
+    "types": [
+     "ix",
+     "cloud",
+     "dc"
+    ]
+   },
+   {
+    "name": "Seattle",
+    "lon": -122.3,
+    "lat": 47.6,
+    "types": [
+     "cloud"
+    ]
+   },
+   {
+    "name": "Toronto",
+    "lon": -79.4,
+    "lat": 43.7,
+    "types": [
+     "ix",
+     "cloud"
+    ]
+   },
+   {
+    "name": "São Paulo",
+    "lon": -46.6,
+    "lat": -23.5,
+    "types": [
+     "ix",
+     "cloud"
+    ]
+   },
+   {
+    "name": "Fortaleza",
+    "lon": -38.5,
+    "lat": -3.7,
+    "types": [
+     "cable"
+    ]
+   },
+   {
+    "name": "Johannesburg",
+    "lon": 28.0,
+    "lat": -26.2,
+    "types": [
+     "ix",
+     "cloud"
+    ]
+   },
+   {
+    "name": "Lagos",
+    "lon": 3.4,
+    "lat": 6.5,
+    "types": [
+     "ix",
+     "cable"
+    ]
+   },
+   {
+    "name": "Dubai",
+    "lon": 55.3,
+    "lat": 25.3,
+    "types": [
+     "cloud",
+     "dc"
+    ]
+   },
+   {
+    "name": "Mumbai",
+    "lon": 72.9,
+    "lat": 19.1,
+    "types": [
+     "ix",
+     "cloud",
+     "cable"
+    ]
+   },
+   {
+    "name": "Singapore",
+    "lon": 103.8,
+    "lat": 1.35,
+    "types": [
+     "ix",
+     "cloud",
+     "dc",
+     "cable"
+    ]
+   },
+   {
+    "name": "Hong Kong",
+    "lon": 114.2,
+    "lat": 22.3,
+    "types": [
+     "ix",
+     "dc"
+    ]
+   },
+   {
+    "name": "Tokyo",
+    "lon": 139.7,
+    "lat": 35.7,
+    "types": [
+     "ix",
+     "cloud",
+     "dc"
+    ]
+   },
+   {
+    "name": "Seoul",
+    "lon": 127.0,
+    "lat": 37.6,
+    "types": [
+     "cloud"
+    ]
+   },
+   {
+    "name": "Sydney",
+    "lon": 151.2,
+    "lat": -33.9,
+    "types": [
+     "ix",
+     "cloud",
+     "cable"
+    ]
+   }
+  ],
+  "links": [
+   [
+    "London",
+    "New York"
+   ],
+   [
+    "Marseille",
+    "Mumbai"
+   ],
+   [
+    "Mumbai",
+    "Singapore"
+   ],
+   [
+    "Singapore",
+    "Tokyo"
+   ],
+   [
+    "Tokyo",
+    "Silicon Valley"
+   ],
+   [
+    "Fortaleza",
+    "Marseille"
+   ],
+   [
+    "Lagos",
+    "Marseille"
+   ],
+   [
+    "Singapore",
+    "Sydney"
+   ],
+   [
+    "Sydney",
+    "Silicon Valley"
+   ],
+   [
+    "New York",
+    "Fortaleza"
+   ],
+   [
+    "Frankfurt",
+    "Amsterdam"
+   ],
+   [
+    "Amsterdam",
+    "London"
+   ],
+   [
+    "Frankfurt",
+    "Milan"
+   ],
+   [
+    "Milan",
+    "Tirana"
+   ],
+   [
+    "Ashburn",
+    "Dallas"
+   ],
+   [
+    "Dallas",
+    "Silicon Valley"
+   ],
+   [
+    "Johannesburg",
+    "Lagos"
+   ],
+   [
+    "Dubai",
+    "Mumbai"
+   ],
+   [
+    "Hong Kong",
+    "Singapore"
+   ],
+   [
+    "Seoul",
+    "Tokyo"
+   ]
+  ]
+ }
+}

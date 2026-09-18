@@ -1,0 +1,919 @@
+{
+ "meta": {
+  "isDemo": true,
+  "anchor": "2026-09-18T10:00:00+02:00",
+  "notice": "All TECHWIRE content in this prototype is fictional demo data. It must not be presented as real news."
+ },
+ "articles": [
+  {
+   "id": 401,
+   "slug": "major-cloud-provider-opens-new-region-in-central-europe",
+   "title": "Major cloud provider opens new region in Central Europe",
+   "category": "Cloud",
+   "subcategory": "AWS",
+   "type": "News",
+   "author": "priya-raman",
+   "date": "2026-09-18T09:24:00+02:00",
+   "updated": "2026-09-18T09:36:00+02:00",
+   "readingTime": 5,
+   "summary": "The new region launches with core compute, storage and database services.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cloud story: AWS",
+   "tags": [
+    "AWS",
+    "Cloud Regions",
+    "Data Residency"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 8719,
+   "trendingScore": 3.7,
+   "brief": {
+    "what": "The new region launches with core compute, storage and database services.",
+    "who": "Organisations with regional data residency requirements gain another option.",
+    "why": "Organisations with residency obligations in the region gain additional deployment options.",
+    "next": "Pricing in the new region is published in the provider's documentation."
+   },
+   "whyItMatters": "Organisations with residency obligations in the region gain additional deployment options. Check service availability and pricing in the new region before planning migrations.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The new region launches with core compute, storage and database services.",
+      "Additional services will be added over the coming months, according to the provider."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "New cloud regions reduce latency for local users and help organisations meet data residency requirements.",
+      "New regions often launch with a subset of services, with others added over time."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations with residency obligations in the region gain additional deployment options.",
+      "Organisations with regional data residency requirements gain another option."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Check service availability and pricing in the new region before planning migrations.",
+      "Pricing in the new region is published in the provider's documentation."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Provider documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Organisations with regional data residency requirements gain another option.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "New regions often launch with a subset of services, with others added over time.",
+    "checks": "Check service availability and pricing in the new region before planning migrations.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 402,
+   "slug": "cloud-identity-platform-retires-legacy-authentication-for-privileged-roles",
+   "title": "Cloud identity platform retires legacy authentication for privileged roles",
+   "category": "Cloud",
+   "subcategory": "Azure",
+   "type": "News",
+   "author": "priya-raman",
+   "date": "2026-09-18T07:45:00+02:00",
+   "updated": "2026-09-18T08:10:00+02:00",
+   "readingTime": 5,
+   "summary": "Privileged administrator roles will no longer be able to use legacy authentication protocols.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cloud story: Azure",
+   "tags": [
+    "Azure",
+    "Identity",
+    "MFA"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 16638,
+   "trendingScore": 7.4,
+   "brief": {
+    "what": "Privileged administrator roles will no longer be able to use legacy authentication protocols.",
+    "who": "Scripts and tools using basic authentication for admin tasks will stop working.",
+    "why": "Scripts and older tools that use basic authentication will stop working for affected accounts.",
+    "next": "The provider has published a timeline and migration guidance."
+   },
+   "whyItMatters": "Scripts and older tools that use basic authentication will stop working for affected accounts. Audit sign-in logs for legacy protocols and migrate automation to modern authentication or workload identities.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Privileged administrator roles will no longer be able to use legacy authentication protocols.",
+      "The change blocks protocols that cannot enforce multi-factor authentication."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Legacy authentication protocols cannot enforce multi-factor authentication and remain a common attack path.",
+      "Retiring them for privileged roles closes a class of password-spray and credential-stuffing attacks."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Scripts and older tools that use basic authentication will stop working for affected accounts.",
+      "Scripts and tools using basic authentication for admin tasks will stop working."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Audit sign-in logs for legacy protocols and migrate automation to modern authentication or workload identities.",
+      "The provider has published a timeline and migration guidance."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Provider documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Scripts and tools using basic authentication for admin tasks will stop working.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Retiring them for privileged roles closes a class of password-spray and credential-stuffing attacks.",
+    "checks": "Audit sign-in logs for legacy protocols and migrate automation to modern authentication or workload identities.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 403,
+   "slug": "cloud-provider-introduces-confidential-gpu-instances",
+   "title": "Cloud provider introduces confidential GPU instances",
+   "category": "Cloud",
+   "subcategory": "Google Cloud",
+   "type": "News",
+   "author": "priya-raman",
+   "date": "2026-09-18T06:15:00+02:00",
+   "updated": "2026-09-18T06:55:00+02:00",
+   "readingTime": 5,
+   "summary": "New instances protect data in use on GPUs using hardware-based trusted execution.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cloud story: Google Cloud",
+   "tags": [
+    "Google Cloud",
+    "Confidential Computing",
+    "GPUs"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 24557,
+   "trendingScore": 1.1,
+   "brief": {
+    "what": "New instances protect data in use on GPUs using hardware-based trusted execution.",
+    "who": "Regulated organisations running AI workloads on sensitive data are the target audience.",
+    "why": "Regulated industries processing sensitive data with AI workloads are the main audience.",
+    "next": "The instances are available in selected regions."
+   },
+   "whyItMatters": "Regulated industries processing sensitive data with AI workloads are the main audience. Review attestation workflows and performance overhead before moving production workloads.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "New instances protect data in use on GPUs using hardware-based trusted execution.",
+      "Attestation lets customers verify the environment before releasing sensitive data."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Confidential computing keeps data encrypted while in use, protected by hardware-based trusted execution environments.",
+      "Extending this protection to GPUs allows sensitive AI workloads to run in shared cloud infrastructure."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Regulated industries processing sensitive data with AI workloads are the main audience.",
+      "Regulated organisations running AI workloads on sensitive data are the target audience."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Review attestation workflows and performance overhead before moving production workloads.",
+      "The instances are available in selected regions."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Provider documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Regulated organisations running AI workloads on sensitive data are the target audience.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Extending this protection to GPUs allows sensitive AI workloads to run in shared cloud infrastructure.",
+    "checks": "Review attestation workflows and performance overhead before moving production workloads.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 404,
+   "slug": "edge-network-provider-extends-zero-trust-gateway-to-iot-devices",
+   "title": "Edge network provider extends zero trust gateway to IoT devices",
+   "category": "Cloud",
+   "subcategory": "Cloudflare",
+   "type": "News",
+   "author": "priya-raman",
+   "date": "2026-09-18T04:45:00+02:00",
+   "updated": "2026-09-18T04:50:00+02:00",
+   "readingTime": 5,
+   "summary": "Devices that cannot run agents can now be enrolled into zero trust policy at the network level.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cloud story: Cloudflare",
+   "tags": [
+    "Cloudflare",
+    "Zero Trust",
+    "IoT"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 32476,
+   "trendingScore": 4.8,
+   "brief": {
+    "what": "Devices that cannot run agents can now be enrolled into zero trust policy at the network level.",
+    "who": "Organisations with many headless devices in branches gain consistent policy.",
+    "why": "Organisations with many headless devices on branch networks gain more consistent policy enforcement.",
+    "next": "The feature requires a supported branch connector."
+   },
+   "whyItMatters": "Organisations with many headless devices on branch networks gain more consistent policy enforcement. Inventory IoT devices, group them by function and apply least-privilege egress policies.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Devices that cannot run agents can now be enrolled into zero trust policy at the network level.",
+      "Policies are applied based on device groups rather than user identity."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Zero trust gateways inspect and control traffic based on identity and device posture rather than network location.",
+      "Unmanaged IoT devices cannot run agents, so they require network-level enrolment instead."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations with many headless devices on branch networks gain more consistent policy enforcement.",
+      "Organisations with many headless devices in branches gain consistent policy."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Inventory IoT devices, group them by function and apply least-privilege egress policies.",
+      "The feature requires a supported branch connector."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Provider documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Organisations with many headless devices in branches gain consistent policy.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Unmanaged IoT devices cannot run agents, so they require network-level enrolment instead.",
+    "checks": "Inventory IoT devices, group them by function and apply least-privilege egress policies.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 405,
+   "slug": "managed-kubernetes-services-standardise-on-gateway-api",
+   "title": "Managed Kubernetes services standardise on Gateway API",
+   "category": "Cloud",
+   "subcategory": "Kubernetes",
+   "type": "News",
+   "author": "priya-raman",
+   "date": "2026-09-18T03:15:00+02:00",
+   "updated": null,
+   "readingTime": 6,
+   "summary": "Several managed Kubernetes services now offer Gateway API as the default traffic management interface.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cloud story: Kubernetes",
+   "tags": [
+    "Kubernetes",
+    "Gateway API",
+    "Cloud Native"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 40395,
+   "trendingScore": 8.5,
+   "brief": {
+    "what": "Several managed Kubernetes services now offer Gateway API as the default traffic management interface.",
+    "who": "Platform teams with extensive ingress annotations will need to plan migrations.",
+    "why": "Platform teams maintaining custom ingress annotations will need to migrate configurations.",
+    "next": "Conformance reports help compare implementations."
+   },
+   "whyItMatters": "Platform teams maintaining custom ingress annotations will need to migrate configurations. Inventory ingress resources, test Gateway API implementations and migrate incrementally.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Several managed Kubernetes services now offer Gateway API as the default traffic management interface.",
+      "Ingress remains supported, but new features target Gateway API."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "The Gateway API is the successor to the Ingress resource, offering richer routing and clearer role separation.",
+      "Standardising on it across managed services improves portability between providers."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Platform teams maintaining custom ingress annotations will need to migrate configurations.",
+      "Platform teams with extensive ingress annotations will need to plan migrations."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Inventory ingress resources, test Gateway API implementations and migrate incrementally.",
+      "Conformance reports help compare implementations."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Project documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Provider documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Platform teams with extensive ingress annotations will need to plan migrations.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Standardising on it across managed services improves portability between providers.",
+    "checks": "Inventory ingress resources, test Gateway API implementations and migrate incrementally.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 406,
+   "slug": "container-image-signing-becomes-default-in-major-registries",
+   "title": "Container image signing becomes default in major registries",
+   "category": "Cloud",
+   "subcategory": "Docker",
+   "type": "News",
+   "author": "priya-raman",
+   "date": "2026-09-18T01:45:00+02:00",
+   "updated": "2026-09-18T01:57:00+02:00",
+   "readingTime": 6,
+   "summary": "Registries now sign images automatically when built through their managed build services.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cloud story: Docker",
+   "tags": [
+    "Docker",
+    "Supply Chain",
+    "Containers"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 48314,
+   "trendingScore": 2.2,
+   "brief": {
+    "what": "Registries now sign images automatically when built through their managed build services.",
+    "who": "Teams pulling from these registries gain supply-chain assurance with less setup.",
+    "why": "Teams that pull images from public registries gain stronger supply-chain assurances.",
+    "next": "Documentation covers integration with common policy engines."
+   },
+   "whyItMatters": "Teams that pull images from public registries gain stronger supply-chain assurances. Enable signature verification in admission policies and document key management.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Registries now sign images automatically when built through their managed build services.",
+      "Verification must still be enforced in clusters through admission policies."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Signing container images lets clusters verify that images come from trusted build pipelines.",
+      "Default signing reduces friction, but verification still has to be enforced at admission time."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Teams that pull images from public registries gain stronger supply-chain assurances.",
+      "Teams pulling from these registries gain supply-chain assurance with less setup."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Enable signature verification in admission policies and document key management.",
+      "Documentation covers integration with common policy engines."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Project documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Registry announcement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Teams pulling from these registries gain supply-chain assurance with less setup.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Default signing reduces friction, but verification still has to be enforced at admission time.",
+    "checks": "Enable signature verification in admission policies and document key management.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 407,
+   "slug": "the-real-cost-profile-of-serverless-at-scale",
+   "title": "The real cost profile of serverless at scale",
+   "category": "Cloud",
+   "subcategory": "Serverless",
+   "type": "Analysis",
+   "author": "priya-raman",
+   "date": "2026-09-18T00:15:00+02:00",
+   "updated": "2026-09-18T00:40:00+02:00",
+   "readingTime": 6,
+   "summary": "At sustained high volume, per-request pricing can exceed the cost of provisioned containers.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cloud story: Serverless",
+   "tags": [
+    "Serverless",
+    "FinOps",
+    "Architecture"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 8233,
+   "trendingScore": 5.9,
+   "brief": {
+    "what": "At sustained high volume, per-request pricing can exceed the cost of provisioned containers.",
+    "who": "Teams with steady high-throughput workloads should revisit cost models.",
+    "why": "Teams with steady high-throughput workloads should review cost profiles regularly.",
+    "next": "Hybrid designs that combine functions and containers are becoming common."
+   },
+   "whyItMatters": "Teams with steady high-throughput workloads should review cost profiles regularly. Model costs at expected peak volumes and compare with container-based alternatives.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "At sustained high volume, per-request pricing can exceed the cost of provisioned containers.",
+      "The crossover point depends on memory size, duration and traffic shape."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Serverless platforms charge per invocation and duration, which is efficient for spiky workloads.",
+      "At sustained high volume, per-request pricing can exceed the cost of provisioned compute."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Teams with steady high-throughput workloads should review cost profiles regularly.",
+      "Teams with steady high-throughput workloads should revisit cost models."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Model costs at expected peak volumes and compare with container-based alternatives.",
+      "Hybrid designs that combine functions and containers are becoming common."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Practitioner interviews",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Provider pricing documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Teams with steady high-throughput workloads should revisit cost models.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "At sustained high volume, per-request pricing can exceed the cost of provisioned compute.",
+    "checks": "Model costs at expected peak volumes and compare with container-based alternatives.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 408,
+   "slug": "misconfigured-storage-buckets-remain-leading-cloud-exposure-report-finds",
+   "title": "Misconfigured storage buckets remain leading cloud exposure, report finds",
+   "category": "Cloud",
+   "subcategory": "Cloud Security",
+   "type": "News",
+   "author": "priya-raman",
+   "date": "2026-09-17T22:45:00+02:00",
+   "updated": "2026-09-17T23:25:00+02:00",
+   "readingTime": 6,
+   "summary": "An industry report lists public object storage as the most common cloud misconfiguration it observed.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cloud story: Cloud Security",
+   "tags": [
+    "Cloud Security",
+    "Misconfiguration",
+    "CSPM"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 16152,
+   "trendingScore": 9.6,
+   "brief": {
+    "what": "An industry report lists public object storage as the most common cloud misconfiguration it observed.",
+    "who": "Organisations with many accounts and decentralised ownership show the most findings.",
+    "why": "Organisations with many accounts and decentralised ownership see the most drift.",
+    "next": "The report recommends organisation-wide guardrails and continuous scanning."
+   },
+   "whyItMatters": "Organisations with many accounts and decentralised ownership see the most drift. Use organisation-wide guardrails, continuous posture scanning and regular access reviews.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "An industry report lists public object storage as the most common cloud misconfiguration it observed.",
+      "Most exposures involved sharing exceptions created for a specific purpose and never removed."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Object storage misconfigurations remain one of the most common causes of cloud data exposure.",
+      "Default-private settings help, but exceptions created for sharing often persist long after they are needed."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations with many accounts and decentralised ownership see the most drift.",
+      "Organisations with many accounts and decentralised ownership show the most findings."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Use organisation-wide guardrails, continuous posture scanning and regular access reviews.",
+      "The report recommends organisation-wide guardrails and continuous scanning."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Industry report",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Provider documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Organisations with many accounts and decentralised ownership show the most findings.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Default-private settings help, but exceptions created for sharing often persist long after they are needed.",
+    "checks": "Use organisation-wide guardrails, continuous posture scanning and regular access reviews.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 409,
+   "slug": "cloud-storage-incident-resolved-after-elevated-regional-error-rates",
+   "title": "Cloud storage incident resolved after elevated regional error rates",
+   "category": "Cloud",
+   "subcategory": "Cloud Outage",
+   "type": "News",
+   "author": "priya-raman",
+   "date": "2026-09-18T08:32:00+02:00",
+   "updated": "2026-09-18T08:37:00+02:00",
+   "readingTime": 6,
+   "summary": "A cloud provider resolved elevated error rates affecting object storage in one region.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cloud story: Cloud Outage",
+   "tags": [
+    "Outage",
+    "Cloud Storage",
+    "Resilience"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 24071,
+   "trendingScore": 3.3,
+   "brief": {
+    "what": "A cloud provider resolved elevated error rates affecting object storage in one region.",
+    "who": "Applications without multi-region storage experienced failed requests during the incident.",
+    "why": "Applications without multi-region design experienced elevated errors during the incident.",
+    "next": "A post-incident review is expected."
+   },
+   "whyItMatters": "Applications without multi-region design experienced elevated errors during the incident. Review dependency maps, test regional failover and subscribe to provider health notifications.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "A cloud provider resolved elevated error rates affecting object storage in one region.",
+      "The provider says a deployment to the storage front-end fleet caused the errors and was rolled back."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Regional incidents in cloud storage services can cascade to applications that depend on them.",
+      "Providers publish post-incident reviews that explain root cause and remediation."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Applications without multi-region design experienced elevated errors during the incident.",
+      "Applications without multi-region storage experienced failed requests during the incident."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Review dependency maps, test regional failover and subscribe to provider health notifications.",
+      "A post-incident review is expected."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Provider status history",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Post-incident review",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Applications without multi-region storage experienced failed requests during the incident.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Providers publish post-incident reviews that explain root cause and remediation.",
+    "checks": "Review dependency maps, test regional failover and subscribe to provider health notifications.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 410,
+   "slug": "organisations-adopt-focus-billing-specification-for-multi-cloud-reporting",
+   "title": "Organisations adopt FOCUS billing specification for multi-cloud reporting",
+   "category": "Cloud",
+   "subcategory": "FinOps",
+   "type": "News",
+   "author": "priya-raman",
+   "date": "2026-09-17T21:15:00+02:00",
+   "updated": null,
+   "readingTime": 6,
+   "summary": "More cloud providers now export billing data in the FOCUS format.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cloud story: FinOps",
+   "tags": [
+    "FinOps",
+    "Cloud Costs",
+    "Multi-cloud"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 31990,
+   "trendingScore": 7.0,
+   "brief": {
+    "what": "More cloud providers now export billing data in the FOCUS format.",
+    "who": "FinOps teams managing several clouds reduce custom data transformation.",
+    "why": "FinOps teams using several providers benefit from less custom data transformation.",
+    "next": "The specification's maintainers are working on SaaS billing coverage."
+   },
+   "whyItMatters": "FinOps teams using several providers benefit from less custom data transformation. Check provider export support and map internal cost centres to the standard fields.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "More cloud providers now export billing data in the FOCUS format.",
+      "A common schema simplifies allocating costs across providers."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "The FOCUS specification defines a common format for cloud billing data across providers.",
+      "A shared schema simplifies cost allocation and reporting across multi-cloud estates."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "FinOps teams using several providers benefit from less custom data transformation.",
+      "FinOps teams managing several clouds reduce custom data transformation."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Check provider export support and map internal cost centres to the standard fields.",
+      "The specification's maintainers are working on SaaS billing coverage."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Specification documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Practitioner interviews",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "FinOps teams managing several clouds reduce custom data transformation.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "A shared schema simplifies cost allocation and reporting across multi-cloud estates.",
+    "checks": "Check provider export support and map internal cost centres to the standard fields.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  }
+ ]
+}

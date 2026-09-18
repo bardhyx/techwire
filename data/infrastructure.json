@@ -1,0 +1,935 @@
+{
+ "meta": {
+  "isDemo": true,
+  "anchor": "2026-09-18T10:00:00+02:00",
+  "notice": "All TECHWIRE content in this prototype is fictional demo data. It must not be presented as real news."
+ },
+ "articles": [
+  {
+   "id": 301,
+   "slug": "server-hotpatching-programme-expands-to-on-premises-deployments",
+   "title": "Server hotpatching programme expands to on-premises deployments",
+   "category": "Infrastructure",
+   "subcategory": "Windows Server",
+   "type": "News",
+   "author": "tomas-reyes",
+   "date": "2026-09-18T08:45:00+02:00",
+   "updated": "2026-09-18T08:57:00+02:00",
+   "readingTime": 4,
+   "summary": "Hotpatching, which applies many security updates without reboots, is now available for more on-premises servers.",
+   "image": null,
+   "imageAlt": "Editorial illustration for infrastructure story: Windows Server",
+   "tags": [
+    "Windows Server",
+    "Patch Management"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 32819,
+   "trendingScore": 3.7,
+   "brief": {
+    "what": "Hotpatching, which applies many security updates without reboots, is now available for more on-premises servers.",
+    "who": "Organisations with strict uptime requirements gain fewer maintenance reboots.",
+    "why": "Organisations with strict uptime requirements for on-premises servers benefit most.",
+    "next": "Documentation lists management and licensing prerequisites."
+   },
+   "whyItMatters": "Organisations with strict uptime requirements for on-premises servers benefit most. Check licensing and management prerequisites, pilot on non-critical workloads and update patch-compliance reporting.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Hotpatching, which applies many security updates without reboots, is now available for more on-premises servers.",
+      "Baseline updates requiring restarts will still be released several times a year."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Hotpatching applies security updates to running processes in memory, reducing the number of reboots required each month.",
+      "Periodic baseline updates still require restarts, so maintenance windows do not disappear entirely."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations with strict uptime requirements for on-premises servers benefit most.",
+      "Organisations with strict uptime requirements gain fewer maintenance reboots."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Check licensing and management prerequisites, pilot on non-critical workloads and update patch-compliance reporting.",
+      "Documentation lists management and licensing prerequisites."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Organisations with strict uptime requirements gain fewer maintenance reboots.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Periodic baseline updates still require restarts, so maintenance windows do not disappear entirely.",
+    "checks": "Check licensing and management prerequisites, pilot on non-critical workloads and update patch-compliance reporting.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 302,
+   "slug": "linux-kernel-lts-branch-receives-extended-support-commitment",
+   "title": "Linux kernel LTS branch receives extended support commitment",
+   "category": "Infrastructure",
+   "subcategory": "Linux",
+   "type": "News",
+   "author": "tomas-reyes",
+   "date": "2026-09-18T07:20:00+02:00",
+   "updated": "2026-09-18T07:45:00+02:00",
+   "readingTime": 4,
+   "summary": "Maintainers have committed to supporting a current LTS branch for an extended period.",
+   "image": null,
+   "imageAlt": "Editorial illustration for infrastructure story: Linux",
+   "tags": [
+    "Linux",
+    "Kernel",
+    "LTS"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 40738,
+   "trendingScore": 7.4,
+   "brief": {
+    "what": "Maintainers have committed to supporting a current LTS branch for an extended period.",
+    "who": "Embedded and enterprise users gain a longer stable base.",
+    "why": "Appliance vendors and enterprises running custom kernels benefit most from longer support windows.",
+    "next": "Maintainers will review the commitment annually."
+   },
+   "whyItMatters": "Appliance vendors and enterprises running custom kernels benefit most from longer support windows. Align internal kernel baselines with LTS branches and track backport announcements for security fixes.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Maintainers have committed to supporting a current LTS branch for an extended period.",
+      "The commitment depends on continued participation from distribution and appliance vendors."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Long-term support kernels receive backported fixes, giving distributions and appliance makers a stable base.",
+      "Extended support periods reduce churn for embedded and enterprise deployments but increase maintenance load on maintainers."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Appliance vendors and enterprises running custom kernels benefit most from longer support windows.",
+      "Embedded and enterprise users gain a longer stable base."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Align internal kernel baselines with LTS branches and track backport announcements for security fixes.",
+      "Maintainers will review the commitment annually."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Project mailing list",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Official documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Embedded and enterprise users gain a longer stable base.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Extended support periods reduce churn for embedded and enterprise deployments but increase maintenance load on maintainers.",
+    "checks": "Align internal kernel baselines with LTS branches and track backport announcements for security fixes.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 303,
+   "slug": "tiered-administration-remains-the-weak-point-in-active-directory-estates",
+   "title": "Tiered administration remains the weak point in Active Directory estates",
+   "category": "Infrastructure",
+   "subcategory": "Active Directory",
+   "type": "Analysis",
+   "author": "tomas-reyes",
+   "date": "2026-09-18T05:10:00+02:00",
+   "updated": "2026-09-18T05:50:00+02:00",
+   "readingTime": 5,
+   "summary": "Incident responders say most directory compromises still involve privileged credentials exposed on lower-tier systems.",
+   "image": null,
+   "imageAlt": "Editorial illustration for infrastructure story: Active Directory",
+   "tags": [
+    "Active Directory",
+    "Identity",
+    "Windows Server"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 48657,
+   "trendingScore": 1.1,
+   "brief": {
+    "what": "Incident responders say most directory compromises still involve privileged credentials exposed on lower-tier systems.",
+    "who": "Organisations without privileged access workstations remain particularly exposed.",
+    "why": "Estates without privileged access workstations or credential isolation remain at significant risk.",
+    "next": "Expect auditors to ask for evidence of tiering and delegation reviews."
+   },
+   "whyItMatters": "Estates without privileged access workstations or credential isolation remain at significant risk. Implement tiering, restrict where privileged accounts can sign in, and audit delegation regularly.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Incident responders say most directory compromises still involve privileged credentials exposed on lower-tier systems.",
+      "Delegation left over from past projects often grants broader rights than intended."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Tiered administration separates control of domain controllers from ordinary servers and workstations.",
+      "Most domain compromises still follow credential exposure on lower-tier systems followed by privilege escalation."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Estates without privileged access workstations or credential isolation remain at significant risk.",
+      "Organisations without privileged access workstations remain particularly exposed."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Implement tiering, restrict where privileged accounts can sign in, and audit delegation regularly.",
+      "Expect auditors to ask for evidence of tiering and delegation reviews."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Official documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Incident response report",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Organisations without privileged access workstations remain particularly exposed.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Most domain compromises still follow credential exposure on lower-tier systems followed by privilege escalation.",
+    "checks": "Implement tiering, restrict where privileged accounts can sign in, and audit delegation regularly.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 304,
+   "slug": "virtualization-licensing-changes-push-organisations-to-evaluate-alternatives",
+   "title": "Virtualization licensing changes push organisations to evaluate alternatives",
+   "category": "Infrastructure",
+   "subcategory": "VMware",
+   "type": "Analysis",
+   "author": "tomas-reyes",
+   "date": "2026-09-18T04:10:00+02:00",
+   "updated": "2026-09-18T04:15:00+02:00",
+   "readingTime": 5,
+   "summary": "Changes in virtualization licensing are prompting IT teams to model costs for several platforms.",
+   "image": null,
+   "imageAlt": "Editorial illustration for infrastructure story: VMware",
+   "tags": [
+    "VMware",
+    "Virtualization",
+    "Licensing"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 8576,
+   "trendingScore": 4.8,
+   "brief": {
+    "what": "Changes in virtualization licensing are prompting IT teams to model costs for several platforms.",
+    "who": "Large clusters with deep ecosystem integration face the longest transitions.",
+    "why": "Organisations with large clusters and deep integration into backup and automation tooling face the longest migrations.",
+    "next": "Most organisations surveyed plan hybrid approaches rather than full migrations."
+   },
+   "whyItMatters": "Organisations with large clusters and deep integration into backup and automation tooling face the longest migrations. Inventory dependencies, run cost models for several options and pilot migration tooling before contract renewal dates.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Changes in virtualization licensing are prompting IT teams to model costs for several platforms.",
+      "Migration complexity depends heavily on integrations with backup, monitoring and automation."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Virtualization platforms underpin most enterprise datacenters, so licensing changes affect budgets across the board.",
+      "Alternatives include other commercial hypervisors, open-source platforms and moving workloads to public cloud."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations with large clusters and deep integration into backup and automation tooling face the longest migrations.",
+      "Large clusters with deep ecosystem integration face the longest transitions."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Inventory dependencies, run cost models for several options and pilot migration tooling before contract renewal dates.",
+      "Most organisations surveyed plan hybrid approaches rather than full migrations."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Analyst commentary",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Customer interviews",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Vendor documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Large clusters with deep ecosystem integration face the longest transitions.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Alternatives include other commercial hypervisors, open-source platforms and moving workloads to public cloud.",
+    "checks": "Inventory dependencies, run cost models for several options and pilot migration tooling before contract renewal dates.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 305,
+   "slug": "open-source-hypervisor-adds-cluster-wide-software-defined-networking",
+   "title": "Open-source hypervisor adds cluster-wide software-defined networking",
+   "category": "Infrastructure",
+   "subcategory": "Proxmox",
+   "type": "News",
+   "author": "tomas-reyes",
+   "date": "2026-09-18T02:40:00+02:00",
+   "updated": null,
+   "readingTime": 5,
+   "summary": "The latest release lets administrators define VLAN and VXLAN zones centrally across a cluster.",
+   "image": null,
+   "imageAlt": "Editorial illustration for infrastructure story: Proxmox",
+   "tags": [
+    "Proxmox",
+    "Virtualization",
+    "SDN"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 16495,
+   "trendingScore": 8.5,
+   "brief": {
+    "what": "The latest release lets administrators define VLAN and VXLAN zones centrally across a cluster.",
+    "who": "Teams running multi-node clusters gain simpler network provisioning.",
+    "why": "Teams evaluating migrations from commercial hypervisors gain another option for multi-node environments.",
+    "next": "The project plans integration with external IPAM systems."
+   },
+   "whyItMatters": "Teams evaluating migrations from commercial hypervisors gain another option for multi-node environments. Test SDN features in a lab cluster and document how they interact with existing physical network design.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The latest release lets administrators define VLAN and VXLAN zones centrally across a cluster.",
+      "Networks defined at cluster level are applied consistently to every node."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Open-source virtualization platforms have gained enterprise features such as clustering, replication and software-defined storage.",
+      "Software-defined networking at cluster level simplifies VLAN and VXLAN provisioning across nodes."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Teams evaluating migrations from commercial hypervisors gain another option for multi-node environments.",
+      "Teams running multi-node clusters gain simpler network provisioning."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Test SDN features in a lab cluster and document how they interact with existing physical network design.",
+      "The project plans integration with external IPAM systems."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Official release notes",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Project documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Teams running multi-node clusters gain simpler network provisioning.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Software-defined networking at cluster level simplifies VLAN and VXLAN provisioning across nodes.",
+    "checks": "Test SDN features in a lab cluster and document how they interact with existing physical network design.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 306,
+   "slug": "hyper-v-clusters-gain-faster-live-migration-with-compression",
+   "title": "Hyper-V clusters gain faster live migration with compression",
+   "category": "Infrastructure",
+   "subcategory": "Hyper-V",
+   "type": "News",
+   "author": "tomas-reyes",
+   "date": "2026-09-18T01:10:00+02:00",
+   "updated": "2026-09-18T01:22:00+02:00",
+   "readingTime": 5,
+   "summary": "Updated guidance shows live migration times falling on busy clusters when compression is enabled.",
+   "image": null,
+   "imageAlt": "Editorial illustration for infrastructure story: Hyper-V",
+   "tags": [
+    "Hyper-V",
+    "Virtualization"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 24414,
+   "trendingScore": 2.2,
+   "brief": {
+    "what": "Updated guidance shows live migration times falling on busy clusters when compression is enabled.",
+    "who": "Clusters with limited migration bandwidth see the biggest improvements.",
+    "why": "Clusters with limited migration network capacity benefit most.",
+    "next": "Administrators should benchmark before changing cluster-wide settings."
+   },
+   "whyItMatters": "Clusters with limited migration network capacity benefit most. Dedicate migration networks, verify RDMA configuration and measure migration times before and after changes.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Updated guidance shows live migration times falling on busy clusters when compression is enabled.",
+      "Results vary with CPU headroom on hosts and available network bandwidth."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Live migration moves running virtual machines between hosts without downtime, but consumes significant network bandwidth.",
+      "Compression and SMB Direct can shorten migration times on busy clusters."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Clusters with limited migration network capacity benefit most.",
+      "Clusters with limited migration bandwidth see the biggest improvements."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Dedicate migration networks, verify RDMA configuration and measure migration times before and after changes.",
+      "Administrators should benchmark before changing cluster-wide settings."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Engineering blog",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Clusters with limited migration bandwidth see the biggest improvements.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Compression and SMB Direct can shorten migration times on busy clusters.",
+    "checks": "Dedicate migration networks, verify RDMA configuration and measure migration times before and after changes.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 307,
+   "slug": "nvme-over-tcp-adoption-grows-in-mid-size-storage-arrays",
+   "title": "NVMe over TCP adoption grows in mid-size storage arrays",
+   "category": "Infrastructure",
+   "subcategory": "Storage",
+   "type": "News",
+   "author": "tomas-reyes",
+   "date": "2026-09-18T00:00:00+02:00",
+   "updated": "2026-09-18T00:25:00+02:00",
+   "readingTime": 5,
+   "summary": "Storage vendors report growing use of NVMe over TCP in mid-size deployments.",
+   "image": null,
+   "imageAlt": "Editorial illustration for infrastructure story: Storage",
+   "tags": [
+    "Storage",
+    "NVMe",
+    "Datacenter"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 32333,
+   "trendingScore": 5.9,
+   "brief": {
+    "what": "Storage vendors report growing use of NVMe over TCP in mid-size deployments.",
+    "who": "Mid-size organisations can adopt NVMe-based storage with existing network skills.",
+    "why": "Mid-size organisations can adopt NVMe-based storage without investing in Fibre Channel.",
+    "next": "Vendors recommend dedicated storage VLANs and consistent MTU settings."
+   },
+   "whyItMatters": "Mid-size organisations can adopt NVMe-based storage without investing in Fibre Channel. Validate host multipathing, isolate storage traffic and benchmark with realistic workloads.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Storage vendors report growing use of NVMe over TCP in mid-size deployments.",
+      "The protocol runs over standard Ethernet, avoiding specialised Fibre Channel fabrics."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "NVMe over TCP brings low-latency block storage to standard Ethernet networks without specialised fabrics.",
+      "Performance depends on network design, including congestion management and consistent MTU settings."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Mid-size organisations can adopt NVMe-based storage without investing in Fibre Channel.",
+      "Mid-size organisations can adopt NVMe-based storage with existing network skills."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Validate host multipathing, isolate storage traffic and benchmark with realistic workloads.",
+      "Vendors recommend dedicated storage VLANs and consistent MTU settings."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Standards body",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Customer case study",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Mid-size organisations can adopt NVMe-based storage with existing network skills.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Performance depends on network design, including congestion management and consistent MTU settings.",
+    "checks": "Validate host multipathing, isolate storage traffic and benchmark with realistic workloads.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 308,
+   "slug": "backup-restore-testing-becomes-an-audit-requirement-in-financial-sector",
+   "title": "Backup restore testing becomes an audit requirement in financial sector",
+   "category": "Infrastructure",
+   "subcategory": "Backup",
+   "type": "News",
+   "author": "tomas-reyes",
+   "date": "2026-09-17T22:20:00+02:00",
+   "updated": "2026-09-17T23:00:00+02:00",
+   "readingTime": 6,
+   "summary": "Updated regulatory guidance asks financial institutions to evidence periodic restore tests.",
+   "image": null,
+   "imageAlt": "Editorial illustration for infrastructure story: Backup",
+   "tags": [
+    "Backup",
+    "Compliance",
+    "Resilience"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 40252,
+   "trendingScore": 9.6,
+   "brief": {
+    "what": "Updated regulatory guidance asks financial institutions to evidence periodic restore tests.",
+    "who": "Financial institutions and their IT providers need documented restore results.",
+    "why": "Financial institutions and critical service providers face the most direct requirements.",
+    "next": "Guidance takes effect after a transition period."
+   },
+   "whyItMatters": "Financial institutions and critical service providers face the most direct requirements. Schedule automated restore tests, keep immutable copies and document recovery time results.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Updated regulatory guidance asks financial institutions to evidence periodic restore tests.",
+      "Successful backup jobs alone will no longer be sufficient evidence of recoverability."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Backups are only useful if they can be restored; untested backups frequently fail during real incidents.",
+      "Regulators and auditors increasingly ask for evidence of periodic restore testing, not only backup job success."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Financial institutions and critical service providers face the most direct requirements.",
+      "Financial institutions and their IT providers need documented restore results."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Schedule automated restore tests, keep immutable copies and document recovery time results.",
+      "Guidance takes effect after a transition period."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Regulatory guidance",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Industry association",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Financial institutions and their IT providers need documented restore results.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Regulators and auditors increasingly ask for evidence of periodic restore testing, not only backup job success.",
+    "checks": "Schedule automated restore tests, keep immutable copies and document recovery time results.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 309,
+   "slug": "operators-report-rising-rack-densities-driven-by-ai-clusters",
+   "title": "Operators report rising rack densities driven by AI clusters",
+   "category": "Infrastructure",
+   "subcategory": "Datacenters",
+   "type": "News",
+   "author": "tomas-reyes",
+   "date": "2026-09-17T20:30:00+02:00",
+   "updated": "2026-09-17T20:35:00+02:00",
+   "readingTime": 6,
+   "summary": "Colocation operators report average densities rising sharply in new AI deployments.",
+   "image": null,
+   "imageAlt": "Editorial illustration for infrastructure story: Datacenters",
+   "tags": [
+    "Datacenter",
+    "AI",
+    "Power"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 48171,
+   "trendingScore": 3.3,
+   "brief": {
+    "what": "Colocation operators report average densities rising sharply in new AI deployments.",
+    "who": "Customers may face new pricing models for high-density space.",
+    "why": "Colocation customers may face new pricing models and minimum commitments for high-density space.",
+    "next": "Operators are prioritising liquid-cooling readiness in new builds."
+   },
+   "whyItMatters": "Colocation customers may face new pricing models and minimum commitments for high-density space. Plan capacity with facilities teams early and model cooling options before procuring dense hardware.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Colocation operators report average densities rising sharply in new AI deployments.",
+      "High-density halls require upgraded power distribution and cooling."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Rack power density has risen sharply as GPU servers draw far more power than traditional compute.",
+      "Higher densities require changes to power distribution, cooling and floor loading."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Colocation customers may face new pricing models and minimum commitments for high-density space.",
+      "Customers may face new pricing models for high-density space."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Plan capacity with facilities teams early and model cooling options before procuring dense hardware.",
+      "Operators are prioritising liquid-cooling readiness in new builds."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Operator survey",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Industry association",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Customers may face new pricing models for high-density space.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Higher densities require changes to power distribution, cooling and floor loading.",
+    "checks": "Plan capacity with facilities teams early and model cooling options before procuring dense hardware.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 310,
+   "slug": "monitoring-teams-move-from-threshold-alerts-to-slo-based-paging",
+   "title": "Monitoring teams move from threshold alerts to SLO-based paging",
+   "category": "Infrastructure",
+   "subcategory": "Monitoring",
+   "type": "Analysis",
+   "author": "tomas-reyes",
+   "date": "2026-09-17T19:00:00+02:00",
+   "updated": null,
+   "readingTime": 6,
+   "summary": "Operations teams are replacing per-host threshold alerts with alerts tied to service level objectives.",
+   "image": null,
+   "imageAlt": "Editorial illustration for infrastructure story: Monitoring",
+   "tags": [
+    "Monitoring",
+    "SRE",
+    "Observability"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 8090,
+   "trendingScore": 7.0,
+   "brief": {
+    "what": "Operations teams are replacing per-host threshold alerts with alerts tied to service level objectives.",
+    "who": "On-call engineers report fewer but more actionable pages.",
+    "why": "On-call teams typically see fewer but more actionable alerts after migration.",
+    "next": "Expect monitoring tools to ship more SLO features by default."
+   },
+   "whyItMatters": "On-call teams typically see fewer but more actionable alerts after migration. Start with a few critical user journeys, define SLIs carefully and review alert quality after each incident.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Operations teams are replacing per-host threshold alerts with alerts tied to service level objectives.",
+      "Burn-rate alerts catch sustained degradation while ignoring brief spikes."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Service level objectives define reliability targets from the user's perspective rather than per-host thresholds.",
+      "Alerting on error-budget burn rates reduces noisy pages while catching sustained degradation."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "On-call teams typically see fewer but more actionable alerts after migration.",
+      "On-call engineers report fewer but more actionable pages."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Start with a few critical user journeys, define SLIs carefully and review alert quality after each incident.",
+      "Expect monitoring tools to ship more SLO features by default."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Engineering practice guide",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Practitioner interviews",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "On-call engineers report fewer but more actionable pages.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Alerting on error-budget burn rates reduces noisy pages while catching sustained degradation.",
+    "checks": "Start with a few critical user journeys, define SLIs carefully and review alert quality after each incident.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  }
+ ]
+}

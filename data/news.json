@@ -1,0 +1,2465 @@
+{
+ "meta": {
+  "isDemo": true,
+  "anchor": "2026-09-18T10:00:00+02:00",
+  "notice": "All TECHWIRE content in this prototype is fictional demo data. It must not be presented as real news."
+ },
+ "articles": [
+  {
+   "id": 1,
+   "slug": "long-term-support-release-of-major-linux-distribution-enters-public-beta",
+   "title": "Long-term support release of major Linux distribution enters public beta",
+   "category": "Software",
+   "subcategory": "Operating Systems",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-18T09:42:00+02:00",
+   "updated": "2026-09-18T09:54:00+02:00",
+   "readingTime": 3,
+   "summary": "The beta opens a testing window for administrators ahead of the final release planned later this year.",
+   "image": null,
+   "imageAlt": "Editorial illustration for software story: Operating Systems",
+   "tags": [
+    "Linux",
+    "Operating Systems",
+    "LTS"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 9119,
+   "trendingScore": 3.7,
+   "brief": {
+    "what": "The beta opens a testing window for administrators ahead of the final release planned later this year.",
+    "who": "Server teams that standardise on long-term releases are the primary audience for the beta.",
+    "why": "Enterprises standardising on long-term releases should begin testing early.",
+    "next": "The distribution plans a release candidate after the beta feedback period closes."
+   },
+   "whyItMatters": "Enterprises standardising on long-term releases should begin testing early. Plan compatibility testing and track the published support lifecycle.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The beta opens a testing window for administrators ahead of the final release planned later this year.",
+      "The release moves to a newer LTS kernel and updates the default toolchain and container tooling."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Operating system release cycles determine how long organisations can run a platform with security updates.",
+      "Beta phases let administrators test compatibility with drivers, management agents and line-of-business software."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Enterprises standardising on long-term releases should begin testing early.",
+      "Server teams that standardise on long-term releases are the primary audience for the beta."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Plan compatibility testing and track the published support lifecycle.",
+      "The distribution plans a release candidate after the beta feedback period closes."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Official release notes",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Project documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "slug": "enterprise-office-suite-adds-offline-mode-for-managed-devices",
+   "title": "Enterprise office suite adds offline mode for managed devices",
+   "category": "Software",
+   "subcategory": "Enterprise Software",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-18T08:54:00+02:00",
+   "updated": "2026-09-18T09:19:00+02:00",
+   "readingTime": 3,
+   "summary": "Administrators can now allow documents to be edited offline on managed laptops under central policy.",
+   "image": null,
+   "imageAlt": "Editorial illustration for software story: Enterprise Software",
+   "tags": [
+    "Productivity",
+    "Device Management"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 17038,
+   "trendingScore": 7.4,
+   "brief": {
+    "what": "Administrators can now allow documents to be edited offline on managed laptops under central policy.",
+    "who": "Organisations with field staff and intermittent connectivity are the main beneficiaries.",
+    "why": "Administrators will need to review new policy settings before enabling them.",
+    "next": "The feature is rolling out gradually to business tenants."
+   },
+   "whyItMatters": "Administrators will need to review new policy settings before enabling them. Review admin documentation, pilot with a small group and update user guidance.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Administrators can now allow documents to be edited offline on managed laptops under central policy.",
+      "Changes made offline synchronise when devices reconnect, with conflict handling controlled by policy."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Enterprise software vendors are adding features aimed at managed devices and regulated environments.",
+      "Features that work offline or under central policy reduce dependence on continuous connectivity."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Administrators will need to review new policy settings before enabling them.",
+      "Organisations with field staff and intermittent connectivity are the main beneficiaries."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Review admin documentation, pilot with a small group and update user guidance.",
+      "The feature is rolling out gradually to business tenants."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Product documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "slug": "browser-vendors-agree-timeline-to-retire-legacy-certificate-formats",
+   "title": "Browser vendors agree timeline to retire legacy certificate formats",
+   "category": "Software",
+   "subcategory": "Web Security",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-18T08:17:00+02:00",
+   "updated": "2026-09-18T08:57:00+02:00",
+   "readingTime": 3,
+   "summary": "A joint timeline gives website operators about 18 months to replace certificates using older formats.",
+   "image": null,
+   "imageAlt": "Editorial illustration for software story: Web Security",
+   "tags": [
+    "TLS",
+    "Certificates",
+    "Browsers"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 24957,
+   "trendingScore": 1.1,
+   "brief": {
+    "what": "A joint timeline gives website operators about 18 months to replace certificates using older formats.",
+    "who": "Operators of older internal services and embedded appliances are most likely to need changes.",
+    "why": "Organisations with legacy internal services and appliances are most likely to be affected.",
+    "next": "Browser vendors will publish warnings in developer tools ahead of enforcement."
+   },
+   "whyItMatters": "Organisations with legacy internal services and appliances are most likely to be affected. Inventory certificates and TLS configurations, including internal and embedded systems.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "A joint timeline gives website operators about 18 months to replace certificates using older formats.",
+      "The change affects certificates issued under legacy profiles that newer validation rules no longer accept."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Transport security depends on certificates and protocol versions supported across browsers and servers.",
+      "Coordinated deprecation timelines give operators time to update infrastructure."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations with legacy internal services and appliances are most likely to be affected.",
+      "Operators of older internal services and embedded appliances are most likely to need changes."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Inventory certificates and TLS configurations, including internal and embedded systems.",
+      "Browser vendors will publish warnings in developer tools ahead of enforcement."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Standards documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Browser vendor announcements",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "slug": "container-runtime-project-ships-release-with-rootless-networking-by-default",
+   "title": "Container runtime project ships release with rootless networking by default",
+   "category": "Dev",
+   "subcategory": "Containers",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-18T07:29:00+02:00",
+   "updated": "2026-09-18T07:34:00+02:00",
+   "readingTime": 3,
+   "summary": "The latest release runs containers without root privileges and uses a user-space network stack by default.",
+   "image": null,
+   "imageAlt": "Editorial illustration for dev story: Containers",
+   "tags": [
+    "Containers",
+    "Linux",
+    "Open Source"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 32876,
+   "trendingScore": 4.8,
+   "brief": {
+    "what": "The latest release runs containers without root privileges and uses a user-space network stack by default.",
+    "who": "Platform teams running multi-tenant build hosts gain safer defaults.",
+    "why": "Platform teams gain safer defaults but may need to adjust networking configurations.",
+    "next": "The maintainers plan to deprecate some legacy network drivers in a future release."
+   },
+   "whyItMatters": "Platform teams gain safer defaults but may need to adjust networking configurations. Test rootless networking with existing workloads and document any required exceptions.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The latest release runs containers without root privileges and uses a user-space network stack by default.",
+      "Rootful mode remains available for workloads that need privileged networking features."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Container runtimes isolate processes using kernel namespaces and control groups.",
+      "Running without root privileges reduces the impact of container escapes."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Platform teams gain safer defaults but may need to adjust networking configurations.",
+      "Platform teams running multi-tenant build hosts gain safer defaults."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Test rootless networking with existing workloads and document any required exceptions.",
+      "The maintainers plan to deprecate some legacy network drivers in a future release."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Project release notes",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Project documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "slug": "package-registry-enforces-two-factor-authentication-for-high-impact-maintainers",
+   "title": "Package registry enforces two-factor authentication for high-impact maintainers",
+   "category": "Dev",
+   "subcategory": "Supply Chain",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-18T06:52:00+02:00",
+   "updated": null,
+   "readingTime": 4,
+   "summary": "Maintainers of the most-downloaded packages must enable two-factor authentication before publishing.",
+   "image": null,
+   "imageAlt": "Editorial illustration for dev story: Supply Chain",
+   "tags": [
+    "Supply Chain",
+    "Open Source",
+    "MFA"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 40795,
+   "trendingScore": 8.5,
+   "brief": {
+    "what": "Maintainers of the most-downloaded packages must enable two-factor authentication before publishing.",
+    "who": "Maintainers of popular packages must enrol before their next release.",
+    "why": "Maintainers of popular packages will need to enrol before publishing new versions.",
+    "next": "The registry plans to extend the requirement to more maintainers next year."
+   },
+   "whyItMatters": "Maintainers of popular packages will need to enrol before publishing new versions. Pin dependencies, use lockfiles and monitor for unexpected new versions of critical packages.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Maintainers of the most-downloaded packages must enable two-factor authentication before publishing.",
+      "The registry says the policy targets accounts whose compromise would affect the largest number of projects."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Package registries are frequent targets because a single compromised maintainer account can affect thousands of projects.",
+      "Mandatory multi-factor authentication for high-impact maintainers reduces account takeover risk."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Maintainers of popular packages will need to enrol before publishing new versions.",
+      "Maintainers of popular packages must enrol before their next release."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Pin dependencies, use lockfiles and monitor for unexpected new versions of critical packages.",
+      "The registry plans to extend the requirement to more maintainers next year."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Registry announcement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "slug": "api-gateway-project-graduates-within-open-source-foundation",
+   "title": "API gateway project graduates within open-source foundation",
+   "category": "Dev",
+   "subcategory": "Open Source",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-18T06:15:00+02:00",
+   "updated": "2026-09-18T06:27:00+02:00",
+   "readingTime": 4,
+   "summary": "The foundation cited adoption, a completed security audit and a diverse maintainer base.",
+   "image": null,
+   "imageAlt": "Editorial illustration for dev story: Open Source",
+   "tags": [
+    "API",
+    "Open Source",
+    "Kubernetes"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 48714,
+   "trendingScore": 2.2,
+   "brief": {
+    "what": "The foundation cited adoption, a completed security audit and a diverse maintainer base.",
+    "who": "Organisations evaluating open-source API gateways gain a signal of project maturity.",
+    "why": "Organisations considering the project gain more confidence in its long-term governance.",
+    "next": "The project roadmap focuses on Gateway API conformance and observability."
+   },
+   "whyItMatters": "Organisations considering the project gain more confidence in its long-term governance. Review the project's security audit results and release practices before adoption.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The foundation cited adoption, a completed security audit and a diverse maintainer base.",
+      "Graduation requires projects to demonstrate governance processes and documented release practices."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Open-source foundations graduate projects that demonstrate adoption, governance and security practices.",
+      "Graduation signals maturity but does not replace an organisation's own evaluation."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations considering the project gain more confidence in its long-term governance.",
+      "Organisations evaluating open-source API gateways gain a signal of project maturity."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Review the project's security audit results and release practices before adoption.",
+      "The project roadmap focuses on Gateway API conformance and observability."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Foundation announcement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Project documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "slug": "why-platform-engineering-teams-are-consolidating-internal-tooling",
+   "title": "Why platform engineering teams are consolidating internal tooling",
+   "category": "Dev",
+   "subcategory": "Platform Engineering",
+   "type": "Analysis",
+   "author": "newsroom",
+   "date": "2026-09-18T05:27:00+02:00",
+   "updated": "2026-09-18T05:52:00+02:00",
+   "readingTime": 4,
+   "summary": "Engineering organisations are reducing the number of overlapping tools that internal platforms maintain.",
+   "image": null,
+   "imageAlt": "Editorial illustration for dev story: Platform Engineering",
+   "tags": [
+    "DevOps",
+    "Platform Engineering"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 8633,
+   "trendingScore": 5.9,
+   "brief": {
+    "what": "Engineering organisations are reducing the number of overlapping tools that internal platforms maintain.",
+    "who": "Large engineering organisations with many autonomous teams are the most affected.",
+    "why": "Engineering organisations with many teams and duplicated tooling benefit most from consolidation.",
+    "next": "Expect more investment in golden paths and fewer bespoke pipelines."
+   },
+   "whyItMatters": "Engineering organisations with many teams and duplicated tooling benefit most from consolidation. Measure developer workflows before consolidating and involve teams in platform design.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Engineering organisations are reducing the number of overlapping tools that internal platforms maintain.",
+      "Interviews with platform leads point to maintenance cost and inconsistent security controls as the main drivers."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Platform engineering teams build internal developer platforms to standardise delivery.",
+      "Tool sprawl increases maintenance cost and makes security controls harder to apply consistently."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Engineering organisations with many teams and duplicated tooling benefit most from consolidation.",
+      "Large engineering organisations with many autonomous teams are the most affected."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Measure developer workflows before consolidating and involve teams in platform design.",
+      "Expect more investment in golden paths and fewer bespoke pipelines."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Practitioner interviews",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Industry survey",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "slug": "opinion-configuration-drift-is-an-organisational-problem-not-a-tooling-one",
+   "title": "Opinion: Configuration drift is an organisational problem, not a tooling one",
+   "category": "Technology",
+   "subcategory": "Opinion",
+   "type": "Opinion",
+   "author": "mara-lindqvist",
+   "date": "2026-09-18T04:50:00+02:00",
+   "updated": "2026-09-18T05:30:00+02:00",
+   "readingTime": 4,
+   "summary": "Drift persists because ownership of changes is unclear, argues the author, not because detection tools are missing.",
+   "image": null,
+   "imageAlt": "Editorial illustration for technology story: Opinion",
+   "tags": [
+    "Opinion",
+    "Automation",
+    "Change Management"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 16552,
+   "trendingScore": 9.6,
+   "brief": {
+    "what": "Drift persists because ownership of changes is unclear, argues the author, not because detection tools are missing.",
+    "who": "Teams that rely on detection alone continue to accumulate undocumented changes.",
+    "why": "Readers should weigh the argument against their own environment.",
+    "next": "The author argues for change ownership and post-incident codification as standard practice."
+   },
+   "whyItMatters": "Readers should weigh the argument against their own environment. Share feedback with the editors; opinion pieces are clearly labelled and separated from news.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Drift persists because ownership of changes is unclear, argues the author, not because detection tools are missing.",
+      "Emergency fixes made directly on devices rarely make it back into source control without a clear process."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "The argument",
+     "paragraphs": [
+      "This is an opinion piece reflecting the author's view.",
+      "It is based on the author's experience and reporting, and does not represent TECHWIRE news coverage."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Readers should weigh the argument against their own environment.",
+      "Teams that rely on detection alone continue to accumulate undocumented changes."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Share feedback with the editors; opinion pieces are clearly labelled and separated from news.",
+      "The author argues for change ownership and post-incident codification as standard practice."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Author's analysis",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "slug": "ethernet-working-group-publishes-draft-for-next-speed-class",
+   "title": "Ethernet working group publishes draft for next speed class",
+   "category": "Technology",
+   "subcategory": "Standards",
+   "type": "News",
+   "author": "mara-lindqvist",
+   "date": "2026-09-18T04:13:00+02:00",
+   "updated": "2026-09-18T04:18:00+02:00",
+   "readingTime": 4,
+   "summary": "The draft specification defines electrical and optical interfaces for the next Ethernet speed tier.",
+   "image": null,
+   "imageAlt": "Editorial illustration for technology story: Standards",
+   "tags": [
+    "Ethernet",
+    "Standards",
+    "Datacenter"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 24471,
+   "trendingScore": 3.3,
+   "brief": {
+    "what": "The draft specification defines electrical and optical interfaces for the next Ethernet speed tier.",
+    "who": "Datacenter network architects planning multi-year fabrics should track the timeline.",
+    "why": "Network and hardware buyers should track standard milestones when planning purchases.",
+    "next": "Comment resolution meetings are scheduled over the coming quarters."
+   },
+   "whyItMatters": "Network and hardware buyers should track standard milestones when planning purchases. Avoid committing to pre-standard implementations for long-lived infrastructure.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The draft specification defines electrical and optical interfaces for the next Ethernet speed tier.",
+      "Working group participants expect several revisions before the specification is finalised."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Standards bodies define interoperable specifications that vendors implement in products.",
+      "Draft specifications may change before final publication, so early products can differ from the final standard."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Network and hardware buyers should track standard milestones when planning purchases.",
+      "Datacenter network architects planning multi-year fabrics should track the timeline."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Avoid committing to pre-standard implementations for long-lived infrastructure.",
+      "Comment resolution meetings are scheduled over the coming quarters."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Standards body documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Working group minutes",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "slug": "european-regulator-opens-consultation-on-cloud-interoperability-rules",
+   "title": "European regulator opens consultation on cloud interoperability rules",
+   "category": "Technology",
+   "subcategory": "Policy",
+   "type": "News",
+   "author": "mara-lindqvist",
+   "date": "2026-09-18T03:25:00+02:00",
+   "updated": null,
+   "readingTime": 4,
+   "summary": "The consultation seeks input on technical standards for data portability between cloud providers.",
+   "image": null,
+   "imageAlt": "Editorial illustration for technology story: Policy",
+   "tags": [
+    "Cloud",
+    "Regulation",
+    "Policy"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 32390,
+   "trendingScore": 7.0,
+   "brief": {
+    "what": "The consultation seeks input on technical standards for data portability between cloud providers.",
+    "who": "Cloud customers and providers operating in the region may face new obligations.",
+    "why": "Cloud customers and providers operating in the region may see new contractual obligations.",
+    "next": "The consultation remains open for 12 weeks."
+   },
+   "whyItMatters": "Cloud customers and providers operating in the region may see new contractual obligations. Legal and procurement teams should follow the consultation timeline.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The consultation seeks input on technical standards for data portability between cloud providers.",
+      "The proposals cover export formats, egress charges during switching and interface documentation."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Regulatory consultations invite industry and public input before rules are finalised.",
+      "Cloud interoperability rules aim to reduce switching costs between providers."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Cloud customers and providers operating in the region may see new contractual obligations.",
+      "Cloud customers and providers operating in the region may face new obligations."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Legal and procurement teams should follow the consultation timeline.",
+      "The consultation remains open for 12 weeks."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Regulator publication",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Legal commentary",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "slug": "database-vendor-moves-core-engine-to-source-available-licence",
+   "title": "Database vendor moves core engine to source-available licence",
+   "category": "Software",
+   "subcategory": "Databases",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-18T02:48:00+02:00",
+   "updated": "2026-09-18T03:00:00+02:00",
+   "readingTime": 5,
+   "summary": "Future releases of the core engine will be distributed under a licence that restricts offering it as a managed service.",
+   "image": null,
+   "imageAlt": "Editorial illustration for software story: Databases",
+   "tags": [
+    "Databases",
+    "Open Source",
+    "Licensing"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 40309,
+   "trendingScore": 0.7,
+   "brief": {
+    "what": "Future releases of the core engine will be distributed under a licence that restricts offering it as a managed service.",
+    "who": "Cloud providers and companies embedding the engine in products are most affected.",
+    "why": "Organisations embedding the database in products may need legal review.",
+    "next": "Community members have discussed maintaining a fork of the last open-source release."
+   },
+   "whyItMatters": "Organisations embedding the database in products may need legal review. Review licence terms with legal teams and assess community forks.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Future releases of the core engine will be distributed under a licence that restricts offering it as a managed service.",
+      "Existing releases remain under their original open-source licence."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Licence changes in database projects affect how they can be offered as managed services.",
+      "Source-available licences restrict certain commercial uses while keeping code visible."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations embedding the database in products may need legal review.",
+      "Cloud providers and companies embedding the engine in products are most affected."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Review licence terms with legal teams and assess community forks.",
+      "Community members have discussed maintaining a fork of the last open-source release."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Licence text",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "slug": "git-hosting-platforms-introduce-signed-commit-enforcement-for-organisations",
+   "title": "Git hosting platforms introduce signed-commit enforcement for organisations",
+   "category": "Dev",
+   "subcategory": "CI/CD",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-18T02:11:00+02:00",
+   "updated": "2026-09-18T02:36:00+02:00",
+   "readingTime": 5,
+   "summary": "Organisation owners can require that all commits to protected branches carry verified signatures.",
+   "image": null,
+   "imageAlt": "Editorial illustration for dev story: CI/CD",
+   "tags": [
+    "Git",
+    "Supply Chain",
+    "DevSecOps"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 48228,
+   "trendingScore": 4.4,
+   "brief": {
+    "what": "Organisation owners can require that all commits to protected branches carry verified signatures.",
+    "who": "Teams will need to configure signing on developer workstations and automation accounts.",
+    "why": "Workflows that rely on implicit write access may need explicit permission changes.",
+    "next": "Documentation includes migration guidance for bots and CI systems."
+   },
+   "whyItMatters": "Workflows that rely on implicit write access may need explicit permission changes. Review pipeline permissions and grant write scopes only where needed.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Organisation owners can require that all commits to protected branches carry verified signatures.",
+      "The feature supports several signing methods, including SSH keys and hardware-backed keys."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Pipeline tokens often have broad permissions that attackers can abuse after compromising a workflow.",
+      "Least-privilege defaults reduce the impact of malicious dependencies or pull requests."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Workflows that rely on implicit write access may need explicit permission changes.",
+      "Teams will need to configure signing on developer workstations and automation accounts."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Review pipeline permissions and grant write scopes only where needed.",
+      "Documentation includes migration guidance for bots and CI systems."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Product documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "slug": "survey-finds-it-teams-extending-hardware-refresh-cycles",
+   "title": "Survey finds IT teams extending hardware refresh cycles",
+   "category": "Technology",
+   "subcategory": "Industry",
+   "type": "News",
+   "author": "mara-lindqvist",
+   "date": "2026-09-18T01:23:00+02:00",
+   "updated": "2026-09-18T02:03:00+02:00",
+   "readingTime": 5,
+   "summary": "Respondents report keeping laptops and servers roughly a year longer than three years ago.",
+   "image": null,
+   "imageAlt": "Editorial illustration for technology story: Industry",
+   "tags": [
+    "Hardware",
+    "IT Budgets",
+    "Survey"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 8147,
+   "trendingScore": 8.1,
+   "brief": {
+    "what": "Respondents report keeping laptops and servers roughly a year longer than three years ago.",
+    "who": "Security teams may see more devices approaching the end of firmware support.",
+    "why": "Extended refresh cycles can increase support costs and security exposure on older devices.",
+    "next": "Analysts expect refresh demand to recover as older operating systems reach end of support."
+   },
+   "whyItMatters": "Extended refresh cycles can increase support costs and security exposure on older devices. Track firmware support dates and plan risk-based replacement for out-of-support hardware.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Respondents report keeping laptops and servers roughly a year longer than three years ago.",
+      "Budget pressure and improved hardware reliability were the most cited reasons."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Industry surveys describe broad trends but vary in methodology and sample size.",
+      "Economic conditions and supply chains influence how often organisations replace hardware."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Extended refresh cycles can increase support costs and security exposure on older devices.",
+      "Security teams may see more devices approaching the end of firmware support."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Track firmware support dates and plan risk-based replacement for out-of-support hardware.",
+      "Analysts expect refresh demand to recover as older operating systems reach end of support."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Industry survey",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Analyst commentary",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "slug": "endpoint-management-platform-adds-declarative-device-configuration",
+   "title": "Endpoint management platform adds declarative device configuration",
+   "category": "Software",
+   "subcategory": "Enterprise Software",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-18T00:46:00+02:00",
+   "updated": "2026-09-18T00:51:00+02:00",
+   "readingTime": 5,
+   "summary": "Devices can now apply and report configuration state autonomously rather than waiting for server polling.",
+   "image": null,
+   "imageAlt": "Editorial illustration for software story: Enterprise Software",
+   "tags": [
+    "Device Management",
+    "Endpoints"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 16066,
+   "trendingScore": 1.8,
+   "brief": {
+    "what": "Devices can now apply and report configuration state autonomously rather than waiting for server polling.",
+    "who": "Administrators managing large laptop fleets gain faster policy enforcement.",
+    "why": "Administrators will need to review new policy settings before enabling them.",
+    "next": "The vendor recommends piloting with a subset of devices first."
+   },
+   "whyItMatters": "Administrators will need to review new policy settings before enabling them. Review admin documentation, pilot with a small group and update user guidance.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Devices can now apply and report configuration state autonomously rather than waiting for server polling.",
+      "Declarative management reduces server load and improves the accuracy of compliance reporting."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Enterprise software vendors are adding features aimed at managed devices and regulated environments.",
+      "Features that work offline or under central policy reduce dependence on continuous connectivity."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Administrators will need to review new policy settings before enabling them.",
+      "Administrators managing large laptop fleets gain faster policy enforcement."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Review admin documentation, pilot with a small group and update user guidance.",
+      "The vendor recommends piloting with a subset of devices first."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Product documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "slug": "webassembly-component-model-reaches-stable-milestone",
+   "title": "WebAssembly component model reaches stable milestone",
+   "category": "Dev",
+   "subcategory": "WebAssembly",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-17T23:58:00+02:00",
+   "updated": null,
+   "readingTime": 5,
+   "summary": "The milestone defines stable interfaces for composing modules written in different languages.",
+   "image": null,
+   "imageAlt": "Editorial illustration for dev story: WebAssembly",
+   "tags": [
+    "WebAssembly",
+    "Open Source",
+    "Edge"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 23985,
+   "trendingScore": 5.5,
+   "brief": {
+    "what": "The milestone defines stable interfaces for composing modules written in different languages.",
+    "who": "Developers building plugin systems gain a portable sandboxed target.",
+    "why": "Platform builders gain a common target for sandboxed extensions.",
+    "next": "Runtime maintainers plan conformance testing over the coming months."
+   },
+   "whyItMatters": "Platform builders gain a common target for sandboxed extensions. Evaluate runtime support and security boundaries before production use.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The milestone defines stable interfaces for composing modules written in different languages.",
+      "Runtimes supporting the milestone can run the same components on servers and at the edge."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "WebAssembly components allow modules written in different languages to interoperate through defined interfaces.",
+      "A stable component model makes it practical to build plugin systems and portable server workloads."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Platform builders gain a common target for sandboxed extensions.",
+      "Developers building plugin systems gain a portable sandboxed target."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Evaluate runtime support and security boundaries before production use.",
+      "Runtime maintainers plan conformance testing over the coming months."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Specification",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Project documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "slug": "what-the-shift-to-800g-optics-means-for-enterprise-buyers",
+   "title": "What the shift to 800G optics means for enterprise buyers",
+   "category": "Technology",
+   "subcategory": "Optics",
+   "type": "Analysis",
+   "author": "mara-lindqvist",
+   "date": "2026-09-17T23:21:00+02:00",
+   "updated": "2026-09-17T23:33:00+02:00",
+   "readingTime": 6,
+   "summary": "Falling prices for 800G optics are starting to affect enterprise datacenter planning.",
+   "image": null,
+   "imageAlt": "Editorial illustration for technology story: Optics",
+   "tags": [
+    "Optics",
+    "Datacenter",
+    "Ethernet"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 31904,
+   "trendingScore": 9.2,
+   "brief": {
+    "what": "Falling prices for 800G optics are starting to affect enterprise datacenter planning.",
+    "who": "Enterprise buyers refreshing spine layers in the next two years are most affected.",
+    "why": "Enterprise buyers must consider power, reach and cabling compatibility.",
+    "next": "Expect vendors to bundle 800G-capable spines with 400G breakout options."
+   },
+   "whyItMatters": "Enterprise buyers must consider power, reach and cabling compatibility. Standardise on optics families and plan cabling for future transitions.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Falling prices for 800G optics are starting to affect enterprise datacenter planning.",
+      "The transition changes power budgets per port and the choice between breakout and native links."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "800G optics double per-port capacity compared with 400G.",
+      "Enterprise adoption usually follows hyperscale deployments as prices fall."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Enterprise buyers must consider power, reach and cabling compatibility.",
+      "Enterprise buyers refreshing spine layers in the next two years are most affected."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Standardise on optics families and plan cabling for future transitions.",
+      "Expect vendors to bundle 800G-capable spines with 400G breakout options."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Analyst commentary",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Vendor datasheets",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "slug": "identity-provider-extends-passkey-support-to-directory-synchronised-users",
+   "title": "Identity provider extends passkey support to directory-synchronised users",
+   "category": "Software",
+   "subcategory": "Identity",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-17T22:44:00+02:00",
+   "updated": "2026-09-17T23:09:00+02:00",
+   "readingTime": 6,
+   "summary": "Users synchronised from on-premises directories can now register passkeys for sign-in.",
+   "image": null,
+   "imageAlt": "Editorial illustration for software story: Identity",
+   "tags": [
+    "Identity",
+    "Passkeys",
+    "MFA"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 39823,
+   "trendingScore": 2.9,
+   "brief": {
+    "what": "Users synchronised from on-premises directories can now register passkeys for sign-in.",
+    "who": "Help desks should prepare for enrolment and recovery questions during rollout.",
+    "why": "Help desks should expect a transition period with mixed authentication methods.",
+    "next": "The provider plans reporting to track passwordless adoption."
+   },
+   "whyItMatters": "Help desks should expect a transition period with mixed authentication methods. Plan enrolment, account recovery processes and user communication.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Users synchronised from on-premises directories can now register passkeys for sign-in.",
+      "Administrators control which authenticator types are allowed through policy."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Passkeys replace passwords with public-key credentials bound to devices or synchronised across them.",
+      "Extending passkeys to directory users helps phase out passwords in hybrid environments."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Help desks should expect a transition period with mixed authentication methods.",
+      "Help desks should prepare for enrolment and recovery questions during rollout."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Plan enrolment, account recovery processes and user communication.",
+      "The provider plans reporting to track passwordless adoption."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Product documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Standards documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "slug": "observability-project-standardises-semantic-conventions-for-databases",
+   "title": "Observability project standardises semantic conventions for databases",
+   "category": "Dev",
+   "subcategory": "Observability",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-17T21:56:00+02:00",
+   "updated": "2026-09-17T22:36:00+02:00",
+   "readingTime": 6,
+   "summary": "The conventions define consistent names for database client telemetry across languages.",
+   "image": null,
+   "imageAlt": "Editorial illustration for dev story: Observability",
+   "tags": [
+    "Observability",
+    "OpenTelemetry",
+    "Monitoring"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 47742,
+   "trendingScore": 6.6,
+   "brief": {
+    "what": "The conventions define consistent names for database client telemetry across languages.",
+    "who": "Teams maintaining dashboards built on older attribute names may need migration.",
+    "why": "Teams instrumenting databases gain comparable metrics across different engines.",
+    "next": "The project provides a compatibility period with both attribute sets."
+   },
+   "whyItMatters": "Teams instrumenting databases gain comparable metrics across different engines. Adopt the conventions in new instrumentation and plan migration for existing dashboards.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The conventions define consistent names for database client telemetry across languages.",
+      "Instrumentation libraries will adopt the stable names in upcoming releases."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Semantic conventions define consistent names for telemetry attributes across tools and languages.",
+      "Consistency makes dashboards and alerts portable between services and vendors."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Teams instrumenting databases gain comparable metrics across different engines.",
+      "Teams maintaining dashboards built on older attribute names may need migration."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Adopt the conventions in new instrumentation and plan migration for existing dashboards.",
+      "The project provides a compatibility period with both attribute sets."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Project documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Specification",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "slug": "universities-report-shortage-of-network-engineering-graduates",
+   "title": "Universities report shortage of network engineering graduates",
+   "category": "Technology",
+   "subcategory": "Education",
+   "type": "News",
+   "author": "mara-lindqvist",
+   "date": "2026-09-17T21:19:00+02:00",
+   "updated": "2026-09-17T21:24:00+02:00",
+   "readingTime": 6,
+   "summary": "Several technical universities say enrolment in networking specialisations has not kept pace with demand.",
+   "image": null,
+   "imageAlt": "Editorial illustration for technology story: Education",
+   "tags": [
+    "Careers",
+    "Networking",
+    "Education"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 7661,
+   "trendingScore": 0.3,
+   "brief": {
+    "what": "Several technical universities say enrolment in networking specialisations has not kept pace with demand.",
+    "who": "Employers report longer hiring cycles for junior network engineers.",
+    "why": "Employers may face longer hiring cycles for network engineering roles.",
+    "next": "Some universities are launching joint programmes with network operators."
+   },
+   "whyItMatters": "Employers may face longer hiring cycles for network engineering roles. Invest in internal training programmes and apprenticeships.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Several technical universities say enrolment in networking specialisations has not kept pace with demand.",
+      "Faculty point to student preference for software and data science programmes."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Networking skills remain in demand as infrastructure grows more complex.",
+      "Curricula often emphasise software development over network fundamentals."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Employers may face longer hiring cycles for network engineering roles.",
+      "Employers report longer hiring cycles for junior network engineers."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Invest in internal training programmes and apprenticeships.",
+      "Some universities are launching joint programmes with network operators."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "University statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Industry survey",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "slug": "opinion-patch-fatigue-is-real-and-it-is-fixable",
+   "title": "Opinion: Patch fatigue is real, and it is fixable",
+   "category": "Technology",
+   "subcategory": "Opinion",
+   "type": "Opinion",
+   "author": "mara-lindqvist",
+   "date": "2026-09-17T20:42:00+02:00",
+   "updated": null,
+   "readingTime": 6,
+   "summary": "Monthly update volume overwhelms small IT teams, argues the author, but risk-based prioritisation can help.",
+   "image": null,
+   "imageAlt": "Editorial illustration for technology story: Opinion",
+   "tags": [
+    "Opinion",
+    "Patch Management",
+    "Vulnerability Management"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 15580,
+   "trendingScore": 4.0,
+   "brief": {
+    "what": "Monthly update volume overwhelms small IT teams, argues the author, but risk-based prioritisation can help.",
+    "who": "Small teams without dedicated vulnerability management feel the pressure most.",
+    "why": "Readers should weigh the argument against their own environment.",
+    "next": "The author recommends prioritising by exposure and known exploitation."
+   },
+   "whyItMatters": "Readers should weigh the argument against their own environment. Share feedback with the editors; opinion pieces are clearly labelled and separated from news.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Monthly update volume overwhelms small IT teams, argues the author, but risk-based prioritisation can help.",
+      "Treating every update as equally urgent leads to delays on the few that matter most."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "The argument",
+     "paragraphs": [
+      "This is an opinion piece reflecting the author's view.",
+      "It is based on the author's experience and reporting, and does not represent TECHWIRE news coverage."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Readers should weigh the argument against their own environment.",
+      "Small teams without dedicated vulnerability management feel the pressure most."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Share feedback with the editors; opinion pieces are clearly labelled and separated from news.",
+      "The author recommends prioritising by exposure and known exploitation."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Author's analysis",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "slug": "virtual-desktop-platform-adds-gpu-partitioning-for-engineering-workloads",
+   "title": "Virtual desktop platform adds GPU partitioning for engineering workloads",
+   "category": "Software",
+   "subcategory": "Virtual Desktops",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-17T19:54:00+02:00",
+   "updated": "2026-09-17T20:06:00+02:00",
+   "readingTime": 6,
+   "summary": "Administrators can divide a physical GPU across several virtual desktops with defined profiles.",
+   "image": null,
+   "imageAlt": "Editorial illustration for software story: Virtual Desktops",
+   "tags": [
+    "VDI",
+    "GPUs",
+    "Virtualization"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 23499,
+   "trendingScore": 7.7,
+   "brief": {
+    "what": "Administrators can divide a physical GPU across several virtual desktops with defined profiles.",
+    "who": "Organisations replacing physical workstations gain a centralised option.",
+    "why": "Organisations with remote engineering teams gain more flexible deployment options.",
+    "next": "The vendor publishes sizing guidance for common applications."
+   },
+   "whyItMatters": "Organisations with remote engineering teams gain more flexible deployment options. Size GPU profiles with real applications and validate licensing.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Administrators can divide a physical GPU across several virtual desktops with defined profiles.",
+      "The feature targets CAD and visualisation software used by remote engineering teams."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "GPU partitioning lets several virtual desktops share a physical GPU.",
+      "Engineering and design workloads benefit from GPU acceleration without dedicated workstations."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations with remote engineering teams gain more flexible deployment options.",
+      "Organisations replacing physical workstations gain a centralised option."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Size GPU profiles with real applications and validate licensing.",
+      "The vendor publishes sizing guidance for common applications."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Product documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "slug": "infrastructure-as-code-tool-adds-drift-detection-to-open-source-edition",
+   "title": "Infrastructure-as-code tool adds drift detection to open-source edition",
+   "category": "Dev",
+   "subcategory": "IaC",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-17T19:17:00+02:00",
+   "updated": "2026-09-17T19:42:00+02:00",
+   "readingTime": 7,
+   "summary": "Drift detection, previously limited to paid tiers, now ships in the open-source edition.",
+   "image": null,
+   "imageAlt": "Editorial illustration for dev story: IaC",
+   "tags": [
+    "Infrastructure as Code",
+    "DevOps",
+    "Automation"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 31418,
+   "trendingScore": 1.4,
+   "brief": {
+    "what": "Drift detection, previously limited to paid tiers, now ships in the open-source edition.",
+    "who": "Teams without separate drift tooling gain visibility at no extra cost.",
+    "why": "Teams without separate drift tooling gain visibility with less integration work.",
+    "next": "Maintainers plan remediation workflows in a later release."
+   },
+   "whyItMatters": "Teams without separate drift tooling gain visibility with less integration work. Schedule drift checks and define how drift should be remediated or codified.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Drift detection, previously limited to paid tiers, now ships in the open-source edition.",
+      "The feature compares deployed resources with state files on a schedule."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Infrastructure-as-code tools describe desired state, but manual changes create drift.",
+      "Built-in drift detection highlights differences between code and deployed resources."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Teams without separate drift tooling gain visibility with less integration work.",
+      "Teams without separate drift tooling gain visibility at no extra cost."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Schedule drift checks and define how drift should be remediated or codified.",
+      "Maintainers plan remediation workflows in a later release."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Project release notes",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Project documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "slug": "standards-body-finalises-post-quantum-hybrid-key-exchange-profile-for-tls",
+   "title": "Standards body finalises post-quantum hybrid key exchange profile for TLS",
+   "category": "Technology",
+   "subcategory": "Cryptography",
+   "type": "News",
+   "author": "mara-lindqvist",
+   "date": "2026-09-17T18:40:00+02:00",
+   "updated": "2026-09-17T19:20:00+02:00",
+   "readingTime": 7,
+   "summary": "The profile defines how classical and post-quantum key exchange are combined in TLS handshakes.",
+   "image": null,
+   "imageAlt": "Editorial illustration for technology story: Cryptography",
+   "tags": [
+    "Post-Quantum",
+    "TLS",
+    "Cryptography"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 39337,
+   "trendingScore": 5.1,
+   "brief": {
+    "what": "The profile defines how classical and post-quantum key exchange are combined in TLS handshakes.",
+    "who": "Organisations with long-term confidentiality requirements should begin testing.",
+    "why": "Organisations handling data with long confidentiality requirements should plan migration early.",
+    "next": "Library maintainers are expected to enable the final profile in coming releases."
+   },
+   "whyItMatters": "Organisations handling data with long confidentiality requirements should plan migration early. Inventory cryptographic dependencies and test hybrid modes with critical clients.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The profile defines how classical and post-quantum key exchange are combined in TLS handshakes.",
+      "Several browsers and libraries already support experimental versions of the scheme."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Post-quantum cryptography aims to protect data against future quantum computers.",
+      "Hybrid key exchange combines classical and post-quantum algorithms during a transition period."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations handling data with long confidentiality requirements should plan migration early.",
+      "Organisations with long-term confidentiality requirements should begin testing."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Inventory cryptographic dependencies and test hybrid modes with critical clients.",
+      "Library maintainers are expected to enable the final profile in coming releases."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Standards documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Working group publication",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "slug": "mail-server-project-deprecates-legacy-authentication-mechanisms",
+   "title": "Mail server project deprecates legacy authentication mechanisms",
+   "category": "Software",
+   "subcategory": "Email",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-17T17:52:00+02:00",
+   "updated": "2026-09-17T17:57:00+02:00",
+   "readingTime": 7,
+   "summary": "The next major version disables older authentication methods by default.",
+   "image": null,
+   "imageAlt": "Editorial illustration for software story: Email",
+   "tags": [
+    "Email",
+    "Authentication"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 47256,
+   "trendingScore": 8.8,
+   "brief": {
+    "what": "The next major version disables older authentication methods by default.",
+    "who": "Organisations with older devices that send email may need configuration changes.",
+    "why": "Organisations with older devices such as scanners that send email may be affected.",
+    "next": "The project will remove the mechanisms entirely in a later major version."
+   },
+   "whyItMatters": "Organisations with older devices such as scanners that send email may be affected. Identify legacy clients and migrate them to supported authentication methods.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The next major version disables older authentication methods by default.",
+      "Administrators can re-enable them temporarily through configuration during migration."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Legacy email authentication mechanisms send credentials in forms that are easier to intercept or replay.",
+      "Deprecation pushes clients towards modern authentication and encrypted transport."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations with older devices such as scanners that send email may be affected.",
+      "Organisations with older devices that send email may need configuration changes."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Identify legacy clients and migrate them to supported authentication methods.",
+      "The project will remove the mechanisms entirely in a later major version."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Project release notes",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "slug": "container-orchestration-release-removes-deprecated-in-tree-storage-drivers",
+   "title": "Container orchestration release removes deprecated in-tree storage drivers",
+   "category": "Dev",
+   "subcategory": "Containers",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-17T17:15:00+02:00",
+   "updated": null,
+   "readingTime": 3,
+   "summary": "Clusters must use external storage drivers before upgrading to the new release.",
+   "image": null,
+   "imageAlt": "Editorial illustration for dev story: Containers",
+   "tags": [
+    "Kubernetes",
+    "Storage",
+    "Containers"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 7175,
+   "trendingScore": 2.5,
+   "brief": {
+    "what": "Clusters must use external storage drivers before upgrading to the new release.",
+    "who": "Operators still using in-tree drivers need to migrate volumes before upgrading.",
+    "why": "Platform teams gain safer defaults but may need to adjust networking configurations.",
+    "next": "Upgrade guides include pre-flight checks for deprecated drivers."
+   },
+   "whyItMatters": "Platform teams gain safer defaults but may need to adjust networking configurations. Test rootless networking with existing workloads and document any required exceptions.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Clusters must use external storage drivers before upgrading to the new release.",
+      "The change completes a multi-year migration to the container storage interface."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Container runtimes isolate processes using kernel namespaces and control groups.",
+      "Running without root privileges reduces the impact of container escapes."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Platform teams gain safer defaults but may need to adjust networking configurations.",
+      "Operators still using in-tree drivers need to migrate volumes before upgrading."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Test rootless networking with existing workloads and document any required exceptions.",
+      "Upgrade guides include pre-flight checks for deprecated drivers."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Project release notes",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Project documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "slug": "right-to-repair-rules-reach-enterprise-networking-hardware",
+   "title": "Right-to-repair rules reach enterprise networking hardware",
+   "category": "Technology",
+   "subcategory": "Right to Repair",
+   "type": "Analysis",
+   "author": "mara-lindqvist",
+   "date": "2026-09-17T16:27:00+02:00",
+   "updated": "2026-09-17T16:39:00+02:00",
+   "readingTime": 3,
+   "summary": "New rules could give enterprise buyers access to parts and repair documentation for network equipment.",
+   "image": null,
+   "imageAlt": "Editorial illustration for technology story: Right to Repair",
+   "tags": [
+    "Hardware",
+    "Regulation",
+    "Networking"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 15094,
+   "trendingScore": 6.2,
+   "brief": {
+    "what": "New rules could give enterprise buyers access to parts and repair documentation for network equipment.",
+    "who": "Organisations running equipment beyond vendor support periods could benefit the most.",
+    "why": "Buyers may gain more options for maintaining equipment beyond vendor support periods.",
+    "next": "Procurement teams should monitor the final scope of the rules."
+   },
+   "whyItMatters": "Buyers may gain more options for maintaining equipment beyond vendor support periods. Track regulatory timelines and include repairability in procurement criteria.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "New rules could give enterprise buyers access to parts and repair documentation for network equipment.",
+      "Implementation details, including which product classes are covered, remain under discussion."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Right-to-repair rules require manufacturers to provide parts, tools and documentation.",
+      "Enterprise networking hardware has historically relied on vendor-only service contracts."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Buyers may gain more options for maintaining equipment beyond vendor support periods.",
+      "Organisations running equipment beyond vendor support periods could benefit the most."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Track regulatory timelines and include repairability in procurement criteria.",
+      "Procurement teams should monitor the final scope of the rules."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Regulator publication",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Legal commentary",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "slug": "backup-vendor-adds-immutable-snapshots-to-entry-level-tier",
+   "title": "Backup vendor adds immutable snapshots to entry-level tier",
+   "category": "Software",
+   "subcategory": "Backup",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-17T15:50:00+02:00",
+   "updated": "2026-09-17T16:15:00+02:00",
+   "readingTime": 3,
+   "summary": "Immutable snapshots, which cannot be altered or deleted for a set period, are now included in the smallest plan.",
+   "image": null,
+   "imageAlt": "Editorial illustration for software story: Backup",
+   "tags": [
+    "Backup",
+    "Ransomware",
+    "Storage"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 23013,
+   "trendingScore": 9.9,
+   "brief": {
+    "what": "Immutable snapshots, which cannot be altered or deleted for a set period, are now included in the smallest plan.",
+    "who": "Small businesses gain ransomware-resilient backups without upgrading.",
+    "why": "Financial institutions and critical service providers face the most direct requirements.",
+    "next": "The vendor recommends pairing immutability with restore testing."
+   },
+   "whyItMatters": "Financial institutions and critical service providers face the most direct requirements. Schedule automated restore tests, keep immutable copies and document recovery time results.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Immutable snapshots, which cannot be altered or deleted for a set period, are now included in the smallest plan.",
+      "Immutability protects backups from deletion by compromised administrator accounts."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Backups are only useful if they can be restored; untested backups frequently fail during real incidents.",
+      "Regulators and auditors increasingly ask for evidence of periodic restore testing, not only backup job success."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Financial institutions and critical service providers face the most direct requirements.",
+      "Small businesses gain ransomware-resilient backups without upgrading."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Schedule automated restore tests, keep immutable copies and document recovery time results.",
+      "The vendor recommends pairing immutability with restore testing."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Regulatory guidance",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Industry association",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "slug": "ci-cd-platform-tightens-default-token-permissions-for-pipelines",
+   "title": "CI/CD platform tightens default token permissions for pipelines",
+   "category": "Dev",
+   "subcategory": "CI/CD",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-17T15:13:00+02:00",
+   "updated": "2026-09-17T15:53:00+02:00",
+   "readingTime": 3,
+   "summary": "New pipelines receive read-only tokens by default, with write access requiring explicit configuration.",
+   "image": null,
+   "imageAlt": "Editorial illustration for dev story: CI/CD",
+   "tags": [
+    "CI/CD",
+    "Supply Chain",
+    "DevSecOps"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 30932,
+   "trendingScore": 3.6,
+   "brief": {
+    "what": "New pipelines receive read-only tokens by default, with write access requiring explicit configuration.",
+    "who": "Existing workflows that rely on implicit write access may need updates.",
+    "why": "Workflows that rely on implicit write access may need explicit permission changes.",
+    "next": "The platform provides an audit report of workflows likely to be affected."
+   },
+   "whyItMatters": "Workflows that rely on implicit write access may need explicit permission changes. Review pipeline permissions and grant write scopes only where needed.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "New pipelines receive read-only tokens by default, with write access requiring explicit configuration.",
+      "The change reduces the impact of compromised dependencies executing in pipelines."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Pipeline tokens often have broad permissions that attackers can abuse after compromising a workflow.",
+      "Least-privilege defaults reduce the impact of malicious dependencies or pull requests."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Workflows that rely on implicit write access may need explicit permission changes.",
+      "Existing workflows that rely on implicit write access may need updates."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Review pipeline permissions and grant write scopes only where needed.",
+      "The platform provides an audit report of workflows likely to be affected."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Product documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "slug": "regional-internet-registry-reports-record-ipv6-allocation-quarter",
+   "title": "Regional internet registry reports record IPv6 allocation quarter",
+   "category": "Technology",
+   "subcategory": "Internet Governance",
+   "type": "News",
+   "author": "mara-lindqvist",
+   "date": "2026-09-17T14:25:00+02:00",
+   "updated": "2026-09-17T14:30:00+02:00",
+   "readingTime": 3,
+   "summary": "The registry allocated more IPv6 blocks last quarter than in any previous quarter.",
+   "image": null,
+   "imageAlt": "Editorial illustration for technology story: Internet Governance",
+   "tags": [
+    "IPv6",
+    "Internet",
+    "RIR"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 38851,
+   "trendingScore": 7.3,
+   "brief": {
+    "what": "The registry allocated more IPv6 blocks last quarter than in any previous quarter.",
+    "who": "Networks still relying solely on IPv4 face rising address costs.",
+    "why": "Networks still relying solely on IPv4 face rising costs for address space.",
+    "next": "The registry will publish deployment statistics alongside allocation data."
+   },
+   "whyItMatters": "Networks still relying solely on IPv4 face rising costs for address space. Plan dual-stack deployment and IPv6 addressing policies.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The registry allocated more IPv6 blocks last quarter than in any previous quarter.",
+      "Allocation growth reflects deployment planning by access and hosting providers."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Regional internet registries allocate IP address space and track adoption statistics.",
+      "IPv6 allocation growth indicates deployment planning but not necessarily traffic share."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Networks still relying solely on IPv4 face rising costs for address space.",
+      "Networks still relying solely on IPv4 face rising address costs."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Plan dual-stack deployment and IPv6 addressing policies.",
+      "The registry will publish deployment statistics alongside allocation data."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Regional internet registry report",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "slug": "password-manager-adds-shared-vaults-for-on-call-teams",
+   "title": "Password manager adds shared vaults for on-call teams",
+   "category": "Software",
+   "subcategory": "Password Management",
+   "type": "News",
+   "author": "newsroom",
+   "date": "2026-09-17T13:48:00+02:00",
+   "updated": null,
+   "readingTime": 4,
+   "summary": "Teams can share credentials through vaults with time-limited emergency access.",
+   "image": null,
+   "imageAlt": "Editorial illustration for software story: Password Management",
+   "tags": [
+    "Identity",
+    "Secrets",
+    "Operations"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 46770,
+   "trendingScore": 1.0,
+   "brief": {
+    "what": "Teams can share credentials through vaults with time-limited emergency access.",
+    "who": "Operations teams sharing service accounts gain auditable access.",
+    "why": "Operations teams with shared service accounts gain better control.",
+    "next": "The feature is available on business plans."
+   },
+   "whyItMatters": "Operations teams with shared service accounts gain better control. Define vault ownership, access reviews and break-glass procedures.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Teams can share credentials through vaults with time-limited emergency access.",
+      "Every access is logged, and vault owners can require approval for sensitive items."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Shared vaults let teams manage credentials without passing secrets through chat or email.",
+      "On-call teams need emergency access with audit trails."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Operations teams with shared service accounts gain better control.",
+      "Operations teams sharing service accounts gain auditable access."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Define vault ownership, access reviews and break-glass procedures.",
+      "The feature is available on business plans."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Product documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  }
+ ]
+}

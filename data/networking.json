@@ -1,0 +1,961 @@
+{
+ "meta": {
+  "isDemo": true,
+  "anchor": "2026-09-18T10:00:00+02:00",
+  "notice": "All TECHWIRE content in this prototype is fictional demo data. It must not be presented as real news."
+ },
+ "articles": [
+  {
+   "id": 201,
+   "slug": "major-bgp-routing-incident-affects-multiple-regions",
+   "title": "Major BGP routing incident affects multiple regions",
+   "category": "Networking",
+   "subcategory": "BGP",
+   "type": "News",
+   "author": "elira-hoxha",
+   "date": "2026-09-18T09:46:00+02:00",
+   "updated": "2026-09-18T09:58:00+02:00",
+   "readingTime": 4,
+   "summary": "A route leak from a regional transit provider caused traffic for several content networks to take unusual paths for about 40 minutes.",
+   "image": null,
+   "imageAlt": "Editorial illustration for networking story: BGP",
+   "tags": [
+    "BGP",
+    "Routing",
+    "Internet"
+   ],
+   "isBreaking": true,
+   "featured": true,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 8919,
+   "trendingScore": 11.7,
+   "brief": {
+    "what": "A route leak from a regional transit provider caused traffic for several content networks to take unusual paths for about 40 minutes.",
+    "who": "Users in several regions reported slow or failed connections to affected services during the incident.",
+    "why": "Users may see slow or failed connections to services whose prefixes were affected, even though the services themselves remain healthy.",
+    "next": "The transit provider says it has corrected the filter configuration that allowed the leak."
+   },
+   "whyItMatters": "Users may see slow or failed connections to services whose prefixes were affected, even though the services themselves remain healthy. Network operators should validate RPKI filtering, review max-prefix limits and confirm that monitoring alerts on unexpected origin changes.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "A route leak from a regional transit provider caused traffic for several content networks to take unusual paths for about 40 minutes.",
+      "Monitoring data shows more-specific prefixes propagating through networks that did not enforce strict customer filtering."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "The Border Gateway Protocol relies largely on trust between networks; an incorrect announcement can propagate widely within minutes.",
+      "Route leaks and mis-originations are usually mitigated by RPKI route-origin validation and strict prefix filtering at network edges."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Users may see slow or failed connections to services whose prefixes were affected, even though the services themselves remain healthy.",
+      "Users in several regions reported slow or failed connections to affected services during the incident."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Network operators should validate RPKI filtering, review max-prefix limits and confirm that monitoring alerts on unexpected origin changes.",
+      "The transit provider says it has corrected the filter configuration that allowed the leak."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Routing monitoring data",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Network operator statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Regional internet registry",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Users in several regions reported slow or failed connections to affected services during the incident.",
+    "network": "Route leaks and mis-originations are usually mitigated by RPKI route-origin validation and strict prefix filtering at network edges.",
+    "security": "Validate control-plane protections, filtering and monitoring on affected devices.",
+    "checks": "Network operators should validate RPKI filtering, review max-prefix limits and confirm that monitoring alerts on unexpected origin changes.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 202,
+   "slug": "wi-fi-7-multi-link-operation-arrives-in-enterprise-access-points",
+   "title": "Wi-Fi 7 multi-link operation arrives in enterprise access points",
+   "category": "Networking",
+   "subcategory": "Wi-Fi",
+   "type": "News",
+   "author": "elira-hoxha",
+   "date": "2026-09-18T08:00:00+02:00",
+   "updated": "2026-09-18T08:25:00+02:00",
+   "readingTime": 4,
+   "summary": "Enterprise access point vendors are shipping firmware that enables multi-link operation for supported clients.",
+   "image": null,
+   "imageAlt": "Editorial illustration for networking story: Wi-Fi",
+   "tags": [
+    "Wi-Fi",
+    "Wireless",
+    "Aruba"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 16838,
+   "trendingScore": 7.4,
+   "brief": {
+    "what": "Enterprise access point vendors are shipping firmware that enables multi-link operation for supported clients.",
+    "who": "Benefits apply only to clients that support the feature, which remain a minority in most fleets.",
+    "why": "Benefits depend on client support; mixed fleets will see gains only on devices that implement the new capabilities.",
+    "next": "Vendors expect broader client support as laptop refresh cycles continue."
+   },
+   "whyItMatters": "Benefits depend on client support; mixed fleets will see gains only on devices that implement the new capabilities. Plan upgrades around client refresh cycles, validate wired uplink capacity and re-run site surveys before large rollouts.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Enterprise access point vendors are shipping firmware that enables multi-link operation for supported clients.",
+      "Multi-link operation allows a client to transmit over more than one band simultaneously."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Enterprise wireless design balances client capacity, roaming performance and channel planning across dense office environments.",
+      "Multi-link operation lets a client use more than one band at once, which can reduce latency and improve resilience against interference."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Benefits depend on client support; mixed fleets will see gains only on devices that implement the new capabilities.",
+      "Benefits apply only to clients that support the feature, which remain a minority in most fleets."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Plan upgrades around client refresh cycles, validate wired uplink capacity and re-run site surveys before large rollouts.",
+      "Vendors expect broader client support as laptop refresh cycles continue."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Standards body documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Vendor product documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Industry alliance",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Benefits apply only to clients that support the feature, which remain a minority in most fleets.",
+    "network": "Multi-link operation lets a client use more than one band at once, which can reduce latency and improve resilience against interference.",
+    "security": "Validate control-plane protections, filtering and monitoring on affected devices.",
+    "checks": "Plan upgrades around client refresh cycles, validate wired uplink capacity and re-run site surveys before large rollouts.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 203,
+   "slug": "cisco-announces-campus-networking-platform-with-unified-management",
+   "title": "Cisco announces campus networking platform with unified management",
+   "category": "Networking",
+   "subcategory": "Cisco",
+   "type": "News",
+   "author": "elira-hoxha",
+   "date": "2026-09-18T07:00:00+02:00",
+   "updated": "2026-09-18T07:40:00+02:00",
+   "readingTime": 4,
+   "summary": "The company describes a platform that manages switching, wireless and segmentation policy from one console.",
+   "image": null,
+   "imageAlt": "Editorial illustration for networking story: Cisco",
+   "tags": [
+    "Cisco",
+    "Campus",
+    "Network Management"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 24757,
+   "trendingScore": 1.1,
+   "brief": {
+    "what": "The company describes a platform that manages switching, wireless and segmentation policy from one console.",
+    "who": "Existing customers will need to check hardware compatibility and licensing before migrating.",
+    "why": "Existing customers will need to assess hardware compatibility and licensing models before migrating.",
+    "next": "The company says availability will be phased by region."
+   },
+   "whyItMatters": "Existing customers will need to assess hardware compatibility and licensing models before migrating. Review lifecycle dates for current hardware, pilot the management platform in a limited site and document rollback plans.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The company describes a platform that manages switching, wireless and segmentation policy from one console.",
+      "The platform supports both cloud-managed and on-premises controller deployments."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Campus networks have been moving towards centralised management and policy-based segmentation across wired and wireless access.",
+      "Vendors increasingly unify switching, wireless and security management under a single controller or cloud dashboard."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Existing customers will need to assess hardware compatibility and licensing models before migrating.",
+      "Existing customers will need to check hardware compatibility and licensing before migrating."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Review lifecycle dates for current hardware, pilot the management platform in a limited site and document rollback plans.",
+      "The company says availability will be phased by region."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Vendor product documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Existing customers will need to check hardware compatibility and licensing before migrating.",
+    "network": "Vendors increasingly unify switching, wireless and security management under a single controller or cloud dashboard.",
+    "security": "Validate control-plane protections, filtering and monitoring on affected devices.",
+    "checks": "Review lifecycle dates for current hardware, pilot the management platform in a limited site and document rollback plans.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 204,
+   "slug": "isp-outage-disrupts-connectivity-across-multiple-regions",
+   "title": "ISP outage disrupts connectivity across multiple regions",
+   "category": "Networking",
+   "subcategory": "Network Outages",
+   "type": "News",
+   "author": "elira-hoxha",
+   "date": "2026-09-18T08:58:00+02:00",
+   "updated": "2026-09-18T09:03:00+02:00",
+   "readingTime": 4,
+   "summary": "A regional internet provider restored service after a core routing fault disconnected business and residential customers.",
+   "image": null,
+   "imageAlt": "Editorial illustration for networking story: Network Outages",
+   "tags": [
+    "Outage",
+    "ISP",
+    "Internet"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 32676,
+   "trendingScore": 4.8,
+   "brief": {
+    "what": "A regional internet provider restored service after a core routing fault disconnected business and residential customers.",
+    "who": "Business customers without backup connections lost connectivity for about two hours.",
+    "why": "Businesses without a secondary connection experience complete loss of connectivity for the duration of the incident.",
+    "next": "The provider says it will publish a post-incident report."
+   },
+   "whyItMatters": "Businesses without a secondary connection experience complete loss of connectivity for the duration of the incident. Consider diverse secondary links, SD-WAN failover and documented escalation contacts with providers.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "A regional internet provider restored service after a core routing fault disconnected business and residential customers.",
+      "The provider says a configuration change during maintenance triggered the outage."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Regional ISP outages often stem from a single failure in core routing, power or fibre infrastructure.",
+      "Recovery time depends on redundancy in the provider's backbone and on whether the fault is logical (configuration) or physical (fibre cut)."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Businesses without a secondary connection experience complete loss of connectivity for the duration of the incident.",
+      "Business customers without backup connections lost connectivity for about two hours."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Consider diverse secondary links, SD-WAN failover and documented escalation contacts with providers.",
+      "The provider says it will publish a post-incident report."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Provider status page",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Network operator statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Internet measurement data",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Business customers without backup connections lost connectivity for about two hours.",
+    "network": "Recovery time depends on redundancy in the provider's backbone and on whether the fault is logical (configuration) or physical (fibre cut).",
+    "security": "Validate control-plane protections, filtering and monitoring on affected devices.",
+    "checks": "Consider diverse secondary links, SD-WAN failover and documented escalation contacts with providers.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 205,
+   "slug": "sd-wan-buyers-weigh-sase-convergence-against-vendor-lock-in",
+   "title": "SD-WAN buyers weigh SASE convergence against vendor lock-in",
+   "category": "Networking",
+   "subcategory": "SD-WAN",
+   "type": "Analysis",
+   "author": "elira-hoxha",
+   "date": "2026-09-18T05:00:00+02:00",
+   "updated": null,
+   "readingTime": 5,
+   "summary": "Organisations renewing SD-WAN contracts are evaluating whether to move to single-vendor SASE platforms.",
+   "image": null,
+   "imageAlt": "Editorial illustration for networking story: SD-WAN",
+   "tags": [
+    "SD-WAN",
+    "SASE",
+    "Fortinet"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 40595,
+   "trendingScore": 8.5,
+   "brief": {
+    "what": "Organisations renewing SD-WAN contracts are evaluating whether to move to single-vendor SASE platforms.",
+    "who": "Enterprises with large branch estates face the most complex decisions.",
+    "why": "Organisations with long MPLS contracts or complex on-premises security stacks face the largest migration effort.",
+    "next": "Expect more dual-vendor designs where security and connectivity are procured separately."
+   },
+   "whyItMatters": "Organisations with long MPLS contracts or complex on-premises security stacks face the largest migration effort. Map application flows first, evaluate exit costs and insist on standards-based interoperability where possible.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Organisations renewing SD-WAN contracts are evaluating whether to move to single-vendor SASE platforms.",
+      "Single-vendor platforms simplify operations but make future vendor changes more costly."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "SD-WAN replaced many MPLS networks by steering traffic across multiple internet and private links based on application policy.",
+      "Secure access service edge (SASE) combines SD-WAN with cloud-delivered security, which changes procurement from boxes to subscriptions."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations with long MPLS contracts or complex on-premises security stacks face the largest migration effort.",
+      "Enterprises with large branch estates face the most complex decisions."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Map application flows first, evaluate exit costs and insist on standards-based interoperability where possible.",
+      "Expect more dual-vendor designs where security and connectivity are procured separately."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Analyst commentary",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Vendor documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Customer interviews",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Enterprises with large branch estates face the most complex decisions.",
+    "network": "Secure access service edge (SASE) combines SD-WAN with cloud-delivered security, which changes procurement from boxes to subscriptions.",
+    "security": "Validate control-plane protections, filtering and monitoring on affected devices.",
+    "checks": "Map application flows first, evaluate exit costs and insist on standards-based interoperability where possible.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 206,
+   "slug": "router-operating-system-update-expands-bgp-filter-syntax",
+   "title": "Router operating system update expands BGP filter syntax",
+   "category": "Networking",
+   "subcategory": "MikroTik",
+   "type": "News",
+   "author": "elira-hoxha",
+   "date": "2026-09-18T03:30:00+02:00",
+   "updated": "2026-09-18T03:42:00+02:00",
+   "readingTime": 5,
+   "summary": "A router operating system update adds new matchers for large communities and AS-path regular expressions.",
+   "image": null,
+   "imageAlt": "Editorial illustration for networking story: MikroTik",
+   "tags": [
+    "MikroTik",
+    "BGP",
+    "Routing"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 48514,
+   "trendingScore": 2.2,
+   "brief": {
+    "what": "A router operating system update adds new matchers for large communities and AS-path regular expressions.",
+    "who": "Operators running BGP on small and mid-size edge routers gain more expressive policy options.",
+    "why": "Operators upgrading from older major versions will need to translate existing filter rules to the new syntax.",
+    "next": "Release notes recommend exporting configuration before upgrading."
+   },
+   "whyItMatters": "Operators upgrading from older major versions will need to translate existing filter rules to the new syntax. Test configuration migrations in a lab, export configurations before upgrading and verify route counts after changes.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "A router operating system update adds new matchers for large communities and AS-path regular expressions.",
+      "Existing filter rules continue to work, but new syntax is recommended for complex policies."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Router operating systems for small and mid-size networks increasingly expose advanced routing features once limited to carrier platforms.",
+      "Expressive BGP filter languages let operators match communities, prefix lengths and AS paths without external tooling."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Operators upgrading from older major versions will need to translate existing filter rules to the new syntax.",
+      "Operators running BGP on small and mid-size edge routers gain more expressive policy options."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Test configuration migrations in a lab, export configurations before upgrading and verify route counts after changes.",
+      "Release notes recommend exporting configuration before upgrading."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Official release notes",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Vendor documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Community forum",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Operators running BGP on small and mid-size edge routers gain more expressive policy options.",
+    "network": "Expressive BGP filter languages let operators match communities, prefix lengths and AS paths without external tooling.",
+    "security": "Validate control-plane protections, filtering and monitoring on affected devices.",
+    "checks": "Test configuration migrations in a lab, export configurations before upgrading and verify route counts after changes.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 207,
+   "slug": "private-5g-deployments-expand-in-manufacturing-sites",
+   "title": "Private 5G deployments expand in manufacturing sites",
+   "category": "Networking",
+   "subcategory": "5G",
+   "type": "News",
+   "author": "elira-hoxha",
+   "date": "2026-09-18T02:00:00+02:00",
+   "updated": "2026-09-18T02:25:00+02:00",
+   "readingTime": 5,
+   "summary": "Manufacturers are extending private 5G networks from pilots to full production floors.",
+   "image": null,
+   "imageAlt": "Editorial illustration for networking story: 5G",
+   "tags": [
+    "5G",
+    "Private Networks",
+    "OT"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 8433,
+   "trendingScore": 5.9,
+   "brief": {
+    "what": "Manufacturers are extending private 5G networks from pilots to full production floors.",
+    "who": "Industrial sites with mobile robots and large outdoor yards benefit most.",
+    "why": "Manufacturing and logistics sites with large outdoor or metal-heavy areas benefit the most.",
+    "next": "Integration with operational technology security zones remains a focus."
+   },
+   "whyItMatters": "Manufacturing and logistics sites with large outdoor or metal-heavy areas benefit the most. Evaluate spectrum availability, device ecosystem and integration with existing OT security zones before committing.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Manufacturers are extending private 5G networks from pilots to full production floors.",
+      "Operators cite predictable latency and coverage in metal-heavy environments as key reasons."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Private cellular networks give industrial sites predictable coverage and mobility for machines and sensors.",
+      "Unlike Wi-Fi, private 5G uses licensed or shared spectrum and a dedicated core, which changes both design and operations."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Manufacturing and logistics sites with large outdoor or metal-heavy areas benefit the most.",
+      "Industrial sites with mobile robots and large outdoor yards benefit most."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Evaluate spectrum availability, device ecosystem and integration with existing OT security zones before committing.",
+      "Integration with operational technology security zones remains a focus."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Industry association report",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Operator statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Industrial sites with mobile robots and large outdoor yards benefit most.",
+    "network": "Unlike Wi-Fi, private 5G uses licensed or shared spectrum and a dedicated core, which changes both design and operations.",
+    "security": "Validate control-plane protections, filtering and monitoring on affected devices.",
+    "checks": "Evaluate spectrum availability, device ecosystem and integration with existing OT security zones before committing.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 208,
+   "slug": "datacenter-operators-adopt-400g-leaf-spine-fabrics-at-scale",
+   "title": "Datacenter operators adopt 400G leaf-spine fabrics at scale",
+   "category": "Networking",
+   "subcategory": "Datacenter Networking",
+   "type": "News",
+   "author": "elira-hoxha",
+   "date": "2026-09-18T00:45:00+02:00",
+   "updated": "2026-09-18T01:25:00+02:00",
+   "readingTime": 5,
+   "summary": "Operators report moving spine layers to 400G while keeping 100G connections to servers.",
+   "image": null,
+   "imageAlt": "Editorial illustration for networking story: Datacenter Networking",
+   "tags": [
+    "Datacenter",
+    "EVPN",
+    "Juniper"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 16352,
+   "trendingScore": 9.6,
+   "brief": {
+    "what": "Operators report moving spine layers to 400G while keeping 100G connections to servers.",
+    "who": "Power per port is becoming a central planning metric.",
+    "why": "Operators must balance optics cost, power budgets and cabling plant lifetime.",
+    "next": "Several operators plan 800G trials in spine layers next year."
+   },
+   "whyItMatters": "Operators must balance optics cost, power budgets and cabling plant lifetime. Model power per port, standardise optics types and validate EVPN/VXLAN designs at scale in staging.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Operators report moving spine layers to 400G while keeping 100G connections to servers.",
+      "EVPN-VXLAN remains the most common overlay for multi-tenant designs."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Leaf-spine topologies provide predictable latency by keeping every server at most two switch hops from any other.",
+      "Higher-speed optics reduce the number of links required, but increase power and cooling requirements per rack."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Operators must balance optics cost, power budgets and cabling plant lifetime.",
+      "Power per port is becoming a central planning metric."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Model power per port, standardise optics types and validate EVPN/VXLAN designs at scale in staging.",
+      "Several operators plan 800G trials in spine layers next year."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Operator case study",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Standards documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Vendor datasheets",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Power per port is becoming a central planning metric.",
+    "network": "Higher-speed optics reduce the number of links required, but increase power and cooling requirements per rack.",
+    "security": "Validate control-plane protections, filtering and monitoring on affected devices.",
+    "checks": "Model power per port, standardise optics types and validate EVPN/VXLAN designs at scale in staging.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 209,
+   "slug": "operators-report-ospf-adjacency-flaps-after-firmware-upgrades",
+   "title": "Operators report OSPF adjacency flaps after firmware upgrades",
+   "category": "Networking",
+   "subcategory": "OSPF",
+   "type": "News",
+   "author": "elira-hoxha",
+   "date": "2026-09-18T06:00:00+02:00",
+   "updated": "2026-09-18T06:05:00+02:00",
+   "readingTime": 5,
+   "summary": "Several network operators describe OSPF adjacencies flapping after routine firmware upgrades on core switches.",
+   "image": null,
+   "imageAlt": "Editorial illustration for networking story: OSPF",
+   "tags": [
+    "OSPF",
+    "Routing",
+    "Firmware"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 24271,
+   "trendingScore": 3.3,
+   "brief": {
+    "what": "Several network operators describe OSPF adjacencies flapping after routine firmware upgrades on core switches.",
+    "who": "Networks with mixed firmware versions across OSPF neighbours are most affected.",
+    "why": "Flapping adjacencies trigger repeated SPF calculations and can cause brief traffic loss across the area.",
+    "next": "A vendor field notice recommends explicitly configuring MTU on affected interfaces."
+   },
+   "whyItMatters": "Flapping adjacencies trigger repeated SPF calculations and can cause brief traffic loss across the area. Pin critical parameters explicitly in configuration, compare running defaults before and after upgrades, and alert on adjacency changes.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Several network operators describe OSPF adjacencies flapping after routine firmware upgrades on core switches.",
+      "Initial analysis points to changed MTU handling defaults between releases."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "OSPF adjacencies depend on matching timers, MTU, area settings and authentication on both neighbours.",
+      "Firmware upgrades can change defaults such as MTU handling or authentication behaviour, which causes adjacencies to flap."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Flapping adjacencies trigger repeated SPF calculations and can cause brief traffic loss across the area.",
+      "Networks with mixed firmware versions across OSPF neighbours are most affected."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Pin critical parameters explicitly in configuration, compare running defaults before and after upgrades, and alert on adjacency changes.",
+      "A vendor field notice recommends explicitly configuring MTU on affected interfaces."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Operator reports",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Vendor field notice",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Community forum",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Networks with mixed firmware versions across OSPF neighbours are most affected.",
+    "network": "Firmware upgrades can change defaults such as MTU handling or authentication behaviour, which causes adjacencies to flap.",
+    "security": "Validate control-plane protections, filtering and monitoring on affected devices.",
+    "checks": "Pin critical parameters explicitly in configuration, compare running defaults before and after upgrades, and alert on adjacency changes.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 210,
+   "slug": "undersea-cable-repair-restores-capacity-on-regional-route",
+   "title": "Undersea cable repair restores capacity on regional route",
+   "category": "Networking",
+   "subcategory": "Internet Infrastructure",
+   "type": "News",
+   "author": "elira-hoxha",
+   "date": "2026-09-17T23:40:00+02:00",
+   "updated": null,
+   "readingTime": 5,
+   "summary": "A repair ship has restored a damaged undersea cable segment, returning capacity to a regional route.",
+   "image": null,
+   "imageAlt": "Editorial illustration for networking story: Internet Infrastructure",
+   "tags": [
+    "Undersea Cables",
+    "Internet",
+    "Latency"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 32190,
+   "trendingScore": 7.0,
+   "brief": {
+    "what": "A repair ship has restored a damaged undersea cable segment, returning capacity to a regional route.",
+    "who": "Users in the region should see latency return to previous levels.",
+    "why": "Users in regions with few cable landings are most affected by single cable faults.",
+    "next": "The cable operator says the cause of the damage is under investigation."
+   },
+   "whyItMatters": "Users in regions with few cable landings are most affected by single cable faults. Carriers and large enterprises should understand the physical diversity of their international paths.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "A repair ship has restored a damaged undersea cable segment, returning capacity to a regional route.",
+      "Traffic had been rerouted over longer paths during the repair, increasing latency for some users."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Most intercontinental traffic travels over undersea cables, and repairs require specialised ships and suitable weather.",
+      "When a cable fails, traffic shifts to alternative routes, which can increase latency until capacity is restored."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Users in regions with few cable landings are most affected by single cable faults.",
+      "Users in the region should see latency return to previous levels."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Carriers and large enterprises should understand the physical diversity of their international paths.",
+      "The cable operator says the cause of the damage is under investigation."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Cable operator statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Internet measurement data",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Users in the region should see latency return to previous levels.",
+    "network": "When a cable fails, traffic shifts to alternative routes, which can increase latency until capacity is restored.",
+    "security": "Validate control-plane protections, filtering and monitoring on affected devices.",
+    "checks": "Carriers and large enterprises should understand the physical diversity of their international paths.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  }
+ ]
+}

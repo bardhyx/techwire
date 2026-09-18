@@ -1,0 +1,978 @@
+{
+ "meta": {
+  "isDemo": true,
+  "anchor": "2026-09-18T10:00:00+02:00",
+  "notice": "All TECHWIRE content in this prototype is fictional demo data. It must not be presented as real news."
+ },
+ "articles": [
+  {
+   "id": 101,
+   "slug": "critical-vulnerability-disclosed-in-enterprise-vpn-appliance-management-interfac",
+   "title": "Critical vulnerability disclosed in enterprise VPN appliance management interface",
+   "category": "Cybersecurity",
+   "subcategory": "Vulnerability",
+   "type": "News",
+   "author": "security-desk",
+   "date": "2026-09-18T09:58:00+02:00",
+   "updated": "2026-09-18T10:10:00+02:00",
+   "readingTime": 3,
+   "summary": "A vendor has released fixes for an unauthenticated flaw that could allow command execution on exposed appliances.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cybersecurity story: Vulnerability",
+   "tags": [
+    "VPN",
+    "Vulnerability",
+    "Edge Devices"
+   ],
+   "isBreaking": true,
+   "featured": true,
+   "isDemo": true,
+   "cve": "CVE-DEMO-2026-1042",
+   "cvss": 9.8,
+   "severity": "Critical",
+   "views": 33019,
+   "trendingScore": 14.7,
+   "brief": {
+    "what": "A vendor has released fixes for an unauthenticated flaw that could allow command execution on exposed appliances.",
+    "who": "Administrators whose appliance management interfaces are reachable from the internet should treat the update as a priority.",
+    "why": "Organisations that expose the management plane of affected devices face the highest risk; devices reachable only from an isolated management VLAN are considerably less exposed.",
+    "next": "The vendor says it will update the advisory if exploitation is observed."
+   },
+   "whyItMatters": "Organisations that expose the management plane of affected devices face the highest risk; devices reachable only from an isolated management VLAN are considerably less exposed. Restrict management access to dedicated networks, apply the vendor fix according to change-control procedures, and review device logs for unexpected administrative sessions.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "A vendor has released fixes for an unauthenticated flaw that could allow command execution on exposed appliances.",
+      "The issue affects the web management interface and does not require user interaction, according to the advisory."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Management interfaces on edge appliances are designed to be reachable only from trusted administration networks, but scanning data regularly shows them exposed to the internet.",
+      "Flaws that combine missing authentication with command execution are typically rated at the top of the CVSS scale because they need no credentials and no user interaction."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations that expose the management plane of affected devices face the highest risk; devices reachable only from an isolated management VLAN are considerably less exposed.",
+      "Administrators whose appliance management interfaces are reachable from the internet should treat the update as a priority."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Restrict management access to dedicated networks, apply the vendor fix according to change-control procedures, and review device logs for unexpected administrative sessions.",
+      "The vendor says it will update the advisory if exploitation is observed."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor security advisory",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "NVD entry",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "National CERT notice",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Administrators whose appliance management interfaces are reachable from the internet should treat the update as a priority.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Flaws that combine missing authentication with command execution are typically rated at the top of the CVSS scale because they need no credentials and no user interaction.",
+    "checks": "Restrict management access to dedicated networks, apply the vendor fix according to change-control procedures, and review device logs for unexpected administrative sessions.",
+    "detection": "Search logs for requests to the affected component and review vendor indicators referenced for CVE-DEMO-2026-1042.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 102,
+   "slug": "monthly-security-updates-address-critical-flaws-in-widely-used-enterprise-system",
+   "title": "Monthly security updates address critical flaws in widely used enterprise systems",
+   "category": "Cybersecurity",
+   "subcategory": "Security Advisory",
+   "type": "News",
+   "author": "security-desk",
+   "date": "2026-09-18T09:34:00+02:00",
+   "updated": "2026-09-18T09:59:00+02:00",
+   "readingTime": 3,
+   "summary": "This month's coordinated update cycle fixes several critical issues across server and desktop platforms.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cybersecurity story: Security Advisory",
+   "tags": [
+    "Patch Management",
+    "Windows",
+    "Advisory"
+   ],
+   "isBreaking": true,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": "Critical",
+   "views": 40938,
+   "trendingScore": 15.4,
+   "brief": {
+    "what": "This month's coordinated update cycle fixes several critical issues across server and desktop platforms.",
+    "who": "Most organisations running the affected platforms should schedule the updates in this month's cycle.",
+    "why": "Most organisations are affected in some way because the updates cover widely deployed operating systems and productivity software.",
+    "next": "Administrators should watch for revised guidance if exploitation status changes."
+   },
+   "whyItMatters": "Most organisations are affected in some way because the updates cover widely deployed operating systems and productivity software. Prioritise internet-facing systems and anything listed as exploited, test updates on a representative group, then roll out in rings.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "This month's coordinated update cycle fixes several critical issues across server and desktop platforms.",
+      "The release notes list two issues as publicly disclosed and one as assessed more likely to be exploited."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Coordinated monthly release cycles bundle fixes for many products, which lets administrators plan maintenance windows but also concentrates risk into a single cycle.",
+      "Advisories typically distinguish between issues that are publicly disclosed, those that are known to be exploited and those assessed as more likely to be exploited."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Most organisations are affected in some way because the updates cover widely deployed operating systems and productivity software.",
+      "Most organisations running the affected platforms should schedule the updates in this month's cycle."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Prioritise internet-facing systems and anything listed as exploited, test updates on a representative group, then roll out in rings.",
+      "Administrators should watch for revised guidance if exploitation status changes."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor release notes",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "CISA KEV catalogue",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Vendor security update guide",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Most organisations running the affected platforms should schedule the updates in this month's cycle.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Advisories typically distinguish between issues that are publicly disclosed, those that are known to be exploited and those assessed as more likely to be exploited.",
+    "checks": "Prioritise internet-facing systems and anything listed as exploited, test updates on a representative group, then roll out in rings.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 103,
+   "slug": "ransomware-groups-increasingly-target-hypervisor-hosts-researchers-report",
+   "title": "Ransomware groups increasingly target hypervisor hosts, researchers report",
+   "category": "Cybersecurity",
+   "subcategory": "Ransomware",
+   "type": "Analysis",
+   "author": "daniel-okafor",
+   "date": "2026-09-18T08:25:00+02:00",
+   "updated": "2026-09-18T09:05:00+02:00",
+   "readingTime": 4,
+   "summary": "Incident responders describe a rise in attacks that encrypt virtual machine storage directly on hypervisors.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cybersecurity story: Ransomware",
+   "tags": [
+    "Ransomware",
+    "Virtualization",
+    "Incident Response"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": "High",
+   "views": 48857,
+   "trendingScore": 1.1,
+   "brief": {
+    "what": "Incident responders describe a rise in attacks that encrypt virtual machine storage directly on hypervisors.",
+    "who": "Organisations managing hypervisors with shared directory accounts face elevated risk.",
+    "why": "Organisations that manage hypervisors with domain-joined accounts or without multi-factor authentication are most exposed.",
+    "next": "Researchers expect the technique to spread as tooling becomes commoditised."
+   },
+   "whyItMatters": "Organisations that manage hypervisors with domain-joined accounts or without multi-factor authentication are most exposed. Separate hypervisor administration from the corporate directory, enforce MFA, keep immutable offline backups and rehearse restoration of entire clusters.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Incident responders describe a rise in attacks that encrypt virtual machine storage directly on hypervisors.",
+      "In the cases reviewed, attackers gained hypervisor access using credentials obtained earlier in the intrusion."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Ransomware operators increasingly target virtualization layers, because encrypting a single hypervisor datastore can take dozens of virtual machines offline at once.",
+      "Common intrusion paths include exposed management interfaces, reused credentials and compromised remote access, followed by manual lateral movement to the virtualization tier."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations that manage hypervisors with domain-joined accounts or without multi-factor authentication are most exposed.",
+      "Organisations managing hypervisors with shared directory accounts face elevated risk."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Separate hypervisor administration from the corporate directory, enforce MFA, keep immutable offline backups and rehearse restoration of entire clusters.",
+      "Researchers expect the technique to spread as tooling becomes commoditised."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Incident response firm report",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "National CERT",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Organisations managing hypervisors with shared directory accounts face elevated risk.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Common intrusion paths include exposed management interfaces, reused credentials and compromised remote access, followed by manual lateral movement to the virtualization tier.",
+    "checks": "Separate hypervisor administration from the corporate directory, enforce MFA, keep immutable offline backups and rehearse restoration of entire clusters.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 104,
+   "slug": "regional-logistics-firm-confirms-unauthorised-access-to-customer-portal",
+   "title": "Regional logistics firm confirms unauthorised access to customer portal",
+   "category": "Cybersecurity",
+   "subcategory": "Data Breach",
+   "type": "News",
+   "author": "daniel-okafor",
+   "date": "2026-09-18T07:30:00+02:00",
+   "updated": "2026-09-18T07:35:00+02:00",
+   "readingTime": 4,
+   "summary": "The company says an attacker accessed names, addresses and shipment references stored in its customer portal.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cybersecurity story: Data Breach",
+   "tags": [
+    "Data Breach",
+    "Privacy"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": "Medium",
+   "views": 8776,
+   "trendingScore": 4.8,
+   "brief": {
+    "what": "The company says an attacker accessed names, addresses and shipment references stored in its customer portal.",
+    "who": "Affected customers are being notified by email and letter.",
+    "why": "Affected customers may face targeted phishing that references genuine account details.",
+    "next": "The company says its investigation with an external forensics firm is continuing."
+   },
+   "whyItMatters": "Affected customers may face targeted phishing that references genuine account details. Customers should treat unexpected messages with caution and rotate credentials used on the portal; organisations should review third-party access to similar systems.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The company says an attacker accessed names, addresses and shipment references stored in its customer portal.",
+      "The firm says payment data is processed by a separate provider and was not affected."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Customer portals aggregate personal data and often integrate with older back-end systems that were not designed for direct internet exposure.",
+      "Initial disclosures usually describe scope conservatively; the number of affected records often changes as forensic investigation continues."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Affected customers may face targeted phishing that references genuine account details.",
+      "Affected customers are being notified by email and letter."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Customers should treat unexpected messages with caution and rotate credentials used on the portal; organisations should review third-party access to similar systems.",
+      "The company says its investigation with an external forensics firm is continuing."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Data protection authority notice",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Breach notification filing",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Affected customers are being notified by email and letter.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Initial disclosures usually describe scope conservatively; the number of affected records often changes as forensic investigation continues.",
+    "checks": "Customers should treat unexpected messages with caution and rotate credentials used on the portal; organisations should review third-party access to similar systems.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 105,
+   "slug": "zero-day-in-managed-file-transfer-software-exploited-before-fix-availability",
+   "title": "Zero-day in managed file transfer software exploited before fix availability",
+   "category": "Cybersecurity",
+   "subcategory": "Zero-Day",
+   "type": "News",
+   "author": "security-desk",
+   "date": "2026-09-18T09:12:00+02:00",
+   "updated": null,
+   "readingTime": 4,
+   "summary": "The vendor has published mitigations for a vulnerability that it says was exploited against a limited number of customers.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cybersecurity story: Zero-Day",
+   "tags": [
+    "Zero-Day",
+    "File Transfer",
+    "Exploited"
+   ],
+   "isBreaking": true,
+   "featured": false,
+   "isDemo": true,
+   "cve": "CVE-DEMO-2026-0987",
+   "cvss": 9.1,
+   "severity": "Critical",
+   "views": 16695,
+   "trendingScore": 19.5,
+   "brief": {
+    "what": "The vendor has published mitigations for a vulnerability that it says was exploited against a limited number of customers.",
+    "who": "Customers exposing the service directly to the internet should apply the mitigation immediately.",
+    "why": "Organisations that expose the affected service directly to the internet are at greatest risk until a fix is applied.",
+    "next": "Indicators of compromise have been published to support investigation."
+   },
+   "whyItMatters": "Organisations that expose the affected service directly to the internet are at greatest risk until a fix is applied. Apply vendor mitigations immediately, restrict exposure, search logs for the published indicators and plan patching as soon as a fix is released.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The vendor has published mitigations for a vulnerability that it says was exploited against a limited number of customers.",
+      "A permanent fix is expected within days; the interim mitigation disables the affected component."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "A zero-day is a vulnerability that is exploited before the vendor has released a fix, leaving defenders to rely on mitigations and detection.",
+      "Managed file transfer products are attractive targets because they sit at the network edge and handle sensitive data exchanged with partners."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations that expose the affected service directly to the internet are at greatest risk until a fix is applied.",
+      "Customers exposing the service directly to the internet should apply the mitigation immediately."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Apply vendor mitigations immediately, restrict exposure, search logs for the published indicators and plan patching as soon as a fix is released.",
+      "Indicators of compromise have been published to support investigation."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor security advisory",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "CISA KEV catalogue",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Customers exposing the service directly to the internet should apply the mitigation immediately.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Managed file transfer products are attractive targets because they sit at the network edge and handle sensitive data exchanged with partners.",
+    "checks": "Apply vendor mitigations immediately, restrict exposure, search logs for the published indicators and plan patching as soon as a fix is released.",
+    "detection": "Search logs for requests to the affected component and review vendor indicators referenced for CVE-DEMO-2026-0987.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 106,
+   "slug": "threat-actor-uses-compromised-edge-routers-as-relay-network",
+   "title": "Threat actor uses compromised edge routers as relay network",
+   "category": "Cybersecurity",
+   "subcategory": "APT",
+   "type": "Research",
+   "author": "daniel-okafor",
+   "date": "2026-09-18T06:30:00+02:00",
+   "updated": "2026-09-18T06:42:00+02:00",
+   "readingTime": 4,
+   "summary": "Researchers describe an operation that routes traffic through hundreds of compromised small-office routers.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cybersecurity story: APT",
+   "tags": [
+    "APT",
+    "Routers",
+    "Threat Intelligence"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": "High",
+   "views": 24614,
+   "trendingScore": 2.2,
+   "brief": {
+    "what": "Researchers describe an operation that routes traffic through hundreds of compromised small-office routers.",
+    "who": "Device owners are unlikely to notice the compromise, but their networks are used to disguise malicious traffic.",
+    "why": "Owners of compromised devices usually suffer little direct damage, which is why infections can persist for long periods.",
+    "next": "The researchers have shared indicators with national CERTs and affected ISPs."
+   },
+   "whyItMatters": "Owners of compromised devices usually suffer little direct damage, which is why infections can persist for long periods. Replace end-of-life edge devices, disable remote management from the internet and monitor for unexpected outbound connections from network equipment.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Researchers describe an operation that routes traffic through hundreds of compromised small-office routers.",
+      "Most of the devices identified were end-of-life models that no longer receive firmware updates."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "State-aligned groups frequently build relay networks from compromised routers and IoT devices to obscure the origin of their operations.",
+      "End-of-life edge devices that no longer receive firmware updates are a recurring component of these networks."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Owners of compromised devices usually suffer little direct damage, which is why infections can persist for long periods.",
+      "Device owners are unlikely to notice the compromise, but their networks are used to disguise malicious traffic."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Replace end-of-life edge devices, disable remote management from the internet and monitor for unexpected outbound connections from network equipment.",
+      "The researchers have shared indicators with national CERTs and affected ISPs."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Threat intelligence report",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Joint government advisory",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Device owners are unlikely to notice the compromise, but their networks are used to disguise malicious traffic.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "End-of-life edge devices that no longer receive firmware updates are a recurring component of these networks.",
+    "checks": "Replace end-of-life edge devices, disable remote management from the internet and monitor for unexpected outbound connections from network equipment.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 107,
+   "slug": "loader-malware-abuses-signed-drivers-to-disable-endpoint-agents",
+   "title": "Loader malware abuses signed drivers to disable endpoint agents",
+   "category": "Cybersecurity",
+   "subcategory": "Malware",
+   "type": "Research",
+   "author": "daniel-okafor",
+   "date": "2026-09-18T04:30:00+02:00",
+   "updated": "2026-09-18T04:55:00+02:00",
+   "readingTime": 4,
+   "summary": "Analysts document a loader that installs a vulnerable signed driver to terminate security software.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cybersecurity story: Malware",
+   "tags": [
+    "Malware",
+    "EDR",
+    "Detection Engineering"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": "High",
+   "views": 32533,
+   "trendingScore": 5.9,
+   "brief": {
+    "what": "Analysts document a loader that installs a vulnerable signed driver to terminate security software.",
+    "who": "Systems without vulnerable driver block lists are the most exposed.",
+    "why": "Environments without driver block lists or kernel-mode protections enabled are the most exposed.",
+    "next": "The report includes detection rules for driver installation events."
+   },
+   "whyItMatters": "Environments without driver block lists or kernel-mode protections enabled are the most exposed. Enable vulnerable driver block lists, alert on new driver installations and monitor for security agents stopping unexpectedly.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Analysts document a loader that installs a vulnerable signed driver to terminate security software.",
+      "Once protection is disabled, the loader retrieves a second-stage payload from attacker infrastructure."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Bring-your-own-vulnerable-driver techniques load legitimately signed but flawed drivers to gain kernel access.",
+      "With kernel access, malware can terminate or blind endpoint protection agents before deploying its main payload."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Environments without driver block lists or kernel-mode protections enabled are the most exposed.",
+      "Systems without vulnerable driver block lists are the most exposed."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Enable vulnerable driver block lists, alert on new driver installations and monitor for security agents stopping unexpectedly.",
+      "The report includes detection rules for driver installation events."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Malware analysis report",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Vendor threat research",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Detection engineering note",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Systems without vulnerable driver block lists are the most exposed.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "With kernel access, malware can terminate or blind endpoint protection agents before deploying its main payload.",
+    "checks": "Enable vulnerable driver block lists, alert on new driver installations and monitor for security agents stopping unexpectedly.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 108,
+   "slug": "initial-access-brokers-pivot-to-cloud-identity-tokens",
+   "title": "Initial access brokers pivot to cloud identity tokens",
+   "category": "Cybersecurity",
+   "subcategory": "Threat Intelligence",
+   "type": "Analysis",
+   "author": "daniel-okafor",
+   "date": "2026-09-18T03:00:00+02:00",
+   "updated": "2026-09-18T03:40:00+02:00",
+   "readingTime": 5,
+   "summary": "Listings on criminal marketplaces increasingly advertise session tokens rather than passwords.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cybersecurity story: Threat Intelligence",
+   "tags": [
+    "Identity",
+    "Threat Intelligence",
+    "SaaS"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": "High",
+   "views": 40452,
+   "trendingScore": 9.6,
+   "brief": {
+    "what": "Listings on criminal marketplaces increasingly advertise session tokens rather than passwords.",
+    "who": "Organisations with long-lived sessions across many SaaS applications face the broadest exposure.",
+    "why": "Organisations relying heavily on single sign-on can see one stolen token translate into access to many applications.",
+    "next": "Analysts expect token theft to feature prominently in intrusions over the next year."
+   },
+   "whyItMatters": "Organisations relying heavily on single sign-on can see one stolen token translate into access to many applications. Shorten token lifetimes where practical, bind sessions to devices, and monitor for token reuse from unfamiliar locations.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Listings on criminal marketplaces increasingly advertise session tokens rather than passwords.",
+      "Stolen tokens can bypass multi-factor authentication until they expire or are revoked."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Initial access brokers sell footholds into corporate networks to other criminal groups.",
+      "As multi-factor authentication spreads, stolen session tokens and OAuth grants have become more valuable than passwords."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations relying heavily on single sign-on can see one stolen token translate into access to many applications.",
+      "Organisations with long-lived sessions across many SaaS applications face the broadest exposure."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Shorten token lifetimes where practical, bind sessions to devices, and monitor for token reuse from unfamiliar locations.",
+      "Analysts expect token theft to feature prominently in intrusions over the next year."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Threat intelligence report",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Industry ISAC",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Organisations with long-lived sessions across many SaaS applications face the broadest exposure.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "As multi-factor authentication spreads, stolen session tokens and OAuth grants have become more valuable than passwords.",
+    "checks": "Shorten token lifetimes where practical, bind sessions to devices, and monitor for token reuse from unfamiliar locations.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 109,
+   "slug": "authentication-bypass-fixed-in-open-source-web-application-firewall",
+   "title": "Authentication bypass fixed in open-source web application firewall",
+   "category": "Cybersecurity",
+   "subcategory": "CVE",
+   "type": "News",
+   "author": "daniel-okafor",
+   "date": "2026-09-18T05:40:00+02:00",
+   "updated": "2026-09-18T05:45:00+02:00",
+   "readingTime": 5,
+   "summary": "Maintainers have released a fix for a flaw that allowed crafted requests to reach the administrative API.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cybersecurity story: CVE",
+   "tags": [
+    "WAF",
+    "Open Source",
+    "Vulnerability"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": "CVE-DEMO-2026-1107",
+   "cvss": 8.1,
+   "severity": "High",
+   "views": 48371,
+   "trendingScore": 6.3,
+   "brief": {
+    "what": "Maintainers have released a fix for a flaw that allowed crafted requests to reach the administrative API.",
+    "who": "Deployments exposing the administrative API to untrusted networks are affected.",
+    "why": "Deployments that expose the administrative API are most at risk; embedded copies inside appliances may remain unpatched longer.",
+    "next": "Downstream vendors embedding the project are expected to publish their own advisories."
+   },
+   "whyItMatters": "Deployments that expose the administrative API are most at risk; embedded copies inside appliances may remain unpatched longer. Update to the fixed release, check vendor appliances that embed the component, and restrict administrative APIs to trusted networks.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Maintainers have released a fix for a flaw that allowed crafted requests to reach the administrative API.",
+      "The issue stems from inconsistent URL normalisation between the proxy and the admin router."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Open-source security components are widely embedded in commercial products, so a single fix may need to propagate through many downstream vendors.",
+      "Authentication bypass issues let requests reach protected functions without valid credentials, typically because of inconsistent request parsing."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Deployments that expose the administrative API are most at risk; embedded copies inside appliances may remain unpatched longer.",
+      "Deployments exposing the administrative API to untrusted networks are affected."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Update to the fixed release, check vendor appliances that embed the component, and restrict administrative APIs to trusted networks.",
+      "Downstream vendors embedding the project are expected to publish their own advisories."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Project security advisory",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "NVD entry",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "GitHub Security Advisory",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Deployments exposing the administrative API to untrusted networks are affected.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Authentication bypass issues let requests reach protected functions without valid credentials, typically because of inconsistent request parsing.",
+    "checks": "Update to the fixed release, check vendor appliances that embed the component, and restrict administrative APIs to trusted networks.",
+    "detection": "Search logs for requests to the affected component and review vendor indicators referenced for CVE-DEMO-2026-1107.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 110,
+   "slug": "national-cert-issues-guidance-on-securing-remote-management-tools",
+   "title": "National CERT issues guidance on securing remote management tools",
+   "category": "Cybersecurity",
+   "subcategory": "Security Advisory",
+   "type": "News",
+   "author": "daniel-okafor",
+   "date": "2026-09-18T01:30:00+02:00",
+   "updated": null,
+   "readingTime": 5,
+   "summary": "The guidance recommends controls for remote monitoring and management software used by IT providers.",
+   "image": null,
+   "imageAlt": "Editorial illustration for cybersecurity story: Security Advisory",
+   "tags": [
+    "RMM",
+    "MSP",
+    "Advisory"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": "Medium",
+   "views": 8290,
+   "trendingScore": 7.0,
+   "brief": {
+    "what": "The guidance recommends controls for remote monitoring and management software used by IT providers.",
+    "who": "Managed service providers and their customers are the primary audience.",
+    "why": "Most organisations are affected in some way because the updates cover widely deployed operating systems and productivity software.",
+    "next": "The CERT plans a follow-up publication on detection techniques."
+   },
+   "whyItMatters": "Most organisations are affected in some way because the updates cover widely deployed operating systems and productivity software. Prioritise internet-facing systems and anything listed as exploited, test updates on a representative group, then roll out in rings.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The guidance recommends controls for remote monitoring and management software used by IT providers.",
+      "It highlights abuse of legitimate remote tools by attackers seeking persistence."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Coordinated monthly release cycles bundle fixes for many products, which lets administrators plan maintenance windows but also concentrates risk into a single cycle.",
+      "Advisories typically distinguish between issues that are publicly disclosed, those that are known to be exploited and those assessed as more likely to be exploited."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Most organisations are affected in some way because the updates cover widely deployed operating systems and productivity software.",
+      "Managed service providers and their customers are the primary audience."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Prioritise internet-facing systems and anything listed as exploited, test updates on a representative group, then roll out in rings.",
+      "The CERT plans a follow-up publication on detection techniques."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor release notes",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "CISA KEV catalogue",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Vendor security update guide",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Managed service providers and their customers are the primary audience.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Advisories typically distinguish between issues that are publicly disclosed, those that are known to be exploited and those assessed as more likely to be exploited.",
+    "checks": "Prioritise internet-facing systems and anything listed as exploited, test updates on a representative group, then roll out in rings.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  }
+ ]
+}

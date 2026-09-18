@@ -1,0 +1,811 @@
+{
+ "meta": {
+  "isDemo": true,
+  "anchor": "2026-09-18T10:00:00+02:00",
+  "notice": "All TECHWIRE content in this prototype is fictional demo data. It must not be presented as real news."
+ },
+ "explainers": [
+  {
+   "slug": "what-is-bgp",
+   "title": "What is BGP?",
+   "diagram": "bgp",
+   "level": "Intermediate",
+   "minutes": 7,
+   "dek": "The Border Gateway Protocol is how independent networks tell each other which IP addresses they can reach.",
+   "sections": [
+    {
+     "heading": "The short version",
+     "paragraphs": [
+      "The internet is made of tens of thousands of independently operated networks called autonomous systems. BGP is the protocol they use to exchange reachability information: each network announces the IP prefixes it owns or can reach, and neighbours pass those announcements on."
+     ]
+    },
+    {
+     "heading": "How a route is chosen",
+     "paragraphs": [
+      "A router may learn several paths to the same prefix. BGP selects one using an ordered set of attributes such as local preference, AS-path length, origin and MED. Operators influence these attributes to express business relationships, for example preferring a customer route over a transit route."
+     ]
+    },
+    {
+     "heading": "Why incidents happen",
+     "paragraphs": [
+      "BGP was designed around trust. If a network announces a prefix it does not own (a hijack) or passes on routes it should not (a leak), neighbours may accept them. Because more-specific prefixes win in forwarding, a leaked /24 can attract traffic away from a legitimate /22."
+     ]
+    },
+    {
+     "heading": "How operators protect it",
+     "paragraphs": [
+      "RPKI lets address holders publish which AS may originate their prefixes; routers perform route-origin validation and drop invalid announcements. Prefix filters, max-prefix limits and monitoring of origin changes complete the defence."
+     ]
+    }
+   ],
+   "type": "Explainer",
+   "category": "Explained",
+   "author": "elira-hoxha",
+   "isDemo": true,
+   "note": "Educational explainer - general technical background, not news"
+  },
+  {
+   "slug": "how-dns-works",
+   "title": "How does DNS work?",
+   "diagram": "dns",
+   "level": "Beginner",
+   "minutes": 6,
+   "dek": "DNS translates names such as example.com into the IP addresses computers use to connect.",
+   "sections": [
+    {
+     "heading": "The resolver",
+     "paragraphs": [
+      "Your device asks a recursive resolver, usually run by your ISP, company or a public DNS service. If the answer is cached, it replies immediately."
+     ]
+    },
+    {
+     "heading": "The hierarchy",
+     "paragraphs": [
+      "Otherwise the resolver walks the hierarchy: a root server points it to the top-level domain servers (.com), which point to the authoritative servers for example.com, which return the final record."
+     ]
+    },
+    {
+     "heading": "Caching and TTL",
+     "paragraphs": [
+      "Every record has a time-to-live. Resolvers cache answers for that long, which reduces load and speeds up lookups but also delays the effect of changes."
+     ]
+    },
+    {
+     "heading": "Security",
+     "paragraphs": [
+      "DNSSEC adds signatures so resolvers can verify answers were not tampered with. Encrypted transports such as DNS over HTTPS and DNS over TLS protect queries from eavesdropping between client and resolver."
+     ]
+    }
+   ],
+   "type": "Explainer",
+   "category": "Explained",
+   "author": "elira-hoxha",
+   "isDemo": true,
+   "note": "Educational explainer - general technical background, not news"
+  },
+  {
+   "slug": "how-https-works",
+   "title": "How does HTTPS work?",
+   "diagram": "https",
+   "level": "Beginner",
+   "minutes": 6,
+   "dek": "HTTPS is HTTP carried inside TLS, which authenticates the server and encrypts the connection.",
+   "sections": [
+    {
+     "heading": "The handshake",
+     "paragraphs": [
+      "The client proposes TLS versions and cipher suites. The server replies with its choice and its certificate. Both sides perform a key exchange (typically ECDHE) to derive shared session keys without ever sending them over the network."
+     ]
+    },
+    {
+     "heading": "Certificates",
+     "paragraphs": [
+      "The certificate binds the domain name to a public key and is signed by a certificate authority the browser trusts. The client verifies the signature chain, the name and the validity dates."
+     ]
+    },
+    {
+     "heading": "Encryption",
+     "paragraphs": [
+      "After the handshake, application data is protected with symmetric authenticated encryption such as AES-GCM or ChaCha20-Poly1305, providing confidentiality and integrity."
+     ]
+    },
+    {
+     "heading": "What it does not do",
+     "paragraphs": [
+      "HTTPS proves you are talking to the holder of the domain's certificate; it does not prove the site is trustworthy. Phishing sites can and do use valid certificates."
+     ]
+    }
+   ],
+   "type": "Explainer",
+   "category": "Explained",
+   "author": "elira-hoxha",
+   "isDemo": true,
+   "note": "Educational explainer - general technical background, not news"
+  },
+  {
+   "slug": "what-is-a-zero-day",
+   "title": "What is a zero-day?",
+   "diagram": "zeroday",
+   "level": "Beginner",
+   "minutes": 5,
+   "dek": "A zero-day is a vulnerability exploited before the vendor has released a fix.",
+   "sections": [
+    {
+     "heading": "The name",
+     "paragraphs": [
+      "The term refers to the number of days defenders have had to patch: zero. The vulnerability is unknown to the vendor or known but not yet fixed when attackers use it."
+     ]
+    },
+    {
+     "heading": "The lifecycle",
+     "paragraphs": [
+      "A flaw is introduced, discovered (by attackers or researchers), exploited, reported, fixed by the vendor and finally patched by customers. The risk window extends until customers apply the fix, not only until it is released."
+     ]
+    },
+    {
+     "heading": "Defending without a patch",
+     "paragraphs": [
+      "Reduce exposure (do not expose management interfaces), apply vendor mitigations, use layered controls such as EDR and network segmentation, and hunt for published indicators of compromise."
+     ]
+    },
+    {
+     "heading": "After the patch",
+     "paragraphs": [
+      "Many breaches exploit vulnerabilities that were patched long before. Timely patching of known-exploited vulnerabilities remains one of the most effective controls."
+     ]
+    }
+   ],
+   "type": "Explainer",
+   "category": "Explained",
+   "author": "daniel-okafor",
+   "isDemo": true,
+   "note": "Educational explainer - general technical background, not news"
+  },
+  {
+   "slug": "how-ransomware-works",
+   "title": "How does ransomware work?",
+   "diagram": "ransomware",
+   "level": "Beginner",
+   "minutes": 7,
+   "dek": "Modern ransomware is usually a hands-on intrusion that ends with data theft and encryption.",
+   "sections": [
+    {
+     "heading": "Initial access",
+     "paragraphs": [
+      "Attackers get in through phishing, exposed remote access, vulnerable edge devices or purchased credentials."
+     ]
+    },
+    {
+     "heading": "Moving through the network",
+     "paragraphs": [
+      "They escalate privileges, map the environment and move laterally, often targeting directory services, backup systems and hypervisors."
+     ]
+    },
+    {
+     "heading": "Exfiltration and encryption",
+     "paragraphs": [
+      "Data is copied out first to enable extortion, then files or virtual machine disks are encrypted, frequently outside business hours."
+     ]
+    },
+    {
+     "heading": "Defence",
+     "paragraphs": [
+      "Multi-factor authentication, patching of edge systems, segmentation, monitored privileged access and immutable offline backups with tested restores reduce both likelihood and impact."
+     ]
+    }
+   ],
+   "type": "Explainer",
+   "category": "Explained",
+   "author": "daniel-okafor",
+   "isDemo": true,
+   "note": "Educational explainer - general technical background, not news"
+  },
+  {
+   "slug": "what-is-an-asn",
+   "title": "What is an ASN?",
+   "diagram": "asn",
+   "level": "Intermediate",
+   "minutes": 4,
+   "dek": "An Autonomous System Number identifies a network that has its own routing policy on the internet.",
+   "sections": [
+    {
+     "heading": "Definition",
+     "paragraphs": [
+      "An autonomous system is a collection of IP prefixes under one administrative routing policy. Each is identified by a number, originally 16-bit and now 32-bit."
+     ]
+    },
+    {
+     "heading": "Who has one",
+     "paragraphs": [
+      "ISPs, cloud providers, content networks, universities and larger enterprises that connect to multiple providers typically operate their own AS."
+     ]
+    },
+    {
+     "heading": "Public and private",
+     "paragraphs": [
+      "Public ASNs are assigned by regional internet registries. Ranges such as 64512-65534 and 4200000000-4294967294 are reserved for private use and must not appear on the public internet."
+     ]
+    },
+    {
+     "heading": "Where you see it",
+     "paragraphs": [
+      "In BGP, the AS path lists the ASNs a route has passed through. It is used for loop prevention and path selection."
+     ]
+    }
+   ],
+   "type": "Explainer",
+   "category": "Explained",
+   "author": "elira-hoxha",
+   "isDemo": true,
+   "note": "Educational explainer - general technical background, not news"
+  },
+  {
+   "slug": "how-ipsec-vpn-works",
+   "title": "How does an IPsec VPN work?",
+   "diagram": "ipsec",
+   "level": "Intermediate",
+   "minutes": 7,
+   "dek": "IPsec builds an encrypted tunnel between two gateways so private networks can talk over the internet.",
+   "sections": [
+    {
+     "heading": "Phase 1: IKE",
+     "paragraphs": [
+      "The gateways authenticate each other using pre-shared keys or certificates and negotiate an IKE security association with agreed encryption, integrity and Diffie-Hellman group."
+     ]
+    },
+    {
+     "heading": "Phase 2: IPsec SAs",
+     "paragraphs": [
+      "Inside that protected channel they negotiate IPsec security associations that define which traffic is protected and how, optionally with perfect forward secrecy."
+     ]
+    },
+    {
+     "heading": "ESP and tunnel mode",
+     "paragraphs": [
+      "Packets are encapsulated in ESP, encrypted and authenticated, then sent inside a new IP header between the gateways' public addresses."
+     ]
+    },
+    {
+     "heading": "Policy-based vs route-based",
+     "paragraphs": [
+      "Policy-based VPNs match traffic by source and destination selectors; route-based VPNs use a virtual tunnel interface and routing, which scales better and supports dynamic routing."
+     ]
+    }
+   ],
+   "type": "Explainer",
+   "category": "Explained",
+   "author": "elira-hoxha",
+   "isDemo": true,
+   "note": "Educational explainer - general technical background, not news"
+  },
+  {
+   "slug": "what-is-siem",
+   "title": "What is SIEM?",
+   "diagram": "siem",
+   "level": "Beginner",
+   "minutes": 5,
+   "dek": "Security Information and Event Management collects and analyses logs to detect security incidents.",
+   "sections": [
+    {
+     "heading": "Collection",
+     "paragraphs": [
+      "A SIEM ingests logs from firewalls, servers, identity providers, endpoints and cloud services."
+     ]
+    },
+    {
+     "heading": "Normalisation",
+     "paragraphs": [
+      "Events are parsed into a common schema so that a login from a VPN and a login from a cloud service can be compared."
+     ]
+    },
+    {
+     "heading": "Detection",
+     "paragraphs": [
+      "Correlation rules and analytics look for suspicious patterns, such as impossible travel or many failed logins followed by a success."
+     ]
+    },
+    {
+     "heading": "Response",
+     "paragraphs": [
+      "Alerts go to analysts, often with automation (SOAR) to enrich data or contain threats. A SIEM is only as good as its data sources and tuned detections."
+     ]
+    }
+   ],
+   "type": "Explainer",
+   "category": "Explained",
+   "author": "daniel-okafor",
+   "isDemo": true,
+   "note": "Educational explainer - general technical background, not news"
+  },
+  {
+   "slug": "what-is-a-soc",
+   "title": "What is a SOC?",
+   "diagram": "soc",
+   "level": "Beginner",
+   "minutes": 5,
+   "dek": "A Security Operations Centre is the team and processes that monitor, investigate and respond to threats.",
+   "sections": [
+    {
+     "heading": "People",
+     "paragraphs": [
+      "Analysts triage alerts, incident responders investigate and contain, and detection engineers build and tune detections."
+     ]
+    },
+    {
+     "heading": "Process",
+     "paragraphs": [
+      "Runbooks define how to handle common alert types; escalation paths define when to involve IT, legal and management."
+     ]
+    },
+    {
+     "heading": "Technology",
+     "paragraphs": [
+      "SIEM, EDR, network detection and ticketing systems provide visibility and workflow."
+     ]
+    },
+    {
+     "heading": "Metrics",
+     "paragraphs": [
+      "Mean time to detect and respond, alert quality and coverage of critical assets are common measures of SOC effectiveness."
+     ]
+    }
+   ],
+   "type": "Explainer",
+   "category": "Explained",
+   "author": "daniel-okafor",
+   "isDemo": true,
+   "note": "Educational explainer - general technical background, not news"
+  },
+  {
+   "slug": "how-wifi-roaming-works",
+   "title": "How does Wi-Fi roaming work?",
+   "diagram": "roaming",
+   "level": "Intermediate",
+   "minutes": 6,
+   "dek": "Roaming is the client's decision to move from one access point to another while keeping its connection.",
+   "sections": [
+    {
+     "heading": "The client decides",
+     "paragraphs": [
+      "Clients, not access points, decide when to roam, typically when signal strength or quality drops below a threshold."
+     ]
+    },
+    {
+     "heading": "Assisted roaming",
+     "paragraphs": [
+      "802.11k provides neighbour reports, 802.11v lets the network suggest better access points and 802.11r (fast transition) shortens re-authentication."
+     ]
+    },
+    {
+     "heading": "Why roaming fails",
+     "paragraphs": [
+      "Too much overlap causes sticky clients; too little causes dead zones. Mismatched security settings or slow RADIUS authentication cause drops."
+     ]
+    },
+    {
+     "heading": "Design tips",
+     "paragraphs": [
+      "Plan cell sizes with site surveys, keep SSID settings consistent and enable fast roaming for voice and real-time applications."
+     ]
+    }
+   ],
+   "type": "Explainer",
+   "category": "Explained",
+   "author": "elira-hoxha",
+   "isDemo": true,
+   "note": "Educational explainer - general technical background, not news"
+  },
+  {
+   "slug": "what-happens-when-dns-fails",
+   "title": "What happens when a DNS server fails?",
+   "diagram": "dnsfail",
+   "level": "Intermediate",
+   "minutes": 5,
+   "dek": "When DNS fails, services are usually still running; users just cannot find them.",
+   "sections": [
+    {
+     "heading": "Resolver failure",
+     "paragraphs": [
+      "If the recursive resolver is down, clients cannot resolve new names. Cached answers keep some connections working until their TTL expires."
+     ]
+    },
+    {
+     "heading": "Authoritative failure",
+     "paragraphs": [
+      "If a domain's authoritative servers fail, resolvers worldwide cannot refresh its records, making the domain unreachable as caches expire."
+     ]
+    },
+    {
+     "heading": "Common causes",
+     "paragraphs": [
+      "Configuration errors, expired DNSSEC signatures, DDoS attacks and dependencies on a single provider."
+     ]
+    },
+    {
+     "heading": "Resilience",
+     "paragraphs": [
+      "Use multiple resolvers, authoritative DNS across independent providers, sensible TTLs and monitoring of DNSSEC signature expiry."
+     ]
+    }
+   ],
+   "type": "Explainer",
+   "category": "Explained",
+   "author": "elira-hoxha",
+   "isDemo": true,
+   "note": "Educational explainer - general technical background, not news"
+  },
+  {
+   "slug": "how-datacenter-networks-work",
+   "title": "How does a data center network work?",
+   "diagram": "leafspine",
+   "level": "Advanced",
+   "minutes": 8,
+   "dek": "Modern datacenters use leaf-spine fabrics with overlays to connect thousands of servers predictably.",
+   "sections": [
+    {
+     "heading": "Leaf-spine",
+     "paragraphs": [
+      "Servers connect to leaf switches; every leaf connects to every spine. Any server reaches any other in at most two switch hops, giving predictable latency."
+     ]
+    },
+    {
+     "heading": "Routing in the underlay",
+     "paragraphs": [
+      "The physical fabric usually runs a routed protocol such as BGP or OSPF with ECMP to spread traffic across all spines."
+     ]
+    },
+    {
+     "heading": "Overlays",
+     "paragraphs": [
+      "VXLAN encapsulates layer-2 segments over the routed underlay, and EVPN distributes MAC and IP reachability, enabling multi-tenancy and workload mobility."
+     ]
+    },
+    {
+     "heading": "Scaling",
+     "paragraphs": [
+      "Adding capacity means adding spines (bandwidth) or leaves (ports). Very large designs add a super-spine layer."
+     ]
+    }
+   ],
+   "type": "Explainer",
+   "category": "Explained",
+   "author": "elira-hoxha",
+   "isDemo": true,
+   "note": "Educational explainer - general technical background, not news"
+  }
+ ],
+ "deepDives": [
+  {
+   "slug": "anatomy-of-a-route-leak",
+   "title": "Anatomy of a route leak: how 40 minutes of bad routes spread",
+   "category": "Networking",
+   "author": "elira-hoxha",
+   "minutes": 16,
+   "dek": "A reconstructed, fictional scenario explaining how a single filtering mistake propagates across the internet.",
+   "sections": [
+    {
+     "heading": "Executive Summary",
+     "paragraphs": [
+      "In this demo scenario a regional transit network briefly re-advertised routes learned from one provider to another. Because several neighbours accepted the announcements, traffic to multiple content networks traversed an unexpected and congested path for about 40 minutes."
+     ]
+    },
+    {
+     "heading": "What happened?",
+     "paragraphs": [
+      "At 07:12 local time the transit network applied a policy change intended for a single customer session. The change removed an outbound filter on a provider-facing session, causing the network to export its full table of provider-learned routes."
+     ]
+    },
+    {
+     "heading": "Technical background",
+     "paragraphs": [
+      "BGP routers select paths based on attributes and prefer more-specific prefixes in forwarding. A leak of more-specific routes therefore attracts traffic even when a legitimate, less-specific route exists.",
+      "Customer-provider relationships are expected to follow the 'valley-free' model: routes learned from providers or peers are exported only to customers."
+     ]
+    },
+    {
+     "heading": "What caused the issue?",
+     "paragraphs": [
+      "A templated configuration used a shared route-map for several sessions. Editing the template for one session changed behaviour on all of them."
+     ]
+    },
+    {
+     "heading": "Technical analysis",
+     "paragraphs": [
+      "Route collectors observed the leaked prefixes within 90 seconds. Networks enforcing RPKI route-origin validation still accepted them, because the origin AS was correct; only the path was invalid. This illustrates why ROV alone does not stop leaks and why AS-path-based protections such as peer-lock filters and the emerging ASPA mechanism matter."
+     ]
+    },
+    {
+     "heading": "Impact",
+     "paragraphs": [
+      "Latency to affected services rose sharply for users whose providers accepted the leak; some connections timed out as the leaking network's links saturated."
+     ]
+    },
+    {
+     "heading": "What organisations should know",
+     "paragraphs": [
+      "Enforce explicit export filters per session, use max-prefix limits on provider sessions, monitor for your prefixes appearing via unexpected paths and document emergency contacts with upstreams."
+     ]
+    },
+    {
+     "heading": "Conclusion",
+     "paragraphs": [
+      "Route leaks are rarely malicious. They are configuration errors amplified by a protocol built on trust, and they are preventable with disciplined filtering and monitoring."
+     ]
+    }
+   ],
+   "type": "Analysis",
+   "isDemo": true,
+   "format": "Deep Dive",
+   "sources": [
+    {
+     "label": "Routing collector data",
+     "type": "placeholder",
+     "url": null
+    },
+    {
+     "label": "Official statements",
+     "type": "placeholder",
+     "url": null
+    },
+    {
+     "label": "Post-incident review",
+     "type": "placeholder",
+     "url": null
+    },
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null
+    }
+   ]
+  },
+  {
+   "slug": "hypervisor-ransomware-playbook",
+   "title": "Inside the hypervisor playbook: why ransomware moved down the stack",
+   "category": "Cybersecurity",
+   "author": "daniel-okafor",
+   "minutes": 18,
+   "dek": "A composite, fictional case study built from common incident patterns affecting virtualization platforms.",
+   "sections": [
+    {
+     "heading": "Executive Summary",
+     "paragraphs": [
+      "This demo case study follows an intrusion in which attackers encrypted virtual machine datastores directly on hypervisor hosts, taking dozens of servers offline at once."
+     ]
+    },
+    {
+     "heading": "What happened?",
+     "paragraphs": [
+      "After phishing a help-desk employee, the attackers obtained domain credentials, discovered that hypervisor management used directory accounts and logged in to the management plane."
+     ]
+    },
+    {
+     "heading": "Technical background",
+     "paragraphs": [
+      "Hypervisors host many virtual machines on shared datastores. Encrypting the datastore affects every workload at once and bypasses endpoint agents running inside guests."
+     ]
+    },
+    {
+     "heading": "What caused the issue?",
+     "paragraphs": [
+      "Directory-joined hypervisor administration, no MFA on the management interface and backups reachable with the same credentials."
+     ]
+    },
+    {
+     "heading": "Technical analysis",
+     "paragraphs": [
+      "The attackers enabled remote shell access on hosts, stopped virtual machines and ran an encryptor compiled for the hypervisor's operating system. Detection opportunities included unusual management logins, shell enablement and mass VM power-off events."
+     ]
+    },
+    {
+     "heading": "Impact",
+     "paragraphs": [
+      "Critical services were unavailable for several days while clean backups were identified and restored."
+     ]
+    },
+    {
+     "heading": "What organisations should know",
+     "paragraphs": [
+      "Separate hypervisor administration from the corporate directory, require MFA, restrict management networks, alert on shell enablement and keep immutable offline backups."
+     ]
+    },
+    {
+     "heading": "Conclusion",
+     "paragraphs": [
+      "Protecting guests is not enough: the virtualization layer needs its own identity, network and monitoring controls."
+     ]
+    }
+   ],
+   "type": "Analysis",
+   "isDemo": true,
+   "format": "Deep Dive",
+   "sources": [
+    {
+     "label": "Routing collector data",
+     "type": "placeholder",
+     "url": null
+    },
+    {
+     "label": "Official statements",
+     "type": "placeholder",
+     "url": null
+    },
+    {
+     "label": "Post-incident review",
+     "type": "placeholder",
+     "url": null
+    },
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null
+    }
+   ]
+  },
+  {
+   "slug": "when-the-cloud-region-blinks",
+   "title": "When the cloud region blinks: designing for partial failure",
+   "category": "Cloud",
+   "author": "priya-raman",
+   "minutes": 14,
+   "dek": "A fictional incident timeline used to explain dependency chains in cloud architectures.",
+   "sections": [
+    {
+     "heading": "Executive Summary",
+     "paragraphs": [
+      "In this demo scenario a storage front-end deployment increased error rates in one region. Applications that assumed storage was always available failed in ways their designers had not anticipated."
+     ]
+    },
+    {
+     "heading": "What happened?",
+     "paragraphs": [
+      "Elevated error rates lasted 52 minutes. Upstream services retried aggressively, increasing load and prolonging recovery."
+     ]
+    },
+    {
+     "heading": "Technical background",
+     "paragraphs": [
+      "Cloud services depend on shared control-plane and data-plane components; a failure in one can cascade to many higher-level services."
+     ]
+    },
+    {
+     "heading": "What caused the issue?",
+     "paragraphs": [
+      "A configuration deployment reached the full fleet faster than intended, bypassing staged rollout safeguards."
+     ]
+    },
+    {
+     "heading": "Technical analysis",
+     "paragraphs": [
+      "Client retries without jitter created synchronised load spikes. Applications with circuit breakers and cached fallbacks degraded gracefully."
+     ]
+    },
+    {
+     "heading": "Impact",
+     "paragraphs": [
+      "Single-region applications returned errors; multi-region designs saw slightly higher latency."
+     ]
+    },
+    {
+     "heading": "What organisations should know",
+     "paragraphs": [
+      "Map dependencies, implement exponential backoff with jitter, test regional failover and subscribe to provider health events."
+     ]
+    },
+    {
+     "heading": "Conclusion",
+     "paragraphs": [
+      "Resilience is an application property. Providers can reduce failure rates, but only architecture can limit their blast radius."
+     ]
+    }
+   ],
+   "type": "Analysis",
+   "isDemo": true,
+   "format": "Deep Dive",
+   "sources": [
+    {
+     "label": "Routing collector data",
+     "type": "placeholder",
+     "url": null
+    },
+    {
+     "label": "Official statements",
+     "type": "placeholder",
+     "url": null
+    },
+    {
+     "label": "Post-incident review",
+     "type": "placeholder",
+     "url": null
+    },
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null
+    }
+   ]
+  }
+ ],
+ "research": [
+  {
+   "title": "Tracing a loader's driver abuse chain",
+   "area": "Malware analysis",
+   "summary": "Step-by-step analysis of how a loader installs a vulnerable driver and disables endpoint agents.",
+   "author": "daniel-okafor",
+   "ref": 107,
+   "id": "r1",
+   "type": "Research",
+   "isDemo": true
+  },
+  {
+   "title": "Measuring authentication bypass via URL normalisation",
+   "area": "Vulnerability research",
+   "summary": "How inconsistent path parsing between components creates security gaps.",
+   "author": "daniel-okafor",
+   "ref": 109,
+   "id": "r2",
+   "type": "Research",
+   "isDemo": true
+  },
+  {
+   "title": "Profiling a router-based relay network",
+   "area": "Threat actor analysis",
+   "summary": "Infrastructure patterns and indicators from a relay network built on end-of-life routers.",
+   "author": "security-desk",
+   "ref": 106,
+   "id": "r3",
+   "type": "Research",
+   "isDemo": true
+  },
+  {
+   "title": "Detecting BGP route leaks from public collectors",
+   "area": "Network security",
+   "summary": "A practical approach to alerting on unexpected AS paths for your own prefixes.",
+   "author": "elira-hoxha",
+   "ref": 201,
+   "id": "r4",
+   "type": "Research",
+   "isDemo": true
+  },
+  {
+   "title": "First 24 hours: a hypervisor ransomware response timeline",
+   "area": "Incident response",
+   "summary": "Decisions, evidence sources and pitfalls in the first day of a virtualization-layer incident.",
+   "author": "daniel-okafor",
+   "ref": 103,
+   "id": "r5",
+   "type": "Research",
+   "isDemo": true
+  },
+  {
+   "title": "Recovering timelines from BMC event logs",
+   "area": "Digital forensics",
+   "summary": "What out-of-band management logs can reveal during server compromise investigations.",
+   "author": "sofia-marchetti",
+   "ref": 608,
+   "id": "r6",
+   "type": "Research",
+   "isDemo": true
+  },
+  {
+   "title": "Writing detections for token replay",
+   "area": "Detection engineering",
+   "summary": "Signals and false-positive traps when detecting reuse of stolen session tokens.",
+   "author": "daniel-okafor",
+   "ref": 108,
+   "id": "r7",
+   "type": "Research",
+   "isDemo": true
+  },
+  {
+   "title": "Prompt injection via document metadata",
+   "area": "AI security",
+   "summary": "Reproducing hidden-instruction attacks against summarisation assistants.",
+   "author": "jonas-weber",
+   "ref": 502,
+   "id": "r8",
+   "type": "Research",
+   "isDemo": true
+  }
+ ]
+}

@@ -1,0 +1,924 @@
+{
+ "meta": {
+  "isDemo": true,
+  "anchor": "2026-09-18T10:00:00+02:00",
+  "notice": "All TECHWIRE content in this prototype is fictional demo data. It must not be presented as real news."
+ },
+ "articles": [
+  {
+   "id": 601,
+   "slug": "server-makers-launch-liquid-cooled-2u-platforms-for-general-workloads",
+   "title": "Server makers launch liquid-cooled 2U platforms for general workloads",
+   "category": "Hardware",
+   "subcategory": "Servers",
+   "type": "News",
+   "author": "sofia-marchetti",
+   "date": "2026-09-18T08:20:00+02:00",
+   "updated": "2026-09-18T08:32:00+02:00",
+   "readingTime": 6,
+   "summary": "New 2U servers include direct liquid cooling for processors in standard rack form factors.",
+   "image": null,
+   "imageAlt": "Editorial illustration for hardware story: Servers",
+   "tags": [
+    "Servers",
+    "Liquid Cooling",
+    "Datacenter"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 8519,
+   "trendingScore": 3.7,
+   "brief": {
+    "what": "New 2U servers include direct liquid cooling for processors in standard rack form factors.",
+    "who": "Datacenters planning higher densities gain more standard-size options.",
+    "why": "Datacenters without liquid distribution infrastructure will need retrofits to adopt them.",
+    "next": "Vendors provide facility requirement guides for liquid-cooled models."
+   },
+   "whyItMatters": "Datacenters without liquid distribution infrastructure will need retrofits to adopt them. Assess facility readiness and service processes for liquid-cooled equipment.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "New 2U servers include direct liquid cooling for processors in standard rack form factors.",
+      "Air-cooled variants remain available for facilities without liquid distribution."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Server platforms are adopting direct liquid cooling as processor power continues to rise.",
+      "Liquid-cooled designs allow higher density in standard rack sizes without exotic facilities."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Datacenters without liquid distribution infrastructure will need retrofits to adopt them.",
+      "Datacenters planning higher densities gain more standard-size options."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Assess facility readiness and service processes for liquid-cooled equipment.",
+      "Vendors provide facility requirement guides for liquid-cooled models."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor datasheets",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Datacenters planning higher densities gain more standard-size options.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Liquid-cooled designs allow higher density in standard rack sizes without exotic facilities.",
+    "checks": "Assess facility readiness and service processes for liquid-cooled equipment.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 602,
+   "slug": "new-server-cpu-generation-raises-core-counts-and-memory-bandwidth",
+   "title": "New server CPU generation raises core counts and memory bandwidth",
+   "category": "Hardware",
+   "subcategory": "CPUs",
+   "type": "News",
+   "author": "sofia-marchetti",
+   "date": "2026-09-18T06:50:00+02:00",
+   "updated": "2026-09-18T07:15:00+02:00",
+   "readingTime": 6,
+   "summary": "The new generation increases maximum core counts and adds memory channels.",
+   "image": null,
+   "imageAlt": "Editorial illustration for hardware story: CPUs",
+   "tags": [
+    "CPUs",
+    "Servers"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 16438,
+   "trendingScore": 7.4,
+   "brief": {
+    "what": "The new generation increases maximum core counts and adds memory channels.",
+    "who": "Per-core software licensing may affect upgrade economics.",
+    "why": "Licensing models based on cores can change the economics of upgrades.",
+    "next": "Server makers are announcing platforms based on the new processors."
+   },
+   "whyItMatters": "Licensing models based on cores can change the economics of upgrades. Benchmark real workloads and review per-core software licensing before refreshing.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "The new generation increases maximum core counts and adds memory channels.",
+      "Independent benchmarks will determine gains for specific enterprise workloads."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Each server CPU generation typically raises core counts, memory channels and I/O lanes.",
+      "Memory bandwidth per core is increasingly the limiting factor for many enterprise workloads."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Licensing models based on cores can change the economics of upgrades.",
+      "Per-core software licensing may affect upgrade economics."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Benchmark real workloads and review per-core software licensing before refreshing.",
+      "Server makers are announcing platforms based on the new processors."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor datasheets",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Independent benchmarks",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Per-core software licensing may affect upgrade economics.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Memory bandwidth per core is increasingly the limiting factor for many enterprise workloads.",
+    "checks": "Benchmark real workloads and review per-core software licensing before refreshing.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 603,
+   "slug": "gpu-lead-times-shorten-for-enterprise-buyers",
+   "title": "GPU lead times shorten for enterprise buyers",
+   "category": "Hardware",
+   "subcategory": "GPUs",
+   "type": "News",
+   "author": "sofia-marchetti",
+   "date": "2026-09-18T05:20:00+02:00",
+   "updated": "2026-09-18T06:00:00+02:00",
+   "readingTime": 6,
+   "summary": "Distributors report shorter lead times for datacenter GPUs than earlier in the year.",
+   "image": null,
+   "imageAlt": "Editorial illustration for hardware story: GPUs",
+   "tags": [
+    "GPUs",
+    "Supply Chain",
+    "AI Hardware"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 24357,
+   "trendingScore": 1.1,
+   "brief": {
+    "what": "Distributors report shorter lead times for datacenter GPUs than earlier in the year.",
+    "who": "Mid-size enterprises planning AI projects gain more predictable procurement.",
+    "why": "Mid-size organisations planning AI projects gain more procurement options.",
+    "next": "Analysts caution that demand from large deployments could tighten supply again."
+   },
+   "whyItMatters": "Mid-size organisations planning AI projects gain more procurement options. Plan power and cooling alongside procurement and validate software stack compatibility.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Distributors report shorter lead times for datacenter GPUs than earlier in the year.",
+      "Improved supply follows expanded manufacturing capacity."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "GPU supply has been constrained by demand from large AI deployments.",
+      "Shorter lead times make on-premises GPU projects more predictable for enterprise buyers."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Mid-size organisations planning AI projects gain more procurement options.",
+      "Mid-size enterprises planning AI projects gain more predictable procurement."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Plan power and cooling alongside procurement and validate software stack compatibility.",
+      "Analysts caution that demand from large deployments could tighten supply again."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Distributor commentary",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Analyst commentary",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Mid-size enterprises planning AI projects gain more predictable procurement.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Shorter lead times make on-premises GPU projects more predictable for enterprise buyers.",
+    "checks": "Plan power and cooling alongside procurement and validate software stack compatibility.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 604,
+   "slug": "switch-vendors-ship-51-2-tbps-silicon-in-fixed-form-factor-systems",
+   "title": "Switch vendors ship 51.2 Tbps silicon in fixed-form-factor systems",
+   "category": "Hardware",
+   "subcategory": "Networking Hardware",
+   "type": "News",
+   "author": "sofia-marchetti",
+   "date": "2026-09-18T03:40:00+02:00",
+   "updated": "2026-09-18T03:45:00+02:00",
+   "readingTime": 6,
+   "summary": "New fixed switches based on 51.2 Tbps silicon support dense 800G configurations.",
+   "image": null,
+   "imageAlt": "Editorial illustration for hardware story: Networking Hardware",
+   "tags": [
+    "Networking Hardware",
+    "800G",
+    "Datacenter"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 32276,
+   "trendingScore": 4.8,
+   "brief": {
+    "what": "New fixed switches based on 51.2 Tbps silicon support dense 800G configurations.",
+    "who": "Enterprise datacenters will see this capacity in future product generations.",
+    "why": "Enterprise datacenters will see this capacity trickle down in future product generations.",
+    "next": "Vendors are publishing optics compatibility matrices."
+   },
+   "whyItMatters": "Enterprise datacenters will see this capacity trickle down in future product generations. Plan optics and cabling standards with future speed transitions in mind.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "New fixed switches based on 51.2 Tbps silicon support dense 800G configurations.",
+      "The systems target AI back-end fabrics and hyperscale spines."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Switch silicon capacity roughly doubles every few years, enabling higher port speeds in the same form factor.",
+      "51.2 Tbps silicon supports high-radix 400G and 800G switches used in AI and cloud fabrics."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Enterprise datacenters will see this capacity trickle down in future product generations.",
+      "Enterprise datacenters will see this capacity in future product generations."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Plan optics and cabling standards with future speed transitions in mind.",
+      "Vendors are publishing optics compatibility matrices."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor datasheets",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Standards documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Enterprise datacenters will see this capacity in future product generations.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "51.2 Tbps silicon supports high-radix 400G and 800G switches used in AI and cloud fabrics.",
+    "checks": "Plan optics and cabling standards with future speed transitions in mind.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 605,
+   "slug": "business-laptops-add-on-device-ai-accelerators-as-standard",
+   "title": "Business laptops add on-device AI accelerators as standard",
+   "category": "Hardware",
+   "subcategory": "Laptops",
+   "type": "News",
+   "author": "sofia-marchetti",
+   "date": "2026-09-18T02:10:00+02:00",
+   "updated": null,
+   "readingTime": 7,
+   "summary": "New business laptop lines include neural processing units across most configurations.",
+   "image": null,
+   "imageAlt": "Editorial illustration for hardware story: Laptops",
+   "tags": [
+    "Laptops",
+    "AI Hardware",
+    "Endpoints"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 40195,
+   "trendingScore": 8.5,
+   "brief": {
+    "what": "New business laptop lines include neural processing units across most configurations.",
+    "who": "IT teams need updated device baselines and driver management.",
+    "why": "IT teams need updated baselines for drivers, firmware and security features.",
+    "next": "Vendors publish lifecycle commitments for firmware updates."
+   },
+   "whyItMatters": "IT teams need updated baselines for drivers, firmware and security features. Update device management profiles and validate security features before fleet rollout.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "New business laptop lines include neural processing units across most configurations.",
+      "Management tools are adding support for the new components."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Business laptops increasingly include neural processing units for on-device AI features.",
+      "On-device processing can keep some data local, but management tools must account for new components."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "IT teams need updated baselines for drivers, firmware and security features.",
+      "IT teams need updated device baselines and driver management."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Update device management profiles and validate security features before fleet rollout.",
+      "Vendors publish lifecycle commitments for firmware updates."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor product documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "IT teams need updated device baselines and driver management.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "On-device processing can keep some data local, but management tools must account for new components.",
+    "checks": "Update device management profiles and validate security features before fleet rollout.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 606,
+   "slug": "rear-door-heat-exchangers-gain-ground-in-retrofit-datacenters",
+   "title": "Rear-door heat exchangers gain ground in retrofit datacenters",
+   "category": "Hardware",
+   "subcategory": "Datacenter Hardware",
+   "type": "News",
+   "author": "sofia-marchetti",
+   "date": "2026-09-18T00:30:00+02:00",
+   "updated": "2026-09-18T00:42:00+02:00",
+   "readingTime": 7,
+   "summary": "Operators are installing rear-door heat exchangers to support higher densities in existing halls.",
+   "image": null,
+   "imageAlt": "Editorial illustration for hardware story: Datacenter Hardware",
+   "tags": [
+    "Cooling",
+    "Datacenter",
+    "Retrofit"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 48114,
+   "trendingScore": 2.2,
+   "brief": {
+    "what": "Operators are installing rear-door heat exchangers to support higher densities in existing halls.",
+    "who": "Facilities with chilled-water loops can deploy them with limited disruption.",
+    "why": "Operators with chilled-water infrastructure can deploy them with limited disruption.",
+    "next": "Monitoring integration remains a key consideration."
+   },
+   "whyItMatters": "Operators with chilled-water infrastructure can deploy them with limited disruption. Assess water availability, floor space and monitoring integration before deployment.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Operators are installing rear-door heat exchangers to support higher densities in existing halls.",
+      "The approach avoids a full conversion to direct liquid cooling."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Rear-door heat exchangers remove heat at the rack using chilled water, without converting to full liquid cooling.",
+      "They offer a retrofit path for existing facilities facing higher rack densities."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Operators with chilled-water infrastructure can deploy them with limited disruption.",
+      "Facilities with chilled-water loops can deploy them with limited disruption."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Assess water availability, floor space and monitoring integration before deployment.",
+      "Monitoring integration remains a key consideration."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Operator case study",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Vendor documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Facilities with chilled-water loops can deploy them with limited disruption.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "They offer a retrofit path for existing facilities facing higher rack densities.",
+    "checks": "Assess water availability, floor space and monitoring integration before deployment.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 607,
+   "slug": "high-capacity-qlc-ssds-challenge-nearline-hard-drives",
+   "title": "High-capacity QLC SSDs challenge nearline hard drives",
+   "category": "Hardware",
+   "subcategory": "Storage Hardware",
+   "type": "Analysis",
+   "author": "sofia-marchetti",
+   "date": "2026-09-17T23:00:00+02:00",
+   "updated": "2026-09-17T23:25:00+02:00",
+   "readingTime": 7,
+   "summary": "Falling prices for high-capacity QLC drives are changing storage economics for read-heavy data.",
+   "image": null,
+   "imageAlt": "Editorial illustration for hardware story: Storage Hardware",
+   "tags": [
+    "Storage",
+    "SSD",
+    "Datacenter"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 8033,
+   "trendingScore": 5.9,
+   "brief": {
+    "what": "Falling prices for high-capacity QLC drives are changing storage economics for read-heavy data.",
+    "who": "Organisations with large archives can reduce power and rack space.",
+    "why": "Organisations with large read-mostly datasets can reduce power and rack space.",
+    "next": "Expect tiered designs combining QLC flash and hard drives."
+   },
+   "whyItMatters": "Organisations with large read-mostly datasets can reduce power and rack space. Model endurance against actual write rates and compare total cost including power.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Falling prices for high-capacity QLC drives are changing storage economics for read-heavy data.",
+      "Endurance limits make them less suitable for write-intensive workloads."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "QLC flash stores more bits per cell, lowering cost per terabyte at the expense of write endurance.",
+      "For read-heavy and archival workloads, high-capacity SSDs compete with nearline hard drives on total cost."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations with large read-mostly datasets can reduce power and rack space.",
+      "Organisations with large archives can reduce power and rack space."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Model endurance against actual write rates and compare total cost including power.",
+      "Expect tiered designs combining QLC flash and hard drives."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor datasheets",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Analyst commentary",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Organisations with large archives can reduce power and rack space.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "For read-heavy and archival workloads, high-capacity SSDs compete with nearline hard drives on total cost.",
+    "checks": "Model endurance against actual write rates and compare total cost including power.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 608,
+   "slug": "bmc-firmware-update-addresses-remote-management-weaknesses",
+   "title": "BMC firmware update addresses remote management weaknesses",
+   "category": "Hardware",
+   "subcategory": "Firmware Security",
+   "type": "News",
+   "author": "sofia-marchetti",
+   "date": "2026-09-17T21:20:00+02:00",
+   "updated": "2026-09-17T22:00:00+02:00",
+   "readingTime": 7,
+   "summary": "A server maker has released BMC firmware fixing issues in its remote management interface.",
+   "image": null,
+   "imageAlt": "Editorial illustration for hardware story: Firmware Security",
+   "tags": [
+    "BMC",
+    "Firmware",
+    "Vulnerability"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": "CVE-DEMO-2026-1133",
+   "cvss": 7.5,
+   "severity": "High",
+   "views": 15952,
+   "trendingScore": 12.6,
+   "brief": {
+    "what": "A server maker has released BMC firmware fixing issues in its remote management interface.",
+    "who": "Servers with BMC interfaces on general-purpose networks are most at risk.",
+    "why": "Servers whose BMC interfaces are reachable from general networks are most at risk.",
+    "next": "The vendor recommends isolating BMC networks regardless of patch status."
+   },
+   "whyItMatters": "Servers whose BMC interfaces are reachable from general networks are most at risk. Isolate BMC networks, update firmware and disable unused BMC services.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "A server maker has released BMC firmware fixing issues in its remote management interface.",
+      "The most severe issue could allow unauthorised access where the BMC network is reachable."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Baseboard management controllers provide out-of-band control of servers, including power and console access.",
+      "BMC weaknesses are serious because they operate beneath the operating system and its security tools."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Servers whose BMC interfaces are reachable from general networks are most at risk.",
+      "Servers with BMC interfaces on general-purpose networks are most at risk."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Isolate BMC networks, update firmware and disable unused BMC services.",
+      "The vendor recommends isolating BMC networks regardless of patch status."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor security advisory",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "NVD entry",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Servers with BMC interfaces on general-purpose networks are most at risk.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "BMC weaknesses are serious because they operate beneath the operating system and its security tools.",
+    "checks": "Isolate BMC networks, update firmware and disable unused BMC services.",
+    "detection": "Search logs for requests to the affected component and review vendor indicators referenced for CVE-DEMO-2026-1133.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 609,
+   "slug": "cxl-memory-expansion-moves-from-pilot-to-production",
+   "title": "CXL memory expansion moves from pilot to production",
+   "category": "Hardware",
+   "subcategory": "Memory",
+   "type": "News",
+   "author": "sofia-marchetti",
+   "date": "2026-09-17T19:50:00+02:00",
+   "updated": "2026-09-17T19:55:00+02:00",
+   "readingTime": 3,
+   "summary": "Early adopters report running CXL memory expansion in production database clusters.",
+   "image": null,
+   "imageAlt": "Editorial illustration for hardware story: Memory",
+   "tags": [
+    "CXL",
+    "Memory",
+    "Servers"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 23871,
+   "trendingScore": 3.3,
+   "brief": {
+    "what": "Early adopters report running CXL memory expansion in production database clusters.",
+    "who": "Memory-bound workloads benefit without replacing servers.",
+    "why": "Database and analytics platforms are the earliest beneficiaries.",
+    "next": "Standards work continues on memory pooling across hosts."
+   },
+   "whyItMatters": "Database and analytics platforms are the earliest beneficiaries. Validate operating system and hypervisor support and measure latency impact on workloads.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Early adopters report running CXL memory expansion in production database clusters.",
+      "Operating system and hypervisor support has matured over the past year."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Compute Express Link (CXL) allows memory to be attached and shared beyond the CPU's own channels.",
+      "Memory expansion helps memory-bound workloads without buying larger servers."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Database and analytics platforms are the earliest beneficiaries.",
+      "Memory-bound workloads benefit without replacing servers."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Validate operating system and hypervisor support and measure latency impact on workloads.",
+      "Standards work continues on memory pooling across hosts."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Standards consortium",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Vendor documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Memory-bound workloads benefit without replacing servers.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Memory expansion helps memory-bound workloads without buying larger servers.",
+    "checks": "Validate operating system and hypervisor support and measure latency impact on workloads.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 610,
+   "slug": "arm-servers-in-the-enterprise-where-they-fit-today",
+   "title": "Arm servers in the enterprise: where they fit today",
+   "category": "Hardware",
+   "subcategory": "Arm Servers",
+   "type": "Analysis",
+   "author": "sofia-marchetti",
+   "date": "2026-09-17T18:20:00+02:00",
+   "updated": null,
+   "readingTime": 3,
+   "summary": "Arm-based servers offer strong performance per watt, but software support varies by workload.",
+   "image": null,
+   "imageAlt": "Editorial illustration for hardware story: Arm Servers",
+   "tags": [
+    "Arm",
+    "Servers",
+    "CPUs"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 31790,
+   "trendingScore": 7.0,
+   "brief": {
+    "what": "Arm-based servers offer strong performance per watt, but software support varies by workload.",
+    "who": "Organisations with commercial software dependencies should check vendor support first.",
+    "why": "Organisations with containerised, recompilable workloads can adopt Arm most easily.",
+    "next": "Expect more on-premises Arm options from mainstream server vendors."
+   },
+   "whyItMatters": "Organisations with containerised, recompilable workloads can adopt Arm most easily. Check vendor software support, build multi-architecture images and pilot on stateless services.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Arm-based servers offer strong performance per watt, but software support varies by workload.",
+      "Containerised services that can be rebuilt for Arm adapt most easily."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Arm-based servers have become common in public cloud and are increasingly offered for on-premises use.",
+      "Performance per watt is the main attraction, while software compatibility is the main consideration."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations with containerised, recompilable workloads can adopt Arm most easily.",
+      "Organisations with commercial software dependencies should check vendor support first."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Check vendor software support, build multi-architecture images and pilot on stateless services.",
+      "Expect more on-premises Arm options from mainstream server vendors."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Independent benchmarks",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Analyst commentary",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Organisations with commercial software dependencies should check vendor support first.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Performance per watt is the main attraction, while software compatibility is the main consideration.",
+    "checks": "Check vendor software support, build multi-architecture images and pilot on stateless services.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  }
+ ]
+}

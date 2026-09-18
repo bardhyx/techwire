@@ -1,0 +1,855 @@
+{
+ "meta": {
+  "isDemo": true,
+  "anchor": "2026-09-18T10:00:00+02:00",
+  "notice": "All TECHWIRE content in this prototype is fictional demo data. It must not be presented as real news."
+ },
+ "articles": [
+  {
+   "id": 501,
+   "slug": "open-weight-language-model-released-with-extended-context-window",
+   "title": "Open-weight language model released with extended context window",
+   "category": "AI",
+   "subcategory": "LLMs",
+   "type": "News",
+   "author": "jonas-weber",
+   "date": "2026-09-18T09:05:00+02:00",
+   "updated": "2026-09-18T09:17:00+02:00",
+   "readingTime": 5,
+   "summary": "A new open-weight model supports much longer inputs than its predecessor.",
+   "image": null,
+   "imageAlt": "Editorial illustration for ai story: LLMs",
+   "tags": [
+    "LLMs",
+    "Open Source",
+    "AI Models"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 32619,
+   "trendingScore": 3.7,
+   "brief": {
+    "what": "A new open-weight model supports much longer inputs than its predecessor.",
+    "who": "Organisations seeking self-hosted models gain another option.",
+    "why": "Teams with data residency constraints gain more self-hosted options.",
+    "next": "Independent evaluations are expected in the coming weeks."
+   },
+   "whyItMatters": "Teams with data residency constraints gain more self-hosted options. Evaluate licence terms, hardware requirements and safety evaluations before deployment.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "A new open-weight model supports much longer inputs than its predecessor.",
+      "The model card lists evaluation results, known limitations and hardware requirements."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Open-weight models let organisations run language models on their own infrastructure.",
+      "Longer context windows allow entire documents or codebases to be processed at once, at higher memory cost."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Teams with data residency constraints gain more self-hosted options.",
+      "Organisations seeking self-hosted models gain another option."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Evaluate licence terms, hardware requirements and safety evaluations before deployment.",
+      "Independent evaluations are expected in the coming weeks."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Model card",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Project documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 502,
+   "slug": "researchers-demonstrate-prompt-injection-through-document-metadata",
+   "title": "Researchers demonstrate prompt injection through document metadata",
+   "category": "AI",
+   "subcategory": "AI Security",
+   "type": "Research",
+   "author": "jonas-weber",
+   "date": "2026-09-18T07:40:00+02:00",
+   "updated": "2026-09-18T08:05:00+02:00",
+   "readingTime": 5,
+   "summary": "Researchers show that instructions hidden in document metadata can influence AI assistants that summarise files.",
+   "image": null,
+   "imageAlt": "Editorial illustration for ai story: AI Security",
+   "tags": [
+    "AI Security",
+    "Prompt Injection",
+    "LLMs"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": "High",
+   "views": 40538,
+   "trendingScore": 7.4,
+   "brief": {
+    "what": "Researchers show that instructions hidden in document metadata can influence AI assistants that summarise files.",
+    "who": "Assistants with access to email, files or actions are most at risk.",
+    "why": "Assistants that can take actions or access sensitive data face the greatest risk.",
+    "next": "The researchers disclosed findings to affected vendors before publication."
+   },
+   "whyItMatters": "Assistants that can take actions or access sensitive data face the greatest risk. Treat all retrieved content as untrusted, limit tool permissions and log model actions for review.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Researchers show that instructions hidden in document metadata can influence AI assistants that summarise files.",
+      "The instructions are invisible in normal document views but are read by the model."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Prompt injection occurs when untrusted content is interpreted by a model as instructions.",
+      "Hidden text in document metadata or formatting can carry instructions that users never see."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Assistants that can take actions or access sensitive data face the greatest risk.",
+      "Assistants with access to email, files or actions are most at risk."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Treat all retrieved content as untrusted, limit tool permissions and log model actions for review.",
+      "The researchers disclosed findings to affected vendors before publication."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Research paper",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Assistants with access to email, files or actions are most at risk.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Hidden text in document metadata or formatting can carry instructions that users never see.",
+    "checks": "Treat all retrieved content as untrusted, limit tool permissions and log model actions for review.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 503,
+   "slug": "datacenters-redesign-power-distribution-for-high-density-ai-racks",
+   "title": "Datacenters redesign power distribution for high-density AI racks",
+   "category": "AI",
+   "subcategory": "AI Infrastructure",
+   "type": "News",
+   "author": "jonas-weber",
+   "date": "2026-09-18T05:30:00+02:00",
+   "updated": "2026-09-18T06:10:00+02:00",
+   "readingTime": 6,
+   "summary": "Operators are adopting higher-voltage distribution to support racks drawing far more power than before.",
+   "image": null,
+   "imageAlt": "Editorial illustration for ai story: AI Infrastructure",
+   "tags": [
+    "AI Infrastructure",
+    "Datacenter",
+    "Power"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 48457,
+   "trendingScore": 1.1,
+   "brief": {
+    "what": "Operators are adopting higher-voltage distribution to support racks drawing far more power than before.",
+    "who": "Existing facilities face costly retrofits to host the densest systems.",
+    "why": "Existing facilities may require significant retrofits to host dense AI hardware.",
+    "next": "Industry groups are working on reference designs."
+   },
+   "whyItMatters": "Existing facilities may require significant retrofits to host dense AI hardware. Engage facilities planning early and model power and cooling per rack before procurement.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Operators are adopting higher-voltage distribution to support racks drawing far more power than before.",
+      "Liquid cooling is becoming standard in new halls designed for AI hardware."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "AI training and inference clusters draw far more power per rack than general-purpose servers.",
+      "Higher voltage distribution and liquid cooling are becoming standard in new builds."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Existing facilities may require significant retrofits to host dense AI hardware.",
+      "Existing facilities face costly retrofits to host the densest systems."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Engage facilities planning early and model power and cooling per rack before procurement.",
+      "Industry groups are working on reference designs."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Operator statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Industry association",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 504,
+   "slug": "inference-accelerators-target-on-premises-enterprise-deployments",
+   "title": "Inference accelerators target on-premises enterprise deployments",
+   "category": "AI",
+   "subcategory": "AI Hardware",
+   "type": "News",
+   "author": "jonas-weber",
+   "date": "2026-09-18T03:55:00+02:00",
+   "updated": "2026-09-18T04:00:00+02:00",
+   "readingTime": 6,
+   "summary": "Hardware makers are marketing inference accelerators sized for enterprise server rooms.",
+   "image": null,
+   "imageAlt": "Editorial illustration for ai story: AI Hardware",
+   "tags": [
+    "AI Hardware",
+    "Inference",
+    "Servers"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 8376,
+   "trendingScore": 4.8,
+   "brief": {
+    "what": "Hardware makers are marketing inference accelerators sized for enterprise server rooms.",
+    "who": "Enterprises with sensitive data or steady workloads are the target market.",
+    "why": "Enterprises must weigh hardware cost against cloud inference pricing.",
+    "next": "Software ecosystem maturity will influence adoption."
+   },
+   "whyItMatters": "Enterprises must weigh hardware cost against cloud inference pricing. Benchmark with representative models and include power and cooling in total cost calculations.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Hardware makers are marketing inference accelerators sized for enterprise server rooms.",
+      "The products emphasise throughput per watt and memory capacity."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Inference accelerators prioritise throughput per watt and memory capacity over raw training performance.",
+      "On-premises deployment appeals to organisations with data sensitivity or predictable workloads."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Enterprises must weigh hardware cost against cloud inference pricing.",
+      "Enterprises with sensitive data or steady workloads are the target market."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Benchmark with representative models and include power and cooling in total cost calculations.",
+      "Software ecosystem maturity will influence adoption."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Vendor datasheets",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Analyst commentary",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 505,
+   "slug": "enterprises-move-ai-pilots-into-governed-production",
+   "title": "Enterprises move AI pilots into governed production",
+   "category": "AI",
+   "subcategory": "Enterprise AI",
+   "type": "Analysis",
+   "author": "jonas-weber",
+   "date": "2026-09-18T02:25:00+02:00",
+   "updated": null,
+   "readingTime": 6,
+   "summary": "Organisations are adding inventories, access controls and monitoring as AI projects reach production.",
+   "image": null,
+   "imageAlt": "Editorial illustration for ai story: Enterprise AI",
+   "tags": [
+    "Enterprise AI",
+    "Governance"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 16295,
+   "trendingScore": 8.5,
+   "brief": {
+    "what": "Organisations are adding inventories, access controls and monitoring as AI projects reach production.",
+    "who": "Teams that skipped governance during pilots face rework.",
+    "why": "Risk, legal and security teams become direct stakeholders in AI delivery.",
+    "next": "Expect AI governance roles to become common in larger organisations."
+   },
+   "whyItMatters": "Risk, legal and security teams become direct stakeholders in AI delivery. Create an AI system inventory, define acceptable-use policies and monitor model outputs in production.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Organisations are adding inventories, access controls and monitoring as AI projects reach production.",
+      "Security and risk teams are becoming formal approvers for AI deployments."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Many organisations ran AI pilots without formal governance, data controls or monitoring.",
+      "Moving to production requires model inventories, access controls and evaluation processes."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Risk, legal and security teams become direct stakeholders in AI delivery.",
+      "Teams that skipped governance during pilots face rework."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Create an AI system inventory, define acceptable-use policies and monitor model outputs in production.",
+      "Expect AI governance roles to become common in larger organisations."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Practitioner interviews",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Industry survey",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 506,
+   "slug": "model-serving-framework-patches-remote-code-execution-flaw",
+   "title": "Model-serving framework patches remote code execution flaw",
+   "category": "AI",
+   "subcategory": "AI Vulnerabilities",
+   "type": "News",
+   "author": "jonas-weber",
+   "date": "2026-09-18T00:40:00+02:00",
+   "updated": "2026-09-18T00:52:00+02:00",
+   "readingTime": 6,
+   "summary": "Maintainers fixed a flaw that could allow code execution when loading crafted model files.",
+   "image": null,
+   "imageAlt": "Editorial illustration for ai story: AI Vulnerabilities",
+   "tags": [
+    "AI Security",
+    "Vulnerability",
+    "MLOps"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": "CVE-DEMO-2026-1210",
+   "cvss": 8.8,
+   "severity": "High",
+   "views": 24214,
+   "trendingScore": 5.2,
+   "brief": {
+    "what": "Maintainers fixed a flaw that could allow code execution when loading crafted model files.",
+    "who": "Deployments that load models from untrusted sources are affected.",
+    "why": "Deployments that load models from untrusted sources or expose management APIs are most at risk.",
+    "next": "Users should update and restrict model sources to trusted repositories."
+   },
+   "whyItMatters": "Deployments that load models from untrusted sources or expose management APIs are most at risk. Update to fixed releases, load models only from trusted sources and isolate serving infrastructure.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Maintainers fixed a flaw that could allow code execution when loading crafted model files.",
+      "The issue involves unsafe deserialisation of model artefacts."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Model-serving frameworks expose APIs that load models and process requests on shared infrastructure.",
+      "Unsafe deserialisation of model files is a recurring source of remote code execution."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Deployments that load models from untrusted sources or expose management APIs are most at risk.",
+      "Deployments that load models from untrusted sources are affected."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Update to fixed releases, load models only from trusted sources and isolate serving infrastructure.",
+      "Users should update and restrict model sources to trusted repositories."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Project security advisory",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "NVD entry",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "Deployments that load models from untrusted sources are affected.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Unsafe deserialisation of model files is a recurring source of remote code execution.",
+    "checks": "Update to fixed releases, load models only from trusted sources and isolate serving infrastructure.",
+    "detection": "Search logs for requests to the affected component and review vendor indicators referenced for CVE-DEMO-2026-1210.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  },
+  {
+   "id": 507,
+   "slug": "regulators-publish-guidance-on-ai-system-logging-requirements",
+   "title": "Regulators publish guidance on AI system logging requirements",
+   "category": "AI",
+   "subcategory": "AI Regulation",
+   "type": "News",
+   "author": "jonas-weber",
+   "date": "2026-09-17T23:10:00+02:00",
+   "updated": "2026-09-17T23:35:00+02:00",
+   "readingTime": 6,
+   "summary": "New guidance describes what records organisations should keep about AI system use.",
+   "image": null,
+   "imageAlt": "Editorial illustration for ai story: AI Regulation",
+   "tags": [
+    "AI Regulation",
+    "Compliance",
+    "Logging"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 32133,
+   "trendingScore": 5.9,
+   "brief": {
+    "what": "New guidance describes what records organisations should keep about AI system use.",
+    "who": "Organisations using AI in regulated decisions face the most detailed expectations.",
+    "why": "Organisations deploying AI in regulated decisions face the most detailed obligations.",
+    "next": "Regulators invite feedback before finalising the guidance."
+   },
+   "whyItMatters": "Organisations deploying AI in regulated decisions face the most detailed obligations. Map AI use cases to regulatory categories and design logging with privacy teams.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "New guidance describes what records organisations should keep about AI system use.",
+      "It addresses how logging requirements interact with data protection rules."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Regulators increasingly expect organisations to log how AI systems are used and how decisions are made.",
+      "Logging requirements interact with data protection rules, so retention must be carefully scoped."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Organisations deploying AI in regulated decisions face the most detailed obligations.",
+      "Organisations using AI in regulated decisions face the most detailed expectations."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Map AI use cases to regulatory categories and design logging with privacy teams.",
+      "Regulators invite feedback before finalising the guidance."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Regulatory guidance",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Legal commentary",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 508,
+   "slug": "ai-coding-assistants-gain-repository-wide-context-features",
+   "title": "AI coding assistants gain repository-wide context features",
+   "category": "AI",
+   "subcategory": "AI News",
+   "type": "News",
+   "author": "jonas-weber",
+   "date": "2026-09-17T21:40:00+02:00",
+   "updated": "2026-09-17T22:20:00+02:00",
+   "readingTime": 7,
+   "summary": "Coding assistants can now index whole repositories to improve suggestions.",
+   "image": null,
+   "imageAlt": "Editorial illustration for ai story: AI News",
+   "tags": [
+    "AI Coding",
+    "Developer Tools"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 40052,
+   "trendingScore": 9.6,
+   "brief": {
+    "what": "Coding assistants can now index whole repositories to improve suggestions.",
+    "who": "Engineering organisations need clear policies on repository indexing.",
+    "why": "Engineering teams adopting these features need clear data-handling policies.",
+    "next": "Vendors are adding audit logs for enterprise plans."
+   },
+   "whyItMatters": "Engineering teams adopting these features need clear data-handling policies. Configure exclusions for sensitive paths and review provider data-retention terms.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Coding assistants can now index whole repositories to improve suggestions.",
+      "Administrators can exclude paths and control which data is sent to providers."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "AI coding assistants have moved from single-file completion towards understanding whole repositories.",
+      "Wider context improves suggestions but raises questions about which code and secrets are sent to model providers."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Engineering teams adopting these features need clear data-handling policies.",
+      "Engineering organisations need clear policies on repository indexing."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Configure exclusions for sensitive paths and review provider data-retention terms.",
+      "Vendors are adding audit logs for enterprise plans."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Product documentation",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Official company statement",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 509,
+   "slug": "opinion-treat-ai-agents-like-privileged-service-accounts",
+   "title": "Opinion: Treat AI agents like privileged service accounts",
+   "category": "AI",
+   "subcategory": "Opinion",
+   "type": "Opinion",
+   "author": "jonas-weber",
+   "date": "2026-09-17T20:10:00+02:00",
+   "updated": "2026-09-17T20:15:00+02:00",
+   "readingTime": 7,
+   "summary": "AI agents that act on systems deserve the same controls as privileged automation, argues the author.",
+   "image": null,
+   "imageAlt": "Editorial illustration for ai story: Opinion",
+   "tags": [
+    "Opinion",
+    "AI Agents",
+    "Identity"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 47971,
+   "trendingScore": 3.3,
+   "brief": {
+    "what": "AI agents that act on systems deserve the same controls as privileged automation, argues the author.",
+    "who": "Organisations deploying agents without these controls accept unnecessary risk.",
+    "why": "Readers should weigh the argument against their own environment.",
+    "next": "The author recommends including agents in identity governance reviews."
+   },
+   "whyItMatters": "Readers should weigh the argument against their own environment. Share feedback with the editors; opinion pieces are clearly labelled and separated from news.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "AI agents that act on systems deserve the same controls as privileged automation, argues the author.",
+      "Least privilege, credential rotation and audit logging apply to agents as much as to scripts."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "The argument",
+     "paragraphs": [
+      "This is an opinion piece reflecting the author's view.",
+      "It is based on the author's experience and reporting, and does not represent TECHWIRE news coverage."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Readers should weigh the argument against their own environment.",
+      "Organisations deploying agents without these controls accept unnecessary risk."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Share feedback with the editors; opinion pieces are clearly labelled and separated from news.",
+      "The author recommends including agents in identity governance reviews."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Author's analysis",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ]
+  },
+  {
+   "id": 510,
+   "slug": "security-teams-adopt-ai-assisted-triage-for-alert-queues",
+   "title": "Security teams adopt AI-assisted triage for alert queues",
+   "category": "AI",
+   "subcategory": "AI Security",
+   "type": "Analysis",
+   "author": "jonas-weber",
+   "date": "2026-09-17T18:40:00+02:00",
+   "updated": null,
+   "readingTime": 7,
+   "summary": "Security operations teams are using AI tools to summarise and prioritise alerts.",
+   "image": null,
+   "imageAlt": "Editorial illustration for ai story: AI Security",
+   "tags": [
+    "SOC",
+    "AI Security",
+    "SIEM"
+   ],
+   "isBreaking": false,
+   "featured": false,
+   "isDemo": true,
+   "cve": null,
+   "cvss": null,
+   "severity": null,
+   "views": 7890,
+   "trendingScore": 7.0,
+   "brief": {
+    "what": "Security operations teams are using AI tools to summarise and prioritise alerts.",
+    "who": "SOC teams with high alert volumes see the largest benefit.",
+    "why": "Assistants that can take actions or access sensitive data face the greatest risk.",
+    "next": "Expect vendors to add explainability features for AI triage decisions."
+   },
+   "whyItMatters": "Assistants that can take actions or access sensitive data face the greatest risk. Treat all retrieved content as untrusted, limit tool permissions and log model actions for review.",
+   "sections": [
+    {
+     "id": "summary",
+     "heading": "Summary",
+     "paragraphs": [
+      "Security operations teams are using AI tools to summarise and prioritise alerts.",
+      "Analysts report time savings on routine alerts but stress the need for human review."
+     ]
+    },
+    {
+     "id": "analysis",
+     "heading": "Technical Analysis",
+     "paragraphs": [
+      "Prompt injection occurs when untrusted content is interpreted by a model as instructions.",
+      "Hidden text in document metadata or formatting can carry instructions that users never see."
+     ]
+    },
+    {
+     "id": "impact",
+     "heading": "Impact",
+     "paragraphs": [
+      "Assistants that can take actions or access sensitive data face the greatest risk.",
+      "SOC teams with high alert volumes see the largest benefit."
+     ]
+    },
+    {
+     "id": "know",
+     "heading": "What you should know",
+     "paragraphs": [
+      "Treat all retrieved content as untrusted, limit tool permissions and log model actions for review.",
+      "Expect vendors to add explainability features for AI triage decisions."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "label": "Security researcher",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    },
+    {
+     "label": "Research paper",
+     "type": "placeholder",
+     "url": null,
+     "note": "Demo placeholder - replace with the real source URL"
+    }
+   ],
+   "forProfessionals": {
+    "systems": "SOC teams with high alert volumes see the largest benefit.",
+    "network": "Review exposure of affected services and management interfaces at network boundaries.",
+    "security": "Hidden text in document metadata or formatting can carry instructions that users never see.",
+    "checks": "Treat all retrieved content as untrusted, limit tool permissions and log model actions for review.",
+    "detection": "Correlate device, authentication and network logs for activity outside expected maintenance windows.",
+    "advisory": "Vendor advisory (demo placeholder - link to the official advisory when available)"
+   }
+  }
+ ]
+}

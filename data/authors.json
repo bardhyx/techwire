@@ -1,0 +1,143 @@
+{
+ "meta": {
+  "isDemo": true,
+  "anchor": "2026-09-18T10:00:00+02:00",
+  "notice": "All TECHWIRE content in this prototype is fictional demo data. It must not be presented as real news."
+ },
+ "authors": [
+  {
+   "id": "mara-lindqvist",
+   "name": "Mara Lindqvist",
+   "role": "Editor-in-Chief",
+   "desk": "News",
+   "bio": "Leads the TECHWIRE newsroom and editorial standards. Previously ran infrastructure coverage for a business daily.",
+   "expertise": [
+    "Editorial standards",
+    "Enterprise IT",
+    "Technology policy"
+   ],
+   "location": "Stockholm",
+   "isDemo": true,
+   "note": "Fictional demo profile"
+  },
+  {
+   "id": "daniel-okafor",
+   "name": "Daniel Okafor",
+   "role": "Cybersecurity Editor",
+   "desk": "Cybersecurity",
+   "bio": "Covers vulnerabilities, threat intelligence and incident response. Former SOC analyst and CERT liaison.",
+   "expertise": [
+    "Vulnerability disclosure",
+    "Ransomware",
+    "Threat intelligence"
+   ],
+   "location": "London",
+   "isDemo": true,
+   "note": "Fictional demo profile"
+  },
+  {
+   "id": "elira-hoxha",
+   "name": "Elira Hoxha",
+   "role": "Network Editor",
+   "desk": "Networking",
+   "bio": "Writes about routing, internet infrastructure and enterprise networks. CCIE-track engineer turned reporter.",
+   "expertise": [
+    "BGP",
+    "SD-WAN",
+    "Internet infrastructure"
+   ],
+   "location": "Tirana",
+   "isDemo": true,
+   "note": "Fictional demo profile"
+  },
+  {
+   "id": "tomas-reyes",
+   "name": "Tomás Reyes",
+   "role": "Infrastructure Editor",
+   "desk": "Infrastructure",
+   "bio": "Covers servers, virtualization, storage and datacenter operations for IT operations teams.",
+   "expertise": [
+    "Virtualization",
+    "Storage",
+    "Windows & Linux servers"
+   ],
+   "location": "Madrid",
+   "isDemo": true,
+   "note": "Fictional demo profile"
+  },
+  {
+   "id": "priya-raman",
+   "name": "Priya Raman",
+   "role": "Cloud Editor",
+   "desk": "Cloud",
+   "bio": "Reports on public cloud platforms, Kubernetes and cloud security architecture.",
+   "expertise": [
+    "Cloud platforms",
+    "Kubernetes",
+    "Cloud security"
+   ],
+   "location": "Dublin",
+   "isDemo": true,
+   "note": "Fictional demo profile"
+  },
+  {
+   "id": "jonas-weber",
+   "name": "Jonas Weber",
+   "role": "AI Editor",
+   "desk": "AI",
+   "bio": "Covers AI models, AI infrastructure and the security of machine-learning systems.",
+   "expertise": [
+    "LLMs",
+    "AI security",
+    "AI infrastructure"
+   ],
+   "location": "Berlin",
+   "isDemo": true,
+   "note": "Fictional demo profile"
+  },
+  {
+   "id": "sofia-marchetti",
+   "name": "Sofia Marchetti",
+   "role": "Hardware Reporter",
+   "desk": "Hardware",
+   "bio": "Tests and reports on servers, silicon, networking hardware and client devices.",
+   "expertise": [
+    "Server platforms",
+    "Silicon",
+    "Datacenter hardware"
+   ],
+   "location": "Milan",
+   "isDemo": true,
+   "note": "Fictional demo profile"
+  },
+  {
+   "id": "security-desk",
+   "name": "TECHWIRE Security Desk",
+   "role": "Desk byline",
+   "desk": "Cybersecurity",
+   "isDesk": true,
+   "bio": "Shared byline for breaking security coverage produced by the TECHWIRE cybersecurity team.",
+   "expertise": [
+    "Advisories",
+    "Breaking security news"
+   ],
+   "location": "Newsroom",
+   "isDemo": true,
+   "note": "Fictional demo profile"
+  },
+  {
+   "id": "newsroom",
+   "name": "TECHWIRE Newsroom",
+   "role": "Desk byline",
+   "desk": "News",
+   "isDesk": true,
+   "bio": "Shared byline for general technology news produced by the TECHWIRE news desk.",
+   "expertise": [
+    "Technology news"
+   ],
+   "location": "Newsroom",
+   "isDemo": true,
+   "note": "Fictional demo profile"
+  }
+ ]
+}
